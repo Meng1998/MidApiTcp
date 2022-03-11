@@ -1,0 +1,23 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeploymentTools.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="DeploymentTools.View.KeyAuthorization"
+        mc:Ignorable="d"
+        Title="请输入密钥授权" Height="206.222" Width="569.196" Closed="Window_Closed">
+    <Grid>
+        <!--<TextBox Height="23" Margin="71,44,87.4,0" Name="SQTextBox" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>-->
+
+        <Button x:Name="SQstate"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            materialDesign:ButtonProgressAssist.Value="-1"
+            materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+            materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+            Content="密钥授权状态(异常)"
+            Margin="18,100,10.4,0" Background="#FFFF3333" BorderBrush="{x:Null}" Foreground="#DDFFFFFF" Click="DatabaseAPI_Click" VerticalAlignment="Top"  />
+        <PasswordBox HorizontalAlignment="Left" Margin="44,59,0,0" VerticalAlignment="Top" Name="SQTextBox" Width="465"/>
+
+    </Grid>
+</Window>

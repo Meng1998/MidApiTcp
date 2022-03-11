@@ -1,0 +1,4 @@
+D:\gongju\LntegratedMiddlewares\D\obj\Debug\netstandard1.6\D.csprojAssemblyReference.cache
+D:\gongju\LntegratedMiddlewares\D\obj\Debug\netstandard1.6\D.AssemblyInfoInputs.cache
+D:\gongju\LntegratedMiddlewares\D\obj\Debug\netstandard1.6\D.AssemblyInfo.cs
+D:\gongju\LntegratedMiddlewares\D\obj\Debug\netstandard1.6\D.csproj.CoreCompileInputs.cache

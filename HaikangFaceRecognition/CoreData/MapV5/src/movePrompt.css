@@ -1,0 +1,217 @@
+/*leaflet风格气泡窗口样式模板*/
+.cesium-popup {
+	position: absolute;
+	text-align: center;
+	pointer-events:none;
+}
+
+.cesium-popup-close-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 4px 4px 0 0;
+	text-align: center;
+	width: 18px;
+	height: 14px;
+	font: 16px/14px Tahoma, Verdana, sans-serif;
+	color: #c3c3c3;
+	text-decoration: none;
+	font-weight: bold;
+	background: transparent;
+}
+
+.cesium-popup-content-wrapper {
+	text-align: center;
+	max-height: auto;
+	overflow-y: auto;
+	padding: 1px;
+	text-align: left;
+	border-radius: 4px;
+	margin-left:50%;
+	overflow:hidden;
+	pointer-events:none;
+    /* padding: 16px; */
+}
+
+.cesium-prompt-content-wrapper {
+	text-align: center;
+	max-height: 200px;
+	overflow-y: auto;
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+	padding: 1px;
+	text-align: left;
+}
+
+.cesium-popup-content {
+	line-height: 1.4;
+}
+
+.cesium-popup-tip-container {
+	margin: 0 auto;
+	width: 40px;
+	height: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.cesium-popup-tip111 {
+	background:  rgba(63, 72, 84, 0.7);
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+	width: 17px;
+	height: 17px;
+	padding: 1px;
+	margin: -10px auto 0;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.popupContent{
+	color: white;
+}
+.promptDiv{
+	background: rgba(0, 0, 0, 0.4);
+	font-size: 10px;
+}
+
+.promptContent{
+	color:white;
+}
+.AlarmNav{
+	text-align: center;
+	height: auto;
+	width: 220px;
+}
+.only{
+	box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
+	width:221px; height:40px; line-height:40px;
+	top:-40px; left:110px;
+	position:absolute; 
+	pointer-events:auto;
+	overflow: hidden;
+	background: linear-gradient(to left, #f00, #f00) left top no-repeat, 
+	linear-gradient(to bottom, #f00, #f00) left top no-repeat, 
+	linear-gradient(to left, #f00, #f00) right top no-repeat,
+	linear-gradient(to bottom, #f00, #f00) right top no-repeat, 
+	linear-gradient(to left, #f00, #f00) left bottom no-repeat,
+	linear-gradient(to bottom, #f00, #f00) left bottom no-repeat,
+	linear-gradient(to left, #f00, #f00) right bottom no-repeat,
+	linear-gradient(to left, #f00, #f00) right bottom no-repeat;
+	background-size: 1px 8px, 8px 1px, 1px 8px, 8px 1px;
+	background-color:rgba(0, 0, 0, 0.4);
+}
+.onlyNav{
+	float:left; 
+	width:200px;
+	padding: 0 10px;
+	line-height: 40px;
+	height:40px;
+	text-align: left;
+}
+.only input{
+	background-image: none;
+	border: 1px solid transparent;
+	height: 21px;
+	border-radius: 12px;
+	color: #fff;
+	background-color: #ff000057;
+	border-color: #ff0000;
+	float:right;
+	margin-top: 10px;
+}
+.onlyCont{
+	float:left;
+	width:200px;
+	padding: 0 10px;
+	height:auto;
+}
+.onlyCont li{
+	list-style: none;
+	float:left; 
+	width:100%;
+	line-height:25px;
+	font-size: 12px;
+	text-align: left;
+}
+.onlyCont li span{
+   float:right;
+}
+.onlyCont a{
+	float:left; 
+	width:100%;
+	line-height:25px;
+	text-align: left;
+	font-size: 12px;
+	text-decoration: none;
+	color:#4d9ce3;
+}
+.onlyBut{
+	float:left; 
+	width:100%;
+	line-height:25px;
+}
+.onlyBut button{
+	float: right;
+	border:1px solid #4d9ce3;
+	text-align:center;
+	background:none;
+	border-radius: 10px;
+	margin-left: 5px;
+	line-height:25px;
+	height:25px;
+	color:#fff;
+}
+.AlarmCont{
+	pointer-events:none;
+	border-left:1px #ff0000 dashed;
+	height:190px;
+	width:2px;
+	overflow:hidden;
+}
+.newOnly{
+	display:inline-block;
+	position:absolute;
+	top:193px; left:95px;
+	width:30px; height:30px; background:url('/MapV5/src/images/listIcon.png') no-repeat center center;
+	-webkit-animation: shan666 1s infinite ease-in-out;
+	animation: shan666 1s infinite ease-in-out;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+@-webkit-keyframes shan666 {
+    0% {
+        opacity: 0.5;
+        filter: alpha(opacity=20);
+        -webkit-transform: scale(0.8);
+    }
+    50% {
+        opacity: 1;
+        filter: alpha(opacity=50);
+        -webkit-transform: scale(1.12);
+    }
+    100% {
+        opacity: 0.5;
+        filter: alpha(opacity=20);
+        -webkit-transform: scale(0.8);
+    }
+}
+
+@keyframes shan666 {
+    0% {
+        opacity: 0.5;
+        filter: alpha(opacity=20);
+        -webkit-transform: scale(0.8);
+    }
+    50% {
+        opacity: 1;
+        filter: alpha(opacity=50);
+        -webkit-transform: scale(1.12);
+    }
+    100% {
+        opacity: 0.5;
+        filter: alpha(opacity=20);
+        -webkit-transform: scale(0.8);
+    }
+}

@@ -1,0 +1,4 @@
+E:\GitBlit\CSHARP\LntegratedMiddlewares\WEBAPI\obj\Debug\netcoreapp3.1\win-x86\PubTmp\Out\appsettings.Development.json
+E:\GitBlit\CSHARP\LntegratedMiddlewares\WEBAPI\obj\Debug\netcoreapp3.1\win-x86\PubTmp\Out\appsettings.json
+E:\GitBlit\CSHARP\LntegratedMiddlewares\WEBAPI\obj\Debug\netcoreapp3.1\win-x86\PubTmp\Out\LMWEBAPI.pdb
+E:\GitBlit\CSHARP\LntegratedMiddlewares\WEBAPI\obj\Debug\netcoreapp3.1\win-x86\PubTmp\Out\LMWEBAPI.exe

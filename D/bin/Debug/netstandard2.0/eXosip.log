@@ -1,0 +1,6 @@
+| INFO2 | -1 <..\..\src\eXutils.c: 824> getaddrinfo returned the following addresses:
+| INFO2 | -1 <..\..\src\eXutils.c: 830> 0.0.0.0 port 8335
+| INFO2 | -1 <..\..\src\eXconf.c: 769> eXosip: Reseting timer to 10s before waking up!
+| INFO2 | 9124 <..\..\src\eXconf.c: 769> eXosip: Reseting timer to 10s before waking up!
+| INFO2 | 19124 <..\..\src\eXconf.c: 769> eXosip: Reseting timer to 10s before waking up!
+| INFO2 | 29125 <..\..\src\eXconf.c: 769> eXosip: Reseting timer to 10s before waking up!

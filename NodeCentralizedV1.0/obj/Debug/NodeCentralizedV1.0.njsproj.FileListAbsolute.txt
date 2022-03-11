@@ -1,0 +1,5 @@
+C:\Users\Administrator\Source\Repos\MapVision5.0\NodeAPI\NodeCentralizedV1.0\obj\Debug\NodeCentralizedV1.0.njsprojAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\MapVision5.0\NodeAPI\NodeCentralizedV1.0\bin\Microsoft.NodejsTools.WebRole.dll
+F:\当前项目\GitHub\LntegratedMiddleware\NodeCentralizedV1.0\obj\Debug\NodeCentralizedV1.0.njsprojAssemblyReference.cache
+F:\当前项目\GitHub\LntegratedMiddleware\NodeCentralizedV1.0\obj\Debug\NodeCentralizedV1.0.njsproj.CoreCompileInputs.cache
+F:\当前项目\GitHub\LntegratedMiddleware\NodeCentralizedV1.0\bin\Microsoft.NodejsTools.WebRole.dll

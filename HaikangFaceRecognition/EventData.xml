@@ -1,0 +1,1029 @@
+<?xml version="1.0"?>
+<doc>
+  <!--视频事件-->
+  <VideoEvents>
+    <Site1 Name="视频丢失报警" Value="131329">
+       <Master>视频事件类型</Master>
+    </Site1>
+    <Site2 Name="视频遮挡报警" Value="131330">
+       <Master>视频事件类型</Master>
+    </Site2>
+    <Site3 Name="移动侦测报警" Value="131331">	
+       <Master>视频事件类型</Master>
+    </Site3>
+    <Site4 Name="场景变更" Value="131612">
+       <Master>视频事件类型</Master>
+    </Site4>
+    <Site5 Name="虚焦" Value="131613">
+       <Master>视频事件类型</Master>
+    </Site5>
+    <Site6 Name="报警输入" Value="589825">
+       <Master>视频事件类型</Master>
+    </Site6>
+    <Site7 Name="报警输出" Value="589826">
+       <Master>视频事件类型</Master>
+    </Site7>
+    <Site8 Name="可视域事件" Value="196355">
+       <Master>视频事件类型</Master>
+    </Site8>
+    <Site9 Name="GPS采集" Value="851969">
+       <Master>视频事件类型</Master>
+    </Site9>
+    <Site10 Name="区域入侵" Value="131588">
+       <Master>视频事件类型</Master>
+    </Site10>
+    <Site11 Name="越界侦测" Value="131585">
+       <Master>视频事件类型</Master>
+    </Site11>
+    <Site12 Name="进入区域" Value="131586">
+       <Master>视频事件类型</Master>
+    </Site12>
+    <Site13 Name="离开区域" Value="131587">
+       <Master>视频事件类型</Master>
+    </Site13>
+    <Site14 Name="徘徊侦测" Value="131590">
+       <Master>视频事件类型</Master>
+    </Site14>
+    <Site15 Name="人员聚集" Value="131593">
+       <Master>视频事件类型</Master>
+    </Site15>
+    <Site16 Name="快速移动" Value="131592">
+       <Master>视频事件类型</Master>
+    </Site16>
+    <Site17 Name="停车侦测" Value="131591">
+       <Master>视频事件类型</Master>
+    </Site17>
+    <Site18 Name="物品遗留" Value="131594">
+       <Master>视频事件类型</Master>
+    </Site18>
+    <Site19 Name="物品拿取" Value="131595">
+       <Master>视频事件类型</Master>
+    </Site19>
+    <Site20 Name="人数异常" Value="131664">
+       <Master>视频事件类型</Master>
+    </Site20>
+    <Site21 Name="间距异常" Value="131665">
+       <Master>视频事件类型</Master>
+    </Site21>
+    <Site22 Name="剧烈运动" Value="131596">
+       <Master>视频事件类型</Master>
+    </Site22>
+    <Site23 Name="离岗" Value="131603">
+       <Master>视频事件类型</Master>
+    </Site23>
+    <Site24 Name="倒地" Value="131605">
+       <Master>视频事件类型</Master>
+    </Site24>
+    <Site25 Name="攀高" Value="131597">
+       <Master>视频事件类型</Master>
+    </Site25>
+    <Site26 Name="重点人员起身" Value="131610">
+       <Master>视频事件类型</Master>
+    </Site26>
+    <Site27 Name="如厕超时" Value="131608">
+       <Master>视频事件类型</Master>
+    </Site27>
+    <Site28 Name="人员站立" Value="131666">
+       <Master>视频事件类型</Master>
+    </Site28> 
+    <Site29 Name="静坐" Value="131667">
+       <Master>视频事件类型</Master>
+    </Site29>
+    <Site30 Name="防风场滞留" Value="131609">
+       <Master>视频事件类型</Master>
+    </Site30>
+    <Site31 Name="起身" Value="131598">
+       <Master>视频事件类型</Master>
+    </Site31>
+    <Site32 Name="人靠近ATM" Value="131599">
+       <Master>视频事件类型</Master>
+    </Site32>
+    <Site33 Name="操作超时" Value="131600">
+       <Master>视频事件类型</Master>
+    </Site33>
+    <Site34 Name="贴纸条" Value="131601">
+       <Master>视频事件类型</Master>
+    </Site34>
+    <Site35 Name="安装读卡器" Value="131602">
+       <Master>视频事件类型</Master>
+    </Site35>
+    <Site36 Name="尾随" Value="131604">
+       <Master>视频事件类型</Master>
+    </Site36>
+    <Site37 Name="声强突变" Value="131606">
+       <Master>视频事件类型</Master>
+    </Site37>
+    <Site38 Name="折线攀高" Value="131607">
+       <Master>视频事件类型</Master>
+    </Site38>
+    <Site39 Name="折线警戒面" Value="131611">
+       <Master>视频事件类型</Master>
+    </Site39>
+    <Site40 Name="温差报警" Value="192513">
+       <Master>视频事件类型</Master>
+    </Site40>
+    <Site41 Name="温度报警" Value="192514">
+       <Master>视频事件类型</Master>
+    </Site41>
+    <Site42 Name="船只检测" Value="192515">
+       <Master>视频事件类型</Master>
+    </Site42>
+    <Site43 Name="烟雾检测" Value="192516">
+       <Master>视频事件类型</Master>
+    </Site43>
+    <Site44 Name="火点检测" Value="192517">
+       <Master>视频事件类型</Master>
+    </Site44>
+    <Site45 Name="烟火检测" Value="192518">
+       <Master>视频事件类型</Master>
+    </Site45>
+    <Site46 Name="监控点离线" Value="889196545">
+       <Master>视频事件类型</Master>
+    </Site46>
+    </VideoEvents>
+  <!--停车场事件-->
+  <ParkingIncidents>
+    <Site1 Name="监控点离线" Value="889196545">
+      <Master>停车场事件类型</Master>
+    </Site1>
+    <Site1 Name="黑名单" Value="771756034">
+      <Master>停车场事件类型</Master>
+    </Site1>
+    <Site2 Name="车位占用" Value="771764225">
+      <Master>停车场事件类型</Master>
+    </Site2>
+    <Site3 Name="入场压线事件" Value="771760130">
+      <Master>停车场事件类型</Master>
+    </Site3>
+    <Site4 Name="入场放行事件" Value="771760131">
+      <Master>停车场事件类型</Master>
+    </Site4>
+    <Site5 Name="出场压线事件" Value="771760133">
+      <Master>停车场事件类型</Master>
+    </Site5>
+    <Site6 Name="出场放行事件" Value="771760134">
+      <Master>停车场事件类型</Master>
+    </Site6>
+    <Site7 Name="车辆停入车位" Value="771764226">
+      <Master>停车场事件类型</Master>
+    </Site7>
+    <Site8 Name="车辆离开车位" Value="771764227">
+      <Master>停车场事件类型</Master>
+    </Site8>
+  </ParkingIncidents>
+  <!--门禁事件-->
+  <AccessControlIncidents>
+    <Site1    Name="认证成功等待远程开门" Value="197390">
+      <Master>门禁事件类型</Master>
+    </Site1>
+    <Site2    Name="卡不属于多重认证群组" Value="197391">
+      <Master>门禁事件类型</Master>
+    </Site2>
+    <Site3    Name="常关时段开始" Value="198148">
+      <Master>门禁事件类型</Master>
+    </Site3>
+    <Site4    Name="常关时段结束" Value="198150">
+      <Master>门禁事件类型</Master>
+    </Site4>
+    <Site5    Name="开门超时" Value="198400">
+      <Master>门禁事件类型</Master>
+    </Site5>
+    <Site6    Name="常开时段开始" Value="198401">
+      <Master>门禁事件类型</Master>
+    </Site6>
+    <Site7    Name="常开时段结束" Value="198402">
+      <Master>门禁事件类型</Master>
+    </Site7>
+    <Site8    Name="进入首卡常开状态" Value="198404">
+      <Master>门禁事件类型</Master>
+    </Site8>
+    <Site9    Name="结束首卡常开状态" Value="198405">
+      <Master>门禁事件类型</Master>
+    </Site9>
+    <Site10   Name="门被外力开启" Value="198657">
+      <Master>门禁事件类型</Master>
+    </Site10>
+    <Site11   Name="正常开门" Value="198913">
+      <Master>门禁事件类型</Master>
+    </Site11>
+    <Site12   Name="按钮开门" Value="198916">
+      <Master>门禁事件类型</Master>
+    </Site12>
+    <Site13   Name="远程软件开门" Value="198919">
+      <Master>门禁事件类型</Master>
+    </Site13>
+    <Site14   Name="远程软件常开" Value="198922">
+      <Master>门禁事件类型</Master>
+    </Site14>
+    <Site15   Name="远程软件常闭" Value="199172">
+      <Master>门禁事件类型</Master>
+    </Site15>
+    <Site16   Name="正常关门" Value="199169">
+      <Master>门禁事件类型</Master>
+    </Site16>
+    <Site17   Name="远程软件关门" Value="199171">
+      <Master>门禁事件类型</Master>
+    </Site17>
+    <Site18   Name="门锁打开" Value="199941">
+      <Master>门禁事件类型</Master>
+    </Site18>
+    <Site19   Name="门锁关闭" Value="199942">
+      <Master>门禁事件类型</Master>
+    </Site19>
+    <Site20   Name="读卡器防拆报警" Value="200453">
+      <Master>门禁事件类型</Master>
+    </Site20>
+    <Site21   Name="读卡器防拆报警恢复" Value="200454">
+      <Master>门禁事件类型</Master>
+    </Site21>
+    <Site22   Name="读卡器掉线报警" Value="200455">
+      <Master>门禁事件类型</Master>
+    </Site22>
+    <Site23   Name="读卡器掉线报警恢复" Value="200456">
+      <Master>门禁事件类型</Master>
+    </Site23>
+    <Site24   Name="设备防拆报警" Value="199708">
+      <Master>门禁事件类型</Master>
+    </Site24>
+    <Site25   Name="设备防拆恢复" Value="199709">
+      <Master>门禁事件类型</Master>
+    </Site25>
+    <Site26   Name="装置离线" Value="199710">
+      <Master>门禁事件类型</Master>
+    </Site26>
+    <Site27   Name="装置连线" Value="199711">
+      <Master>门禁事件类型</Master>
+    </Site27>
+    <Site28   Name="重新启动" Value="199712">
+      <Master>门禁事件类型</Master>
+    </Site28>
+    <Site29   Name="系统初始化" Value="199713">
+      <Master>门禁事件类型</Master>
+    </Site29>
+    <Site30   Name="数据被损坏" Value="199714">
+      <Master>门禁事件类型</Master>
+    </Site30>
+    <Site31   Name="呼叫中心（1T500专有）" Value="199715">
+      <Master>门禁事件类型</Master>
+    </Site31>
+    <Site32   Name="刷卡+指纹认证通过" Value="196885">
+      <Master>门禁事件类型</Master>
+    </Site32>
+    <Site33   Name="指纹+密码认证通过" Value="196887">
+      <Master>门禁事件类型</Master>
+    </Site33>
+    <Site34   Name="合法卡比对通过" Value="198914">
+      <Master>门禁事件类型</Master>
+    </Site34>
+    <Site35   Name="刷卡+密码认证通过" Value="198915">
+      <Master>门禁事件类型</Master>
+    </Site35>
+    <Site36   Name="密码错误" Value="197121">
+      <Master>门禁事件类型</Master>
+    </Site36>
+    <Site37   Name="输入卡号错误" Value="197122">
+      <Master>门禁事件类型</Master>
+    </Site37>
+    <Site38   Name="输入密码而非卡号" Value="197123">
+      <Master>门禁事件类型</Master>
+    </Site38>
+    <Site39   Name="卡号长度错误" Value="197124">
+      <Master>门禁事件类型</Master>
+    </Site39>
+    <Site40   Name="卡号数字检查错误" Value="197125">
+      <Master>门禁事件类型</Master>
+    </Site40>
+    <Site41   Name="无此卡号" Value="197634">
+      <Master>门禁事件类型</Master>
+    </Site41>
+    <Site42   Name="卡号过期" Value="197633">
+      <Master>门禁事件类型</Master>
+    </Site42>
+    <Site43   Name="刷卡+密码认证失败" Value="197382">
+      <Master>门禁事件类型</Master>
+    </Site43>
+    <Site44   Name="刷卡+密码不开门" Value="198145">
+      <Master>门禁事件类型</Master>
+    </Site44>
+    <Site45   Name="卡未分配权限" Value="197635">
+      <Master>门禁事件类型</Master>
+    </Site45>
+    <Site46   Name="刷卡+指纹+密码通过" Value="196886">
+      <Master>门禁事件类型</Master>
+    </Site46>
+    <Site47   Name="工号+密码认证通过" Value="196897">
+      <Master>门禁事件类型</Master>
+    </Site47>
+    <Site48   Name="指纹比对通过" Value="197127">
+      <Master>门禁事件类型</Master>
+    </Site48>
+    <Site49   Name="指纹比对失败" Value="197128">
+      <Master>门禁事件类型</Master>
+    </Site49>
+    <Site50   Name="刷卡+指纹+密码失败" Value="197136">
+      <Master>门禁事件类型</Master>
+    </Site50>
+    <Site51   Name="刷卡+指纹+密码超时" Value="197137">
+      <Master>门禁事件类型</Master>
+    </Site51>
+    <Site52   Name="指纹不存在" Value="197140">
+      <Master>门禁事件类型</Master>
+    </Site52>
+    <Site53   Name="工号+密码认证失败" Value="197158">
+      <Master>门禁事件类型</Master>
+    </Site53>
+    <Site54   Name="人脸+指纹认证通过" Value="196888">
+      <Master>门禁事件类型</Master>
+    </Site54>
+    <Site55   Name="人脸+指纹认证失败" Value="197141">
+      <Master>门禁事件类型</Master>
+    </Site55>
+    <Site56   Name="人脸+指纹认证超时" Value="197142">
+      <Master>门禁事件类型</Master>
+    </Site56>
+    <Site57   Name="人脸+密码认证通过" Value="196889">
+      <Master>门禁事件类型</Master>
+    </Site57>
+    <Site58   Name="人脸+密码认证失败" Value="197143">
+      <Master>门禁事件类型</Master>
+    </Site58>
+    <Site59   Name="人脸+密码认证超时" Value="197144">
+      <Master>门禁事件类型</Master>
+    </Site59>
+    <Site60   Name="人脸+刷卡认证通过" Value="196890">
+      <Master>门禁事件类型</Master>
+    </Site60>
+    <Site61   Name="人脸+刷卡认证失败" Value="197145">
+      <Master>门禁事件类型</Master>
+    </Site61>
+    <Site62   Name="人脸+刷卡认证超时" Value="197146">
+      <Master>门禁事件类型</Master>
+    </Site62>
+    <Site63   Name="人脸+密码+指纹认证通过" Value="196891">
+      <Master>门禁事件类型</Master>
+    </Site63>
+    <Site64   Name="人脸+密码+指纹认证失败" Value="197147">
+      <Master>门禁事件类型</Master>
+    </Site64>
+    <Site65   Name="人脸+密码+指纹认证超时" Value="197148">
+      <Master>门禁事件类型</Master>
+    </Site65>
+    <Site66   Name="人脸+刷卡+指纹认证通过" Value="196892">
+      <Master>门禁事件类型</Master>
+    </Site66>
+    <Site67   Name="人脸+刷卡+指纹认证失败" Value="197149">
+      <Master>门禁事件类型</Master>
+    </Site67>
+    <Site68   Name="人脸+刷卡+指纹认证超时" Value="197150">
+      <Master>门禁事件类型</Master>
+    </Site68>
+    <Site69   Name="人脸认证通过" Value="196893">
+      <Master>门禁事件类型</Master>
+    </Site69>
+    <Site70   Name="人脸认证失败" Value="197151">
+      <Master>门禁事件类型</Master>
+    </Site70>
+    <Site71   Name="人脸识别失败" Value="197160">
+      <Master>门禁事件类型</Master>
+    </Site71>
+    <Site72   Name="真人检测失败" Value="197161">
+      <Master>门禁事件类型</Master>
+    </Site72>
+    <Site73   Name="人证比对通过" Value="197162">
+      <Master>门禁事件类型</Master>
+    </Site73>
+    <Site74   Name="人证比对失败" Value="197163">
+      <Master>门禁事件类型</Master>
+    </Site74>
+    <Site75   Name="首卡比对通过" Value="196874">
+      <Master>门禁事件类型</Master>
+    </Site75>
+    <Site76   Name="残疾人卡比对通过" Value="196875">
+      <Master>门禁事件类型</Master>
+    </Site76>
+    <Site77   Name="多重认证成功" Value="196883">
+      <Master>门禁事件类型</Master>
+    </Site77>
+    <Site78   Name="多重认证超级密码成功" Value="196884">
+      <Master>门禁事件类型</Master>
+    </Site78>
+    <Site79   Name="巡查卡比对通过" Value="198918">
+      <Master>门禁事件类型</Master>
+    </Site79>
+    <Site80   Name="超级卡比对通过" Value="198921">
+      <Master>门禁事件类型</Master>
+    </Site80>
+    <Site81   Name="胁迫卡比对通过" Value="199425">
+      <Master>门禁事件类型</Master>
+    </Site81>
+    <Site82   Name="反潜回认证失败" Value="197383">
+      <Master>门禁事件类型</Master>
+    </Site82>
+    <Site83   Name="卡不在多重认证时段内" Value="197392">
+      <Master>门禁事件类型</Master>
+    </Site83>
+    <Site84   Name="多重认证超级密码错误" Value="197393">
+      <Master>门禁事件类型</Master>
+    </Site84>
+    <Site85   Name="多重认证远程认证失败" Value="197394">
+      <Master>门禁事件类型</Master>
+    </Site85>
+    <Site86   Name="残疾人卡未分配权限" Value="197395">
+      <Master>门禁事件类型</Master>
+    </Site86>
+    <Site87   Name="胁迫卡未分配权限" Value="197396">
+      <Master>门禁事件类型</Master>
+    </Site87>
+    <Site88   Name="超级卡未分配权限" Value="197397">
+      <Master>门禁事件类型</Master>
+    </Site88>
+    <Site89   Name="多重认证重复认证" Value="197400">
+      <Master>门禁事件类型</Master>
+    </Site89>
+    <Site90   Name="多重认证超时" Value="197401">
+      <Master>门禁事件类型</Master>
+    </Site90>
+    <Site91   Name="互锁中无法开门" Value="198146">
+      <Master>门禁事件类型</Master>
+    </Site91>
+    <Site92   Name="反潜回读卡器刷卡无效" Value="198149">
+      <Master>门禁事件类型</Master>
+    </Site92>
+    <Site93   Name="巡查卡无效时段" Value="197399">
+      <Master>门禁事件类型</Master>
+    </Site93>
+    <Site94   Name="互锁门未关闭" Value="198658">
+      <Master>门禁事件类型</Master>
+    </Site94>
+    <Site95   Name="黑名单事件" Value="197889">
+      <Master>门禁事件类型</Master>
+    </Site95>
+    <Site96   Name="时段组错误" Value="197384">
+      <Master>门禁事件类型</Master>
+    </Site96>
+    <Site97   Name="假期权限不合" Value="197378">
+      <Master>门禁事件类型</Master>
+    </Site97>
+    <Site98   Name="权限不合" Value="197377">
+      <Master>门禁事件类型</Master>
+    </Site98>
+    <Site99   Name="指纹+密码认证失败" Value="197138">
+      <Master>门禁事件类型</Master>
+    </Site99>
+    <Site100  Name="刷卡+指纹认证失败" Value="197134">
+      <Master>门禁事件类型</Master>
+    </Site100>
+    <Site101  Name="卡号认证超次报警" Value="199429">
+      <Master>门禁事件类型</Master>
+    </Site101>
+    <Site102  Name="解除警报" Value="199681">
+      <Master>门禁事件类型</Master>
+    </Site102>
+    <Site103  Name="胁迫报警" Value="199428">
+      <Master>门禁事件类型</Master>
+    </Site103>
+</AccessControlIncidents>
+  <!--可视对讲事件类型-->
+  <VisualIntercomEvents>
+    <Site1    Name="设备防拆报警" Value="983302">
+      <Master>可视对讲事件类型</Master>
+    </Site1>
+    <Site2    Name="劫持报警" Value="983303">
+      <Master>可视对讲事件类型</Master>
+    </Site2>
+    <Site3    Name="密码错误报警" Value="983304">
+      <Master>可视对讲事件类型</Master>
+    </Site3>
+    <Site4    Name="门没开报警" Value="983305">
+      <Master>可视对讲事件类型</Master>
+    </Site4>
+    <Site5    Name="门没关报警" Value="983306">
+      <Master>可视对讲事件类型</Master>
+    </Site5>
+    <Site6    Name="SOS报警" Value="983553">
+      <Master>可视对讲事件类型</Master>
+    </Site6>
+    <Site7    Name="水感报警" Value="983554">
+      <Master>可视对讲事件类型</Master>
+    </Site7>
+    <Site8    Name="主动红外报警" Value="983555">
+      <Master>可视对讲事件类型</Master>
+    </Site8>
+    <Site9    Name="烟感报警" Value="983556">
+      <Master>可视对讲事件类型</Master>
+    </Site9>
+    <Site10   Name="煤气报警" Value="983557">
+      <Master>可视对讲事件类型</Master>
+    </Site10>
+    <Site11   Name="被动红外报警" Value="983558">
+      <Master>可视对讲事件类型</Master>
+    </Site11>
+    <Site12   Name="门磁报警" Value="983559">
+      <Master>可视对讲事件类型</Master>
+    </Site12>
+    <Site13   Name="紧急开关报警" Value="983560">
+      <Master>可视对讲事件类型</Master>
+    </Site13>
+    <Site14   Name="智能锁劫持指纹" Value="983561">
+      <Master>可视对讲事件类型</Master>
+    </Site14>
+    <Site15   Name="智能锁劫持密码" Value="983562">
+      <Master>可视对讲事件类型</Master>
+    </Site15>
+    <Site16   Name="智能锁撬门报警" Value="983563">
+      <Master>可视对讲事件类型</Master>
+    </Site16>
+    <Site17   Name="智能锁锁定" Value="983564">
+      <Master>可视对讲事件类型</Master>
+    </Site17>
+    <Site18   Name="智能锁电量不足" Value="983565">
+      <Master>可视对讲事件类型</Master>
+    </Site18>
+    <Site19   Name="业主密码开锁—密码开锁（87）" Value="983297">
+      <Master>可视对讲事件类型</Master>
+    </Site19>
+    <Site20   Name="劫持密码开锁—劫持开锁（87）" Value="983298">
+      <Master>可视对讲事件类型</Master>
+    </Site20>
+    <Site21   Name="刷卡开锁" Value="983299">
+      <Master>可视对讲事件类型</Master>
+    </Site21>
+    <Site22   Name="室内机开锁—户主开锁（87）" Value="983300">
+      <Master>可视对讲事件类型</Master>
+    </Site22>
+    <Site23   Name="中心平台开锁" Value="983301">
+      <Master>可视对讲事件类型</Master>
+    </Site23>
+    <Site24   Name="蓝牙开锁" Value="983307">
+      <Master>可视对讲事件类型</Master>
+    </Site24>
+    <Site25   Name="二维码开锁" Value="983308">
+      <Master>可视对讲事件类型</Master>
+    </Site25>
+    <Site26   Name="人脸开锁" Value="983309">
+      <Master>可视对讲事件类型</Master>
+    </Site26>
+    <Site27   Name="指纹开锁" Value="983310">
+      <Master>可视对讲事件类型</Master>
+    </Site27>
+  </VisualIntercomEvents>
+  <!--访客事件类型-->
+  <VisitorIncident>
+    <Site1    Name="访客登记" Value="1392513025">
+      <Master>访客事件类型</Master>
+    </Site1>
+    <Site2    Name="访客签离" Value="1392513026">
+      <Master>访客事件类型</Master>
+    </Site2>
+  </VisitorIncident>
+  <!--梯控管理事件类型-->
+  <LadderControlManagement>
+    <Site1    Name="远程登录" Value="721681">
+      <Master>梯控管理事件类型</Master>
+    </Site1>
+    <Site2    Name="看门狗复位" Value="721691">
+      <Master>梯控管理事件类型</Master>
+    </Site2>
+    <Site3    Name="注销远程登录" Value="721696">
+      <Master>梯控管理事件类型</Master>
+    </Site3>
+    <Site4    Name="远程重启" Value="721697">
+      <Master>梯控管理事件类型</Master>
+    </Site4>
+    <Site5    Name="远程升级" Value="721698">
+      <Master>梯控管理事件类型</Master>
+    </Site5>
+    <Site6    Name="远程ntp校时" Value="721704">
+      <Master>梯控管理事件类型</Master>
+    </Site6>
+    <Site7    Name="远程恢复默认参数" Value="721708">
+      <Master>梯控管理事件类型</Master>
+    </Site7>
+    <Site8    Name="访客呼梯" Value="721748">
+      <Master>梯控管理事件类型</Master>
+    </Site8>
+    <Site9    Name="住户呼梯" Value="721749">
+      <Master>梯控管理事件类型</Master>
+    </Site9>
+    <Site10   Name="卡片权限已过期" Value="721921">
+      <Master>梯控管理事件类型</Master>
+    </Site10>
+    <Site11   Name="无此卡号" Value="721922">
+      <Master>梯控管理事件类型</Master>
+    </Site11>
+    <Site12   Name="权限不符" Value="721923">
+      <Master>梯控管理事件类型</Master>
+    </Site12>
+    <Site13   Name="黑名单" Value="722177">
+      <Master>梯控管理事件类型</Master>
+    </Site13>
+    <Site14   Name="读卡器拆除" Value="722183">
+      <Master>梯控管理事件类型</Master>
+    </Site14>
+    <Site15   Name="解除读卡器拆除报警" Value="722184">
+      <Master>梯控管理事件类型</Master>
+    </Site15>
+    <Site16   Name="常闭状态开始" Value="722436">
+      <Master>梯控管理事件类型</Master>
+    </Site16>
+    <Site17   Name="常闭状态结束" Value="722438">
+      <Master>梯控管理事件类型</Master>
+    </Site17>
+    <Site18   Name="常开时段开始" Value="722689">
+      <Master>梯控管理事件类型</Master>
+    </Site18>
+    <Site19   Name="常开时段结束" Value="722690">
+      <Master>梯控管理事件类型</Master>
+    </Site19>
+    <Site20   Name="合法卡" Value="723202">
+      <Master>梯控管理事件类型</Master>
+    </Site20>
+    <Site21   Name="卡号认证失败超次报警" Value="723717">
+      <Master>梯控管理事件类型</Master>
+    </Site21>
+    <Site22   Name="读卡器掉线" Value="723969">
+      <Master>梯控管理事件类型</Master>
+    </Site22>
+    <Site23   Name="读卡器掉线恢复" Value="723970">
+      <Master>梯控管理事件类型</Master>
+    </Site23>
+    <Site24   Name="呼梯继电器断开" Value="723971">
+      <Master>梯控管理事件类型</Master>
+    </Site24>
+    <Site25   Name="呼梯继电器闭合" Value="723972">
+      <Master>梯控管理事件类型</Master>
+    </Site25>
+    <Site26   Name="自动按键继电器断开" Value="723973">
+      <Master>梯控管理事件类型</Master>
+    </Site26>
+    <Site27   Name="自动按键继电器闭合" Value="723974">
+      <Master>梯控管理事件类型</Master>
+    </Site27>
+    <Site28   Name="按键梯控继电器断开" Value="723975">
+      <Master>梯控管理事件类型</Master>
+    </Site28>
+    <Site29   Name="按键梯控继电器闭合" Value="723976">
+      <Master>梯控管理事件类型</Master>
+    </Site29>
+    <Site30   Name="分控器防拆报警" Value="723977">
+      <Master>梯控管理事件类型</Master>
+    </Site30>
+    <Site31   Name="分控器防拆报警恢复" Value="723978">
+      <Master>梯控管理事件类型</Master>
+    </Site31>
+    <Site32   Name="分控器在线" Value="723979">
+      <Master>梯控管理事件类型</Master>
+    </Site32>
+    <Site33   Name="分控器离线" Value="723980">
+      <Master>梯控管理事件类型</Master>
+    </Site33>
+    <Site34   Name="胁迫开门警报" Value="723982">
+      <Master>梯控管理事件类型</Master>
+    </Site34>
+    <Site35   Name="网络恢复" Value="723999">
+      <Master>梯控管理事件类型</Master>
+    </Site35>
+    <Site36   Name="本地恢复默认参数" Value="724001">
+      <Master>梯控管理事件类型</Master>
+    </Site36>
+    <Site37   Name="离线事件满90%报警" Value="724004">
+      <Master>梯控管理事件类型</Master>
+    </Site37>
+    <Site38   Name="紧急按钮触发" Value="724225">
+      <Master>梯控管理事件类型</Master>
+    </Site38>
+    <Site39   Name="紧急按钮恢复" Value="724226">
+      <Master>梯控管理事件类型</Master>
+    </Site39>
+    <Site40   Name="消防按钮触发" Value="724227">
+      <Master>梯控管理事件类型</Master>
+    </Site40>
+    <Site41   Name="消防按钮恢复" Value="724228">
+      <Master>梯控管理事件类型</Master>
+    </Site41>
+    <Site42   Name="维护按钮触发" Value="724229">
+      <Master>梯控管理事件类型</Master>
+    </Site42>
+    <Site43   Name="维护按钮恢复" Value="724230">
+      <Master>梯控管理事件类型</Master>
+    </Site43>
+    <Site44   Name="解除码" Value="724231">
+      <Master>梯控管理事件类型</Master>
+    </Site44>
+  </LadderControlManagement>
+  <!--园区卡口事件类型-->
+  <CampusGapIncident>
+    <Site1    Name="正常过车" Value="1157632001">
+      <Master>园区卡口事件类型</Master>
+    </Site1>
+    <Site2    Name="黑名单" Value="1157632002">
+      <Master>园区卡口事件类型</Master>
+    </Site2>
+    <Site3    Name="超速" Value="1157632003">
+      <Master>园区卡口事件类型</Master>
+    </Site3>
+    <Site4    Name="逆行" Value="1157632004">
+      <Master>园区卡口事件类型</Master>
+    </Site4>
+    <Site5    Name="违停" Value="1157632005">
+      <Master>园区卡口事件类型</Master>
+    </Site5>
+  </CampusGapIncident>
+  <!--入侵报警事件类型-->
+  <IntrusionAlarmEvent>
+    <Site1    Name="防区报警" Value="">
+      <Master>入侵警报类型</Master>
+    </Site1>
+    <Site2    Name="布防" Value="327937">
+      <Master>入侵警报类型</Master>
+    </Site2>
+    <Site3    Name="撤防" Value="327938">
+      <Master>入侵警报类型</Master>
+    </Site3>
+    <Site4    Name="旁路" Value="327939">
+      <Master>入侵警报类型</Master>
+    </Site4>
+    <Site5    Name="旁路恢复" Value="327940">
+      <Master>入侵警报类型</Master>
+    </Site5>
+    <Site6    Name="消警" Value="327941">
+      <Master>入侵警报类型</Master>
+    </Site6>
+  </IntrusionAlarmEvent>
+  <!--消防事件事件类型-->
+  <FireIncidents>
+    <Site1    Name="水压报警" Value="253956">
+      <Master>消防事件事件类型</Master>
+    </Site1>
+    <Site2    Name="液位报警" Value="253999">
+      <Master>消防事件事件类型</Master>
+    </Site2>
+    <Site3    Name="剩余电流偏高" Value="254002">
+      <Master>消防事件事件类型</Master>
+    </Site3>
+    <Site4    Name="设备手动报警" Value="254005">
+      <Master>消防事件事件类型</Master>
+    </Site4>
+    <Site5    Name="设备手动报警" Value="254005">
+      <Master>消防事件事件类型</Master>
+    </Site5>
+    <Site6    Name="可燃气体报警" Value="254011">
+      <Master>消防事件事件类型</Master>
+    </Site6>
+    <Site7    Name="手动火灾报警" Value="254014">
+      <Master>消防事件事件类型</Master>
+    </Site7>
+    <Site8    Name="感烟传感器低电报警" Value="254021">
+      <Master>消防事件事件类型</Master>
+    </Site8>
+    <Site9    Name="感烟报警" Value="254022">
+      <Master>消防事件事件类型</Master>
+    </Site9>
+    <Site10   Name="电气温度报警" Value="254023">
+      <Master>消防事件事件类型</Master>
+    </Site10>
+    <Site11   Name="可燃气体传感器低电报" Value="254026">
+      <Master>消防事件事件类型</Master>
+    </Site11>
+    <Site12   Name="消防设备被拆下" Value="254031">
+      <Master>消防事件事件类型</Master>
+    </Site12>
+    <Site13   Name="消防设备取水报警" Value="254033">
+      <Master>消防事件事件类型</Master>
+    </Site13>
+    <Site14   Name="设备角度倾斜报警" Value="254034">
+      <Master>消防事件事件类型</Master>
+    </Site14>
+    <Site15   Name="温度报警" Value="254043">
+      <Master>消防事件事件类型</Master>
+    </Site15>
+    <Site16   Name="火灾报警" Value="254047">
+      <Master>消防事件事件类型</Master>
+    </Site16>
+    <Site17   Name="消防请求响应事件" Value="254051">
+      <Master>消防事件事件类型</Master>
+    </Site17>
+    <Site18   Name="传感器屏蔽" Value="254052">
+      <Master>消防事件事件类型</Master>
+    </Site18>
+    <Site19   Name="水压报警" Value="254057">
+      <Master>消防事件事件类型</Master>
+    </Site19>
+    <Site20   Name="消防设备手动报警" Value="254063">
+      <Master>消防事件事件类型</Master>
+    </Site20>
+    <Site21   Name="可燃气体报警" Value="254069">
+      <Master>消防事件事件类型</Master>
+    </Site21>
+    <Site22   Name="火灾报警" Value="254072">
+      <Master>消防事件事件类型</Master>
+    </Site22>
+    <Site23   Name="手动火灾报警" Value="254073">
+      <Master>消防事件事件类型</Master>
+    </Site23>
+    <Site24   Name="感烟报警" Value="254075">
+      <Master>消防事件事件类型</Master>
+    </Site24>
+    <Site25   Name="消防设备被拆下" Value="254079">
+      <Master>消防事件事件类型</Master>
+    </Site25>
+    <Site26   Name="消防设备取水报警" Value="254080">
+      <Master>消防事件事件类型</Master>
+    </Site26>
+    <Site27   Name="设备角度倾斜报警" Value="254083">
+      <Master>消防事件事件类型</Master>
+    </Site27>
+  </FireIncidents>
+  <!--动环监控事件类型-->
+  <DynamicLoopMonitoring>
+    <Site1    Name="温度实时数据" Value="459009">
+      <Master>动环监控事件类型</Master>
+    </Site1>
+    <Site2    Name="湿度实时数据" Value="459010">
+      <Master>动环监控事件类型</Master>
+    </Site2>
+    <Site3    Name="风速实时数据" Value="459011">
+      <Master>动环监控事件类型</Master>
+    </Site3>
+    <Site4    Name="气体浓度实时数据" Value="459012">
+      <Master>动环监控事件类型</Master>
+    </Site4>
+    <Site5    Name="电压实时数据" Value="459013">
+      <Master>动环监控事件类型</Master>
+    </Site5>
+    <Site6    Name="电流实时数据" Value="459014">
+      <Master>动环监控事件类型</Master>
+    </Site6>
+    <Site7    Name="频率实时数据" Value="459015">
+      <Master>动环监控事件类型</Master>
+    </Site7>
+    <Site8    Name="功率实时数据" Value="459016">
+      <Master>动环监控事件类型</Master>
+    </Site8>
+    <Site9    Name="流量实时数据" Value="459017">
+      <Master>动环监控事件类型</Master>
+    </Site9>
+    <Site10   Name="电池备份时间" Value="459018">
+      <Master>动环监控事件类型</Master>
+    </Site10>
+    <Site11   Name="负载率" Value="459019">
+      <Master>动环监控事件类型</Master>
+    </Site11>
+    <Site12   Name="功率因数" Value="459020">
+      <Master>动环监控事件类型</Master>
+    </Site12>
+    <Site13   Name="降水量" Value="459022">
+      <Master>动环监控事件类型</Master>
+    </Site13>
+    <Site14   Name="压力" Value="459023">
+      <Master>动环监控事件类型</Master>
+    </Site14>
+    <Site15   Name="风向" Value="459024">
+      <Master>动环监控事件类型</Master>
+    </Site15>
+    <Site16   Name="扬尘" Value="459027">
+      <Master>动环监控事件类型</Master>
+    </Site16>
+    <Site17   Name="噪声" Value="459028">
+      <Master>动环监控事件类型</Master>
+    </Site17>
+    <Site18   Name="水位" Value="459029">
+      <Master>动环监控事件类型</Master>
+    </Site18>
+    <Site19   Name="通用环境量" Value="459030">
+      <Master>动环监控事件类型</Master>
+    </Site19>
+    <Site20   Name="温度偏低" Value="459264">
+      <Master>动环监控事件类型</Master>
+    </Site20>
+    <Site21   Name="温度偏高" Value="459265">
+      <Master>动环监控事件类型</Master>
+    </Site21>
+    <Site22   Name="湿度偏低" Value="459267">
+      <Master>动环监控事件类型</Master>
+    </Site22>
+    <Site23   Name="湿度偏高" Value="459268">
+      <Master>动环监控事件类型</Master>
+    </Site23>
+    <Site24   Name="风速偏度" Value="459269">
+      <Master>动环监控事件类型</Master>
+    </Site24>
+    <Site25   Name="风速偏高" Value="459270">
+      <Master>动环监控事件类型</Master>
+    </Site25>
+    <Site26   Name="气体浓度偏低" Value="459271">
+      <Master>动环监控事件类型</Master>
+    </Site26>
+    <Site27   Name="气体浓度偏高" Value="459272">
+      <Master>动环监控事件类型</Master>
+    </Site27>
+    <Site28   Name="电压偏低" Value="459273">
+      <Master>动环监控事件类型</Master>
+    </Site28>
+    <Site29   Name="电压偏高" Value="459274">
+      <Master>动环监控事件类型</Master>
+    </Site29>
+    <Site30   Name="电流偏低" Value="459275">
+      <Master>动环监控事件类型</Master>
+    </Site30>
+    <Site31   Name="电流偏高" Value="459276">
+      <Master>动环监控事件类型</Master>
+    </Site31>
+    <Site32   Name="频率偏低" Value="459277">
+      <Master>动环监控事件类型</Master>
+    </Site32>
+    <Site33   Name="频率偏高" Value="459278">
+      <Master>动环监控事件类型</Master>
+    </Site33>
+    <Site34   Name="功率偏低" Value="459279">
+      <Master>动环监控事件类型</Master>
+    </Site34>
+    <Site35   Name="功率偏高" Value="459280">
+      <Master>动环监控事件类型</Master>
+    </Site35>
+    <Site36   Name="流量偏低" Value="459281">
+      <Master>动环监控事件类型</Master>
+    </Site36>
+    <Site37   Name="流量偏高" Value="459282">
+      <Master>动环监控事件类型</Master>
+    </Site37>
+    <Site38   Name="电池备份时间偏低" Value="459283">
+      <Master>动环监控事件类型</Master>
+    </Site38>
+    <Site39   Name="电池备份时间偏高" Value="459284">
+      <Master>动环监控事件类型</Master>
+    </Site39>
+    <Site40   Name="负载率偏低" Value="459285">
+      <Master>动环监控事件类型</Master>
+    </Site40>
+    <Site41   Name="负载率偏高" Value="459286">
+      <Master>动环监控事件类型</Master>
+    </Site41>
+    <Site42   Name="功率因数偏低" Value="459287">
+      <Master>动环监控事件类型</Master>
+    </Site42>
+    <Site43   Name="功率因数偏高" Value="459288">
+      <Master>动环监控事件类型</Master>
+    </Site43>
+    <Site44   Name="降水量偏低" Value="459289">
+      <Master>动环监控事件类型</Master>
+    </Site44>
+    <Site45   Name="降水量偏高" Value="459290">
+      <Master>动环监控事件类型</Master>
+    </Site45>
+    <Site46   Name="水位偏低" Value="459291">
+      <Master>动环监控事件类型</Master>
+    </Site46>
+    <Site47   Name="水位偏高" Value="459292">
+      <Master>动环监控事件类型</Master>
+    </Site47>
+    <Site48   Name="通用环境偏低" Value="459293">
+      <Master>动环监控事件类型</Master>
+    </Site48>
+    <Site49   Name="通用环境偏高" Value="459294">
+      <Master>动环监控事件类型</Master>
+    </Site49>
+    <Site50   Name="扬尘偏低" Value="459295">
+      <Master>动环监控事件类型</Master>
+    </Site50>
+    <Site51   Name="扬尘偏高" Value="459296">
+      <Master>动环监控事件类型</Master>
+    </Site51>
+    <Site52   Name="噪声偏低" Value="459297">
+      <Master>动环监控事件类型</Master>
+    </Site52>
+    <Site53   Name="噪声偏高" Value="459298">
+      <Master>动环监控事件类型</Master>
+    </Site53>
+    <Site54   Name="压力偏低" Value="459299">
+      <Master>动环监控事件类型</Master>
+    </Site54>
+    <Site55   Name="压力偏高" Value="459300">
+      <Master>动环监控事件类型</Master>
+    </Site55>
+    <Site56   Name="异常报警" Value="459537">
+      <Master>动环监控事件类型</Master>
+    </Site56>
+    <Site57   Name="报警输入报警" Value="459309">
+      <Master>动环监控事件类型</Master>
+    </Site57>
+  </DynamicLoopMonitoring>
+  <!--人脸监控事件类型-->
+  <FaceMonitoringEvents>
+    <Site1    Name="人脸抓拍事件" Value="131614">
+      <Master>人脸监控事件类型</Master>
+    </Site1>
+    <Site2    Name="人脸比对事件" Value="131659">
+      <Master>人脸监控事件类型</Master>
+    </Site2>
+    <Site3    Name="重点人员识别事件" Value="1644175361">
+      <Master>人脸监控事件类型</Master>
+    </Site3>
+    <Site4    Name="陌生人识别事件" Value="1644171265">
+      <Master>人脸监控事件类型</Master>
+    </Site4>
+    <Site5    Name="高频人员识别事件" Value="132865">
+      <Master>人脸监控事件类型</Master>
+    </Site5>
+  </FaceMonitoringEvents>
+</doc>

@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html class="no-js css-menubar" lang="zh-cn">
+
+<head>
+    <title>图洋3D平台实例</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <!-- 引入tyGIS -->
+    <script src="./src/include-lib.js" libpath="./src/" include="tyGIS"></script>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border: none;
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, "Microsoft Yahei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+            font-size: 14px;
+            background-color: transparent !important;
+            overflow: hidden;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        body {
+            position: relative;
+        }
+
+        /* 地图容器 */
+        .map-container {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+        }  
+        
+
+    </style>
+</head>
+
+<body>
+    <div id="toolTip" style="display:none;position:absolute;height:20px;width:127px;background: olive;top:0px;left:0px">
+    </div>
+    <div id="mapContainer" class="map-container"></div>
+    <script>
+        var globalViewer = null;//地球对象
+        var globalDynamicDrawer = null;
+        var tile17 = null;
+        var trailerBl = true;
+        var ToConfigure;//初始化时的配置
+        var cameraModel = [];//地图模型
+        var mapDataurl = [];//地图模型拼接地址
+        var labelDatas = [];
+        TyGisCore.WebSocketint('localhost:9527');//初始化socket与视频控件对接
+        var Modle = [];//建筑模型
+        window.addEventListener('message', function (e) {
+            // 我们能信任信息来源吗？
+            // if (event.origin !== "http://example.com:8080")
+            //     return;
+            console.log('我是地图我接收到了',e.data)
+            eval(e.data.Event);
+            switch (e.data.ModName) {
+                case 'FaceNorth':
+                    FaceNorth();
+                    break;
+                case 'DeleteallModels':
+                    DeleteallModels();
+                    break;
+                case 'InitializeBase':
+                    InitializeBase(e.data.parameter);
+                    break;
+                case 'ResetCoordinates':
+                    ResetCoordinates(e.data.parameter);
+                    break;
+                case 'RetrospectiveCameraView':
+                    RetrospectiveCameraView(e.data.parameter);
+                    break;
+                case 'initEarth':
+                    initEarth(e.data.parameter)
+                    break;
+                case 'addBaseLayer':
+                    addBaseLayer(e.data.parameter)
+                    break;
+                case 'CesiumContainer':
+                    CesiumContainer()
+                    break;
+                case 'removeBaseLayer':
+                    removeBaseLayer()
+                    break;
+                case 'addNavigation':
+                    addNavigation()
+                    break;
+                case 'addLocation':
+                    addLocation()
+                    break;
+                case 'getCameraView':
+                    getCameraView()
+                    break;
+                case 'add3DTiles':
+                    add3DTiles(e.data.parameter)
+                    break;
+                case 'Highlight':
+                    Highlight(e.data.parameter)
+                    break;
+                case 'VideoDelivery':
+                    VideoDelivery()
+                    break;
+                case 'AddBubbleLabel':
+                    AddBubbleLabel(e.data.parameter)
+                    break;
+                case 'AddingThermodynamicDiagram':
+                    AddingThermodynamicDiagram()
+                    break;
+                case 'AddModels':
+                    AddModels()
+                    break;
+                case 'CoordinateLocation':
+                    CoordinateLocation(e.data.parameter)
+                    break;
+                case 'hide3DTiles':
+                    hide3DTiles()
+                    break;
+                case 'show3DTiles':
+                    show3DTiles()
+                    break;
+                case 'remove3DTiles':
+                    remove3DTiles(e.data.parameter.modelobj)
+                    break;
+                case 'remove3DTilesV2':
+                    remove3DTilesV2(e.data.parameter.modelobj)
+                    break;
+                case 'FlightRoaming':
+                    FlightRoaming(e.data.parameter)
+                    break;
+                case 'drawPoint':
+                    drawPoint()
+                    break;
+                case 'drawPolyline':
+                    drawPolyline(e.data.parameter)
+                    break;
+                case 'drawPolygon':
+                    drawPolygon(e.data.parameter)
+                    break;
+                case 'drawRectangle':
+                    drawRectangle()
+                    break;
+                case 'drawCircle':
+                    drawCircle()
+                    break;
+                case 'editEntity':
+                    editEntity()
+                    break;
+                case 'deleteEntity':
+                    deleteEntity()
+                    break;
+                case 'DisplayVideo':
+                    DisplayVideo()
+                    break;
+                case 'FirstPerson':
+                    FirstPerson()
+                    break;
+                case 'DynamicRiver':
+                    DynamicRiver()
+                    break;
+                case 'addClice':
+                    addClice()
+                    break;
+                case 'DeleteClice':
+                    DeleteClice()
+                    break;
+                case 'LineMovement':
+                    LineMovement()
+                    break;
+                case 'Luminescence':
+                    Luminescence()
+                    break;
+                case 'WebSocketint':
+                    WebSocketint()
+                    break;
+                case 'ClickCoordinates':
+                    ClickCoordinates()
+                    break;
+                case 'RefreshPage':
+                    RefreshPage()
+                    break;
+                case 'MeasurementHeight':
+                    MeasurementHeight()
+                    break;
+                case 'Removeop':
+                    Removeop()
+                    break;
+                case 'measureAreaSpace':
+                    measureAreaSpace()
+                    break;
+                case 'measureLineSpace':
+                    measureLineSpace()
+                    break;
+                case 'snowDelete':
+                    snowDelete()
+                    break;
+                case 'RainDelete':
+                    RainDelete()
+                    break;
+                case 'Fogging':
+                    Fogging()
+                    break;
+                case 'fogDelete':
+                    fogDelete()
+                    break;
+                case 'enableLightingV2':
+                    enableLightingV2()
+                    break;
+                case 'lightDelete':
+                    lightDelete()
+                    break;
+                case 'dragModleV2':
+                    dragModleV2(e.data.parameter);
+                    break;
+                case 'ModifyModelCoordinates':
+                    ModifyModelCoordinates(e.data.parameter);
+                    break;
+                case 'InterceptImg':
+                    InterceptImg();
+                    break;
+                case 'Geoaddlabel':
+                    Geoaddlabel(e.data.parameter);
+                    break;
+                case 'DeletePerspectiveFollow':
+                    DeletePerspectiveFollow();
+                    break;
+                case 'ClearHandler':
+                    ClearHandler();
+                    break;
+                case 'GeoaddlabelV2':
+                    GeoaddlabelV2(e.data.parameter.labeltxt, e.data.parameter.labelid);
+                    break;    
+                    case 'GeoaddlabelV3':
+                    GeoaddlabelV3(e.data.parameter);
+                    break;
+                case 'ModifyLabel':
+                    ModifyLabel(e.data.parameter);
+                    break;
+                case 'onMenuClickedV2':
+                    onMenuClickedV2(e.data.parameter);
+                    break;
+                case 'onMenuClicked':
+                    onMenuClicked(e.data.parameter);
+                    break;
+                case 'CoordinateModel':
+                    CoordinateModel(e.data.parameter);
+                    break;
+                case 'ShowSpecifiedModel':
+                    ShowSpecifiedModel(e.data.parameter);
+                    break;   
+                case 'CustomView':
+                    CustomView(e.data.parameter);
+                    break; 
+                case 'ClearCustomView':
+                    ClearCustomView(e.data.parameter);
+                    break; 
+                case 'ResetLabel':
+                    ResetLabel();
+                    break;
+                case'AddPictureLabel': 
+                    AddPictureLabel(e.data.parameter);
+                    break;    
+                case'Emptyentities': 
+                    Emptyentities(e.data.parameter);
+                    break; 
+                case'ClickDisplayLayer': 
+                    ClickDisplayLayer(e.data.parameter);
+                break; 
+                case'Modifybillboard': 
+                    Modifybillboard(e.data.parameter);
+                break;  
+                case'ModifyPolygon': 
+                    ModifyPolygon(e.data.parameter);
+                break;   
+                case'ModifyPolyline': 
+                    ModifyPolyline(e.data.parameter);
+                break;
+                case'PreviewGrid': 
+                    PreviewGrid(e.data.parameter);
+                break;  
+                case'modifyGrid': 
+                    modifyGrid(e.data.parameter);
+                break;  
+                case'showGrid': 
+                    showGrid(e.data.parameter);
+                break;             
+                case'CoordinateModelID': 
+                    CoordinateModelID(e.data.parameter);
+                break;  
+                case'removeEntitiesV1': 
+                    removeEntitiesV1(e.data.parameter);
+                break;                 
+                case'AlarmBox': 
+                    AlarmBox(e.data.parameter);
+                break;  
+                case'removeBubbleLabel': 
+                    removeBubbleLabel(e.data.parameter);
+                break;
+                case'removeBubbleBombox': 
+                    removeBubbleBombox(e.data.parameter);
+                break;
+            }
+        }, false)    
+        //点击展示模型
+        function ClickDisplayLayer(parameter) {
+            InterfaceData.ClickDisplayLayer(parameter);
+        }   
+        //删除指定id的entities对象模型
+        function Emptyentities(id) {
+            InterfaceData.Emptyentities(id);
+        }
+        //重置label标签
+        function ResetLabel() {
+            InterfaceData.ResetLabel();
+        }
+        //清除自定义视图
+        function ClearCustomView(parameter) {
+            InterfaceData.ClearCustomView(parameter);
+        }
+        //展示自定义视图
+        function CustomView(parameter) {
+            InterfaceData.CustomView(parameter);
+        }
+        //针对列表只显示外壳隐藏其他
+        function ShowSpecifiedModel(parameter) {
+            InterfaceData.ShowSpecifiedModel(parameter);
+        }
+        //指北
+        function FaceNorth() {
+            InterfaceData.FaceNorth();
+        }
+        //全景漫游
+        function PanoramicRoaming() {
+            InterfaceData.PanoramicRoaming();
+        }
+        //刷新
+        function RefreshPage() {
+            window.location.reload();
+        }
+        function RetrospectiveCameraView(Parameter) {
+            InterfaceData.RetrospectiveCameraView(Parameter);
+        }
+        //隐藏查看楼层
+        function onMenuClickedV2(Parameter) {
+            InterfaceData.onMenuClickedV2(Parameter);
+        }
+        //抬高查看楼层
+        function onMenuClicked(Parameter) {
+            InterfaceData.onMenuClicked(Parameter);
+        }
+        //清除全部3DTiles模型
+        function DeleteallModels() {
+            InterfaceData.DeleteallModels();
+        }
+        function ResetCoordinates(Parameter) {
+            InterfaceData.ResetCoordinates(Parameter);
+        }
+        function InitializeBase(Parameter) {
+            // try{var c =  I}catch(err){console.log("InitializeBase error:" + err); window.parent.postMessage(err,'*');}
+            InterfaceData.InitializeBase(Parameter);
+            // window.parent.postMessage(c,'*');
+        }
+        //初始化地球0
+        function initEarth(parameter) {
+            console.log('初始地球')
+            try {
+                if (TyGisUtil.webglReport()) {//判断浏览器是否支持WebGL
+                    TyGisCore.create3D({
+                        api:parameter,
+                        id: 'mapContainer',
+                        debug: true,
+                        success: function (_viewer) {
+                            globalViewer = _viewer;
+                        }
+                    });
+                } else {
+                    //提示用户浏览器不支持WebGL，需更换浏览器
+                    alert('浏览器不支持WebGL，需更换浏览器');
+                }
+            } catch (err) { alert('浏览器不支持WebGL，需更换浏览器' + err); };
+            window.parent.postMessage('initEarth', '*');
+        }
+        //加载geoJson
+        function CesiumContainer(MapValue) {
+            TyGisCore.CesiumContainer(globalViewer, MapValue);
+        }
+        //加载底图
+        function addBaseLayer(MapValue) {
+            var baseLayer = TyGisCore.addBaseLayer(globalViewer, MapValue);
+        }
+        //移除底图
+        function removeBaseLayer() {
+            TyGisCore.removeBaseLayer(globalViewer, '影像底图');
+        }
+        //展示网络模式
+        function showGrid(MapValue){
+            TyGisCore.showGrid(globalViewer, MapValue);
+        }   
+        //根据id定位
+        function CoordinateModelID(MapValue){
+            TyGisCore.CoordinateModelID(globalViewer, MapValue);
+        }
+        //光照
+        function enableLightingV2() {
+            TyGisCore.enableLightingV2(globalViewer, true);
+        }
+        //光照
+        function lightDelete() {
+            TyGisCore.lightDelete(globalViewer);
+        }
+        //导航控件
+        function addNavigation(MapValue) {
+            tyGIS.control.addNavigation(globalViewer, MapValue);
+        }
+        //添加鼠标位置控件
+        function addLocation() {
+            tyGIS.control.addLocation(globalViewer, 'mapContainer');
+        }
+        //点击模型时的回调
+        function ModelClickEvent(value){
+            console.log(value)
+            var  Serverurl = ToConfigure.APIURL + 'thirdParty/platformConfig';
+            $.get(Serverurl,
+            { 
+            },
+            function (data, status) {
+                if (status) {
+                   console.log(data.data)
+                   //{"appkey":"aaaaa","secret":"bbbbb","ip":"127.0.0.1","cameracode":{"1":"1111111","2":"22222222","3":"333333333"}}
+                   console.log("Send:" + '{"appkey":"'+ data.data.appkey +'","type":"Normal","secret":"'+ data.data.secret +'","ip":"'+ data.data.ip +'","cameracode":{"1":"'+value +'"}}');
+                   TyGisCore.SocketintSend('{"appkey":"'+ data.data.appkey +'","type":"Normal","secret":"'+ data.data.secret +'","ip":"'+ data.data.ip +'","cameracode":{"1":"'+value +'"}}');
+                   //TyGisCore.SocketintSend(value);
+                }
+                else
+                {
+                    error = {msg:'error',Remarks:'意外错误' + status};
+                }
+            }).error(function () { 
+                error = {msg:'error',Remarks:'服务器出现异常，与服务器沟通文件目录的接口出现错误，刷新或核查服务是否开启.'};
+            });
+
+
+            //http://192.168.0.211/api/33010801001/thirdParty/hikvision/isc
+            
+        }
+        //获取相机视角
+        function getCameraView() {
+            var cv = TyGisUtil.getCameraView(globalViewer);
+            var data = {
+                switchName: 'getCameraView',
+                cv: {
+                    x: cv.x, y: cv.y, z: cv.z, h: cv.heading, p: cv.pitch, r: cv.roll
+                }
+            }
+            console.log('当前视角 x:' + cv.x + '  y:' + cv.y + '  z:' + cv.z + '  heading:' + cv.heading + '  pitch:' + cv.pitch + '  roll:' + cv.roll);
+            window.parent.postMessage(data, '*');
+        }
+        //修改图片标签
+        function Modifybillboard(parameter) {
+            TyGisCore.Modifybillboard(globalViewer, parameter)
+        } 
+        //修改多边形
+        function ModifyPolygon(parameter) {
+            TyGisCore.ModifyPolygon(globalViewer, parameter)
+        }
+        //修改折线
+        function ModifyPolyline(parameter) {
+            TyGisCore.ModifyPolyline(globalViewer, parameter)
+        }
+        //加载3d模型
+        function add3DTiles(MapValue) {
+            var tiles3d = TyGisCore.add3DTiles(globalViewer, MapValue, {
+                //color: "color('white', 1)",
+                show: true
+            });
+            tile17 = tiles3d.tileset;
+        }
+        //编辑图形
+        function editEntity() {
+            globalDynamicDrawer.setMode(1);
+        }
+
+        //突出显示模型
+        function Highlight(parameter) {
+            TyGisCore.Highlight(parameter);
+        }
+        //视频投放
+        function VideoDelivery() {
+            TyGisCore.VideoDelivery(globalViewer);
+        }
+        //直接生成一条线
+        function GeneratingLine(viewer, cartesian) {
+
+            var rectanglePrimitive = viewer.entities.add({
+                //id : 'Polyline',
+                polyline: {
+                    positions: Cesium.Cartesian3.fromDegreesArray(cartesian),
+                    width: 8.0,
+                    material: new Cesium.PolylineGlowMaterialProperty({
+                        glowPower: 0.2,
+                        color: Cesium.Color.BLUE
+                    }),
+                    zIndex: 2,
+                    clampToGround: true
+                }
+            });
+            //viewer.zoomTo(viewer.entities);
+            return rectanglePrimitive;
+        }
+        //32id生成
+        function guid() {
+            function S4() {
+                return (((1 + Math.random()) * 0x10000) | 0).toString(16).substring(1);
+            }
+            return (S4() + S4() + S4() + S4() + S4() + S4() + S4() + S4());
+        }
+        //添加气泡标签
+        function AddBubbleLabel(MapValue) {
+            var  Serverurl = ToConfigure.APIURL + 'device/type/list';
+            $.post(Serverurl,
+            { 
+                category_id : MapValue.id
+            },
+            function (data, status) {
+                if (status && data.msg === 'success') {
+                    data.data.forEach(element => {
+                        var TilesObject = TyGisCore.ReturnName3DTilesObject(globalViewer, element.id);
+                        TilesObject.forEach(elements => {
+                            var boundingSphere = JSON.parse(elements.name.split('|')[1]);
+                            var model = TyGisCore.AddBubbleLabel(globalViewer, element.map_icon, Cesium.Cartesian3.fromDegrees(boundingSphere.x, boundingSphere.y, boundingSphere.z + 1), element.id + '_' + elements.id,'labelcamera');
+                            cameraModel.forEach(cameraModelElement => {
+                                if(elements.id == cameraModelElement[0].id){
+                                    model.show = cameraModelElement[0].show;
+                                }
+                            });
+                        });
+                    });
+                }
+                else
+                {
+                    error = {msg:'error',Remarks:'意外错误' + status};
+                }
+            }).error(function () { 
+                error = {msg:'error',Remarks:'服务器出现异常，与服务器沟通文件目录的接口出现错误，刷新或核查服务是否开启.'};
+            });
+
+        }
+        //删除气泡标签
+        function removeBubbleLabel(MapValue) {
+            TyGisCore.removeEntitiesV1(globalViewer, 'labelcamera');
+        } 
+
+
+        //添加气泡标签
+        function removeEntitiesV1(MapValue) {
+           TyGisCore.removeEntitiesV1(globalViewer, MapValue.id);
+        } 
+        //添加气泡弹框
+        function AlarmBox(MapValue) {
+           TyGisCore.AlarmBox(globalViewer, MapValue);
+        }
+        //添加热力图
+        function AddingThermodynamicDiagram() {
+            var coordinate1 = [-109.0, 10.0, -80.0, 35.0];
+            var heatMap1 = TyGisCore.createHeatMap(TyGisCore.getData(1000).max, TyGisCore.getData(1000).data);
+            TyGisCore.createRectangle(globalViewer, coordinate1, heatMap1);
+        }
+        //添加模型
+        var model;
+        function AddModels(MapValue) {
+            model = TyGisCore.AddModels(globalViewer, MapValue);
+        }
+        //坐标定位
+        function CoordinateLocation(MapValue) {
+            TyGisCore.CoordinateLocation(globalViewer, MapValue, model);
+        }
+        //单独删测高
+        function RemoveHeight() {
+            
+            TyGisCore.RemoveHeight(globalViewer);
+        }
+        //单独删直线
+        function RemoveLine() {
+            TyGisCore.RemoveLine(globalViewer);
+        }
+        //单独删面积
+        function RemoveArea() {
+            TyGisCore.RemoveArea(globalViewer);
+        }
+        //删除全部测量
+        function Removeop() {
+            TyGisCore.Removeop(globalViewer);
+        }
+        //测高
+        function MeasurementHeight() {
+            TyGisCore.MeasurementHeight(globalViewer);
+        }
+        //光照
+        function enableLighting(value) {
+            TyGisCore.enableLighting(globalViewer, value);
+        }
+        //下雪
+        function snowSystem() {
+            TyGisCore.snowSystem(globalViewer);
+        }
+        //起雾
+        function Fogging() {
+            TyGisCore.Fogging(globalViewer);
+        }
+        //删雾
+        function fogDelete() {
+            TyGisCore.fogDelete(globalViewer);
+        }
+        //下雨
+        function RainwaterSystem() {
+            TyGisCore.RainwaterSystem(globalViewer);
+        }
+        //着色器下雨
+        function RainwaterSystemV2() {
+            TyGisCore.RainwaterSystemV2(globalViewer);
+        }
+        //删除下雨
+        function snowDelete() {
+            TyGisCore.snowDelete(globalViewer);
+        }
+        //着色器下雪
+        function snowSystemV2() {
+            TyGisCore.snowSystemV2(globalViewer);
+        }
+        //删除下雪
+        function RainDelete() {
+            TyGisCore.RainDelete(globalViewer);
+        }
+        //隐藏3d模型
+        function hide3DTiles() {
+            TyGisCore.hide3DTiles(globalViewer, tile17);
+        }
+        //显示3d模型
+        function show3DTiles() {
+            TyGisCore.show3DTiles(globalViewer, tile17);
+        }
+        //移除3d模型
+        function remove3DTiles(tile17) {
+            TyGisCore.remove3DTiles(globalViewer, tile17);
+        }
+        //移除3d模型
+        function remove3DTilesV2(tile17) {
+            TyGisCore.remove3DTilesV2(globalViewer, tile17);
+        }
+        //飞行漫游
+        function FlightRoaming(parameter) {
+            model = TyGisCore.FlightRoaming(globalViewer, parameter);
+        }
+        //设备上图
+        function dragModleV2(parameter) {
+            TyGisCore.dragModleV2(globalViewer, parameter);
+        }
+        //测试Form
+        function testForm() {
+            form.setName('123');
+        }
+        //测面积
+        function measureAreaSpace() {
+            TyGisCore.measureAreaSpace(globalViewer);
+        }
+        //测长度
+        function measureLineSpace() {
+            TyGisCore.measureLineSpace(globalViewer);
+        }
+        //画点
+        function drawPoint() {
+            TyGisCore.drawPoint(globalViewer);
+        }
+        //画折线
+        function drawPolyline(parameter) {
+            console.log(parameter)
+            var labelid = parameter.id;
+            var model = TyGisCore.QueryModel(labelid, globalViewer);
+            if (model != null) { globalViewer.entities.remove(model); }
+            var style = {
+                Polyline_style:{
+                    PolylineWitch:parameter.Polyline_style.PolylineWitch,//线条宽度
+                    PolylineColor:parameter.Polyline_style.PolylineColor,
+                    borderWitch:parameter.Polyline_style.borderWitchPolyline,//边框宽度
+                    borderColor: parameter.Polyline_style.borderColor,
+                    borderTransparency:parameter.Polyline_style.borderTransparencyPolyline
+                }
+            }
+
+            globalDynamicDrawer = new tyGISDynamicDraw.DynamicDrawer(globalViewer, style);
+            var model = globalDynamicDrawer.drawPolyline(function (positions) {
+                console.log(positions);
+            });
+
+          
+        }
+        //预览网格数据
+        function PreviewGrid(parameter){
+            TyGisCore.PreviewGrid(globalViewer,parameter); //
+            
+        }
+        //上图片
+        function AddPictureLabel(parameter){
+            console.log(parameter);
+            var labelid = parameter.id;
+            var model = TyGisCore.QueryModel(labelid, globalViewer);
+            TyGisCore.AddPictureLabel(globalViewer,parameter); //
+            
+        }
+        //修改网格信息
+        function modifyGrid(parameter){
+            TyGisCore.modifyGrid(globalViewer,parameter);
+        }
+        //画多边形
+        function drawPolygon(parameter) {
+            var labelid = parameter.id;
+            var model = TyGisCore.QueryModel(labelid, globalViewer);
+            if (model != null) { globalViewer.entities.remove(model); }
+
+            var style = {
+                Polygon_style:{
+                    shapeColor : parameter.Polygon_style.shapeColor,
+                    shapeTransparency:parameter.Polygon_style.shapeTransparency,//形状透明度
+                    borderWitch:parameter.Polygon_style.borderWitchPolygon,//边框宽度
+                    borderColor:parameter.Polygon_style.borderColor,
+                    borderTransparency:parameter.Polygon_style.borderTransparency//边框透明度
+                }
+            }
+            globalDynamicDrawer = new tyGISDynamicDraw.DynamicDrawer(globalViewer,style);
+            globalDynamicDrawer.drawPolygon(function (positions) {
+                console.log("positions",positions);
+               
+            });
+        }
+        //画矩形
+        function drawRectangle() {
+            globalDynamicDrawer = new tyGISDynamicDraw.DynamicDrawer(globalViewer, {});
+            globalDynamicDrawer.drawRectangle(function (positions) {
+                console.log(positions);
+            });
+        }
+        //画圆
+        function drawCircle() {
+            globalDynamicDrawer = new tyGISDynamicDraw.DynamicDrawer(globalViewer, {});
+            globalDynamicDrawer.drawCircle(function (positions) {
+                console.log(positions);
+            });
+        }
+        //编辑图形
+        function editEntity() {
+            globalDynamicDrawer.setMode(1);
+        }
+
+        //删除图形
+        function deleteEntity() {
+            globalDynamicDrawer.setMode(2);
+        }
+        //隐藏Video
+        function DisplayVideo() {
+            var videoElement = document.getElementById('trailer');
+            if (trailerBl) {
+                trailerBl = false;
+                videoElement.style.display = '';
+                console.log('显示');
+            }
+            else {
+                trailerBl = true;
+                console.log('隐藏');
+                videoElement.style.display = 'none';
+                videoElement.play();
+            }
+        }
+        //点击获取坐标小工具
+        function ClickCoordinates() {
+            TyGisCore.ClickCoordinates(globalViewer);
+        }
+        //相机第一人称
+        function FirstPerson() {
+            TyGisCore.FirstPerson(globalViewer, model);
+        }
+        function addClice() {
+            var options = {
+                type: 'MODLE_LEFT_CLICK',
+                Event: 'alert(pickedObject.id)',
+            };
+            TyGisCore.addClice(globalViewer, options);
+        }
+        function DeleteClice() {
+            var Delete = {
+                name: 'LEFT_CLICK'
+            };
+            TyGisCore.DeleteClice(globalViewer, Delete);
+        }
+        //动态河流
+        function DynamicRiver() {
+            TyGisCore.DynamicRiver(globalViewer);
+        }
+        function test() {
+            TyGisCore.testv2({
+                id: 'mapContainer',
+                //api: 'http://www.aimapvision.com',
+                // globeLight: true,
+                // showGroundAtmosphere: true,
+                debug: true,
+                success: function (_viewer) {
+                    globalViewer = _viewer;
+
+                    //do something...
+                }
+            });
+        }
+        //添加label标签
+        function Geoaddlabel(parameter) {
+            TyGisCore.Geoaddlabel(globalViewer, parameter);
+            // var parameter = {
+            //     x: 121.3066024866936,
+            //     y: 30.715869900068444,
+            //     z: 20,
+            //     name:'name',
+            //     id:'id',
+            //     labeltxt:'我是标签'
+            // };
+        }
+
+        //飞行漫游 带动态化线
+        function LineMovement() {
+            var data = [{ longitude: 116.405419, dimension: 39.918034, height: 0, time: 0 }, { longitude: 117.034586, dimension: 39.881202, height: 0, time: 40 }, { longitude: 116.340088, dimension: 38.842224, height: 70000, time: 100 }, { longitude: 113.489176, dimension: 23.464017, height: 70000, time: 280 }, { longitude: 113.262084, dimension: 23.13901, height: 0, time: 360 }];
+            var options = {
+                Modurl: './Example/CesiumAir/Cesium_Air.gltf',//模型地址
+                stopTime: 23,//模型结束时间
+                multiplier: 4,// 时间速率，数字越大时间过的越快
+                minimumPixelSize: 30,//模型大小
+                planleadTime: 0,
+                plantrailTime: 5,
+                planwidth: 8.0,
+                planglowPower: 0.2,
+            };
+
+            TyGisCore.LineMovement(globalViewer, data, options);
+        }
+        function DeletingLight() {
+            TyGisCore.DeletingLight(globalViewer);
+        }
+        function Luminescence() {
+            TyGisCore.Luminescence(globalViewer, model);
+        }
+        function ModifyModelCoordinates(parameter) {
+            TyGisCore.ModifyModelCoordinates(globalViewer, parameter);
+        }
+        function InterceptImg() {
+
+            var base64 = TyGisCore.InterceptImg(globalViewer);
+            //返回
+            var data = {
+                switchName: 'InterceptImg',
+                base64Img: base64,
+                msg: '截取屏幕'
+            }
+            window.parent.postMessage(data, '*');
+        }
+        function DeletePerspectiveFollow() {
+            TyGisCore.DeletePerspectiveFollow(globalViewer);
+        }
+        function ClearHandler() {
+            TyGisCore.ClearHandler(globalViewer);
+        }
+        function GeoaddlabelV2(labeltxt, labelid) {
+            TyGisCore.GeoaddlabelV2(globalViewer, labeltxt, labelid);
+        }
+        function GeoaddlabelV3(parameter){
+            TyGisCore.GeoaddlabelV3(globalViewer, parameter);
+        }
+        function ModifyLabel(parameter) {
+
+            TyGisCore.ModifyLabel(parameter);
+        }
+        function CoordinateModel(parameter) {
+            TyGisCore.CoordinateModel(globalViewer, parameter);
+        }
+        var trackPopstate = true;
+        function trackPopUpContent(id){
+            if(trackPopstate){
+                trackPopstate = false;
+                $("#"+id).find(".cesium-popup-content-wrapper").find("#trackPopUpLink").find("span.popupContent").find("div").find("div.only").css({'height':"230px",'top':'-230px'});
+                $("#"+id).find(".cesium-popup-content-wrapper").find("#trackPopUpLink").find("span.popupContent").find("div").find("div.AlarmCont").css({'height':"90px"});
+                $("#"+id).find(".cesium-popup-content-wrapper").find("#trackPopUpLink").find("span.popupContent").find("div").find("i.newOnly").css({'top':"93px"});
+            }else{
+                trackPopstate = true;
+                $("#"+id).find(".cesium-popup-content-wrapper").find("#trackPopUpLink").find("span.popupContent").find("div").find("div.only").css({'height':"40px",'top':'-40px'})
+                $("#"+id).find(".cesium-popup-content-wrapper").find("#trackPopUpLink").find("span.popupContent").find("div").find("div.AlarmCont").css({'height':"190px"});
+                $("#"+id).find(".cesium-popup-content-wrapper").find("#trackPopUpLink").find("span.popupContent").find("div").find("i.newOnly").css({'top':"193px"});
+            }
+        
+        }
+        function removeBubbleBombbox(id,event_id,category_id,butType){
+           
+            TyGisCore.removeBubbleBombox(globalViewer,id);
+            var data = {
+                switchName: 'removeBubbleBombbox',
+                id,
+                category_id:category_id,
+                msg:"确认处理",
+                butType:butType,
+            }
+            window.parent.postMessage(data, '*');
+        }
+        function removeBubbleBombox(id){
+            console.log(id)
+            TyGisCore.removeBubbleBombox(globalViewer,id);
+        }
+   
+    </script>
+</body>
+
+</html>

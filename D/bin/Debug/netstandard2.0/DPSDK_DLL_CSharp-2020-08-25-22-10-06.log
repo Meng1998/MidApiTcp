@@ -1,0 +1,632 @@
+[0825 22:10:06.246][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[15] m_sequence[1]
+[0825 22:10:06.273][PDLLMessageQueue.cpp:5327] TID 8308 [INFO] CPDLLMessageQueue::SetVtCallInviteCallback(): SetVtCallInviteCallback():pFun[000000001C12181C]
+[0825 22:10:15.839][DPSDK_Core.cpp:394] TID 8308 [INFO] DPSDK_Login(): [DPSDK]IP=10.31.87.17 port=9000 name=system password=admin12345 iType=1
+[0825 22:10:15.839][DPSDK_Core.cpp:406] TID 8308 [INFO] DPSDK_Login(): nPDLLHandle = 1, IP = 10.31.87.17, Port = 9000, name = system, password = admin12345,nProtocol = 2, iType = 1, szCheckBit = 
+[0825 22:10:15.840][CMSClientMdl_for_general.cpp:199] TID 8796 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[0825 22:10:15.840][ServerSession.cpp:87] TID 8796 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 0, ip = 10.31.87.17, port = 9000
+[0825 22:10:15.844][CMSClientMdl_for_general.cpp:257] TID 8796 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[0825 22:10:15.860][CMSClientMdl.cpp:1105] TID 8796 [INFO] DPSdk::CMSClientMdl::onMessage(): [PSDK] CMSClientMdl::onMessage error nResult[443] at operation[41]
+[0825 22:10:15.860][CMSClientMdl_for_general.cpp:264] TID 8796 [INFO] DPSdk::CMSClientMdl::HandleLoginWithEncryption(): CMSClientMdl::HandleLoginWithEncryption()
+[0825 22:10:15.869][CMSClientMdl_for_general.cpp:349] TID 8796 [INFO] DPSdk::CMSClientMdl::OnLoginResponse(): [PSDK] CMSClientMdl::OnLoginResponse()  m_loginSeq=4
+[0825 22:10:15.869][CMSClientMdl_for_general.cpp:440] TID 8796 [INFO] DPSdk::CMSClientMdl::OnLoginResponse(): [PSDK] CMSClientMdl::OnLoginResponse(), m_timerHeartBeat->SetTimer, id = 2 , ms = 15000
+[0825 22:10:15.869][CMSClientMdl_for_general.cpp:461] TID 8796 [INFO] DPSdk::CMSClientMdl::OnLoginResponse(): [PSDK] CMSClientMdl::OnLoginResponse(), m_timerHeartBeatResp->SetTimer, id = 1 , ms = 60s
+[0825 22:10:15.869][CMSClientMdl_for_func.cpp:216] TID 8796 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 11315
+[0825 22:10:15.870][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[71] m_sequence[0]
+[0825 22:10:15.870][CMSClientMdl_for_func.cpp:216] TID 8796 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 400
+[0825 22:10:15.870][CMSClientMdl_for_func.cpp:593] TID 8796 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): [PSDK] OnMessageRequest CU_USER_LOGIN nUserId[1] nState[1] cmd[26]
+[0825 22:10:15.870][CMSClientMdl_for_func.cpp:216] TID 8796 [INFO] DPSdk::CMSClientMdl::OnMessageRequest(): CU_MESSAGE pRequest->_code = 78
+[0825 22:10:15.870][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[26] m_sequence[0]
+[0825 22:10:15.870][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[6] m_sequence[2]
+[0825 22:10:15.875][PDLLMessageQueue.cpp:524] TID 8836 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[6] pInfo->m_nSeq[2]
+[0825 22:10:26.065][CMSClientMdl_for_general.cpp:607] TID 8796 [DEBUG] DPSdk::CMSClientMdl::HandleGetGroup(): CMSClientMdl::HandleGetGroup: bReload = 0 ,m_bSaveGroupFile = false
+[0825 22:10:26.065][CMSClientMdl_for_general.cpp:721] TID 8796 [INFO] DPSdk::CMSClientMdl::GetGroupInfo(): 0---send get org cmd to CMS! = [1598364626]
+[0825 22:10:26.115][CMSClientMdl_for_general.cpp:1165] TID 8796 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 1---orgXml start = [1598364626]
+[0825 22:10:26.132][DPSDKXmlParse.cpp:693] TID 8796 [INFO] DPSdk::GetAllOrgInfo(): 
+[0825 22:10:26.132][CMSClientMdl_for_general.cpp:1173] TID 8796 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 2---orgXml end = [1598364626]
+[0825 22:10:26.376][CMSClientMdl_for_general.cpp:1325] TID 8796 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 3---DevXml start = [1598364626]
+[0825 22:10:26.425][CMSClientMdl_for_general.cpp:1332] TID 8796 [INFO] DPSdk::CMSClientMdl::OnGetAllTreeResponse(): 4---DevXml end = [1598364626]
+[0825 22:10:26.425][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[3102] m_sequence[5]
+[0825 22:10:26.433][PDLLMessageQueue.cpp:524] TID 8836 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[3102] pInfo->m_nSeq[5]
+[0825 22:10:26.442][CMSClientMdl_for_func.cpp:110] TID 8796 [INFO] DPSdk::CMSClientMdl::OnGetServerListResponse(): UNIT_MGW mgwIP = [10.31.87.17] mgwPort = [9090]
+[0825 22:10:26.442][CMSClientMdl_for_func.cpp:110] TID 8796 [INFO] DPSdk::CMSClientMdl::OnGetServerListResponse(): UNIT_MGW mgwIP = [60.12.11.45] mgwPort = [9090]
+[0825 22:10:26.442][CMSClientMdl.cpp:1105] TID 8796 [INFO] DPSdk::CMSClientMdl::onMessage(): [PSDK] CMSClientMdl::onMessage error nResult[570] at operation[156]
+[0825 22:10:26.442][SCSClientMdl.cpp:236] TID 8820 [INFO] DPSdk::SCSClientMdl::DealWithOneResponse(): SCSClientMdl::DealWithOneResponse: CMD[5107]
+[0825 22:10:26.442][SCSClientMdl.cpp:243] TID 8820 [INFO] DPSdk::SCSClientMdl::DealWithOneResponse(): msgRes->serverMap.empty() = 
+[0825 22:10:26.442][DMSClientSession.cpp:303] TID 8916 [INFO] DPSdk::DMSClientSession::ConnectToDmsServer(): Dms Server ip list(0)=>10.31.87.17:9200
+[0825 22:10:26.442][DMSClientSession.cpp:303] TID 8916 [INFO] DPSdk::DMSClientSession::ConnectToDmsServer(): Dms Server ip list(1)=>60.12.11.45:9200
+[0825 22:10:29.432][ServerSession.cpp:87] TID 9012 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 1, ip = 10.31.87.17, port = 9600
+[0825 22:10:29.433][ADSClientSession.cpp:298] TID 9012 [INFO] DPSdk::ADSClientSession::SendLoginADSPdu(): [PSDK] ADSClientSession::SendLoginADSPdu sequence[18] serverId[11001] ip[10.31.87.17]
+[0825 22:10:29.438][ADSClientMdl.cpp:820] TID 9012 [INFO] DPSdk::ADSClientMdl::OnLoginAdsResponse(): [PSDK] login ads server success.
+[0825 22:10:29.438][ADSClientMdl.cpp:747] TID 9012 [INFO] DPSdk::ADSClientMdl::StartHBTimer(): [PSDK] ADSClientMdl::StartHBTimer(), m_timerHeartBeat->SetTimer, id=1396, ms=15000
+[0825 22:10:29.439][ADSClientSession.cpp:1267] TID 9012 [INFO] DPSdk::ADSClientSession::HandleSendEmptyXml(): [PSDK] ADSClientSession::HandleSetAlarmEnable sequence[19] serverId[11001] ip[10.31.87.17]
+[0825 22:10:29.439][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[458] m_sequence[20]
+[0825 22:10:29.439][MsgCallbackModule.cpp:198] TID 8776 [ERR] DPSdk::MsgCallbackModule::DealWithOneMsg(): [PSDK] UnDefine CallBack
+[0825 22:10:29.442][ServerSession.cpp:87] TID 8984 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 2, ip = 10.31.87.17, port = 9400
+[0825 22:10:29.443][ServerSession.cpp:87] TID 8916 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 3, ip = 10.31.87.17, port = 9200
+[0825 22:10:29.444][DMSClientSession.cpp:316] TID 8916 [INFO] DPSdk::DMSClientSession::ConnectToDmsServer(): Dms ConnectServer=>10.31.87.17:9200
+[0825 22:10:29.444][DMSClientMdl.cpp:1594] TID 8916 [INFO] DPSdk::DMSClientMdl::StartReconTimer(): [PSDK] DMSClientMdl::StartReconTimer(), m_timerReconnect->SetTimer, id=1397
+[0825 22:10:29.472][DMSClientMdl.cpp:1582] TID 8916 [INFO] DPSdk::DMSClientMdl::StartHBTimer(): [PSDK] DMSClientMdl::StartHBTimer(), m_timerHeartBeat->SetTimer, id = 1398, ms=15000
+[0825 22:10:29.474][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[22]
+[0825 22:10:29.474][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[23]
+[0825 22:10:29.474][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[24]
+[0825 22:10:29.474][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[25]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[26]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[27]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[28]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[29]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[30]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[31]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[32]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[33]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[34]
+[0825 22:10:29.475][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[35]
+[0825 22:10:29.477][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[36]
+[0825 22:10:29.477][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[37]
+[0825 22:10:29.477][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[38]
+[0825 22:10:29.477][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[39]
+[0825 22:10:29.477][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[40]
+[0825 22:10:29.477][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[41]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[42]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[43]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[44]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[45]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[46]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[47]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[48]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[49]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[50]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[51]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[52]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[53]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[54]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[55]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[56]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[57]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[58]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[59]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[60]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[61]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[62]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[63]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[64]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[65]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[66]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[67]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[68]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[69]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[70]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[71]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[72]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[73]
+[0825 22:10:29.485][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[74]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[75]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[76]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[77]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[78]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[79]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[80]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[81]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[82]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[83]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[84]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[85]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[86]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[87]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[88]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[89]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[90]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[91]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[92]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[93]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[94]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[95]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[96]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[97]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[98]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[99]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[100]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[101]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[102]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[103]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[104]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[105]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[106]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[107]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[108]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[109]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[110]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[111]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[112]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[113]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[114]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[115]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[116]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[117]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[118]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[119]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[120]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[121]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[122]
+[0825 22:10:29.486][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[123]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[124]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[125]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[126]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[127]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[128]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[129]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[130]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[131]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[132]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[133]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[134]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[135]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[136]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[137]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[138]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[139]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[140]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[141]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[142]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[143]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[144]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[145]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[146]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[147]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[148]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[149]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[150]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[151]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[152]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[153]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[154]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[155]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[156]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[157]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[158]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[159]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[160]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[161]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[162]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[163]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[164]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[165]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[166]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[167]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[168]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[169]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[170]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[171]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[172]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[173]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[174]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[175]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[176]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[177]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[178]
+[0825 22:10:29.487][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[179]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[180]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[181]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[182]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[183]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[184]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[185]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[186]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[187]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[188]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[189]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[190]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[191]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[192]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[193]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[194]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[195]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[196]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[197]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[198]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[199]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[200]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[201]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[202]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[203]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[204]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[205]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[206]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[207]
+[0825 22:10:29.488][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[208]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[209]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[210]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[211]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[212]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[213]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[214]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[215]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[216]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[217]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[218]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[219]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[220]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[221]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[222]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[223]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[224]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[225]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[226]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[227]
+[0825 22:10:29.489][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[228]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[229]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[230]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[231]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[232]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[233]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[234]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[235]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[236]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[237]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[238]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[239]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[240]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[241]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[242]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[243]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[244]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[245]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[246]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[247]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[248]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[249]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[250]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[251]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[252]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[253]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[254]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[255]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[256]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[257]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[258]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[259]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[260]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[261]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[262]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[263]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[264]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[265]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[266]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[267]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[268]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[269]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[270]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[271]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[272]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[273]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[274]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[275]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[276]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[277]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[278]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[279]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[280]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[281]
+[0825 22:10:29.490][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[282]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[283]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[284]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[285]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[286]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[287]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[288]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[289]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[290]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[291]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[292]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[293]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[294]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[295]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[296]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[297]
+[0825 22:10:29.491][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[246] m_sequence[298]
+[0825 22:10:29.491][ServerMgrMdl.cpp:216] TID 8812 [INFO] DPSdk::ServerMgrMdl::DealWithOneRequest(): [PSDK] ServerMgrMdl::DealWithOneRequest cmd[247] nSeq = [299]
+[0825 22:10:29.491][ServerMgrMdl.cpp:216] TID 8812 [INFO] DPSdk::ServerMgrMdl::DealWithOneRequest(): [PSDK] ServerMgrMdl::DealWithOneRequest cmd[247] nSeq = [300]
+[0825 22:10:29.496][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$0) status: 0
+[0825 22:10:29.496][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$1) status: 1
+[0825 22:10:29.496][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$2) status: 1
+[0825 22:10:29.496][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$3) status: 1
+[0825 22:10:29.496][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$4) status: 0
+[0825 22:10:29.496][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$5) status: 0
+[0825 22:10:29.496][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.496][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.496][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.496][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.496][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.496][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.498][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$6) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$7) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$8) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$9) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$10) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$11) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$12) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$13) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$14) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$15) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$16) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$17) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$18) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$19) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$20) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$21) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$22) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$23) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$24) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$25) status: 0
+[0825 22:10:29.499][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$26) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$27) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$28) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$29) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$30) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$31) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$32) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$33) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$34) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$35) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$36) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$37) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$38) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$39) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$40) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$41) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$42) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$43) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$44) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$45) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$46) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$47) status: 0
+[0825 22:10:29.500][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$48) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$49) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$50) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$51) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$52) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$53) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$54) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$55) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$56) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$57) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$58) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$59) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$60) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$61) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$62) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$63) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$64) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$65) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$66) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$67) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$68) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$69) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$70) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$71) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$72) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$73) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$74) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$75) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$76) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$77) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$78) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$79) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$80) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$81) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$82) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$83) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$84) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$85) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$86) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$87) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$88) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$89) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$90) status: 0
+[0825 22:10:29.501][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$91) status: 0
+[0825 22:10:29.502][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$92) status: 0
+[0825 22:10:29.502][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$93) status: 0
+[0825 22:10:29.502][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$94) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$95) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$96) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$97) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$98) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$99) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$100) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$101) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$102) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$103) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$104) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$105) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$106) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$107) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$108) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$109) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$110) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$111) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$112) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$113) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$114) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$115) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$116) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$117) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$118) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$119) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$120) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$121) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$122) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$123) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$124) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$125) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$126) status: 0
+[0825 22:10:29.502][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001177$1$0$127) status: 0
+[0825 22:10:29.502][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.503][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$0) status: 1
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$1) status: 1
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$2) status: 1
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$3) status: 1
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$4) status: 1
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$5) status: 1
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$6) status: 1
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$7) status: 1
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$8) status: 1
+[0825 22:10:29.507][DMSClientMdl.cpp:2620] TID 8916 [DEBUG] DPSdk::DMSClientMdl::OnOptionRequest(): dms report NvrChnl(1001178$1$0$9) status: 1
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[247] m_sequence[299]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.507][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[248] m_sequence[0]
+[0825 22:10:29.515][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[247] m_sequence[300]
+[0825 22:10:29.643][PCSClientMdl.cpp:374] TID 8808 [INFO] DPSdk::PCSClientMdl::ConnectToPcsServer(): CheckTcpConnect ip[10.31.87.17] port[9001]
+[0825 22:10:29.643][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[72] m_sequence[15]
+[0825 22:10:29.643][PDLLDpsdk_fun.cpp:651] TID 8776 [INFO] CPDLLDpsdk::DPSDKCallback(): DPSDK_CMD_GET_RELATIVE_FPT_PATH begin
+[0825 22:10:29.643][PDLLDpsdk_fun.cpp:662] TID 8776 [INFO] CPDLLDpsdk::DPSDKCallback(): DPSDK_CMD_GET_RELATIVE_FPT_PATH end
+[0825 22:10:29.643][PDLLMessageQueue.cpp:5526] TID 8836 [INFO] CPDLLMessageQueue::OnGetFtpPath(): UpdateFtpInfo() begin
+[0825 22:10:29.653][ServerSession.cpp:87] TID 8808 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 4, ip = 10.31.87.17, port = 9001
+[0825 22:10:29.669][PCSClientMdl_for_func.cpp:170] TID 8808 [INFO] DPSdk::PCSClientMdl::OnLoginResponse(): [PSDK] PCSClientMdl::OnLoginResponse(), m_timerHeartBeat->SetTimer, id = 1399, ms=7500
+[0825 22:10:29.669][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[701] m_sequence[0]
+[0825 22:10:31.443][PESClientMdl.cpp:424] TID 8984 [INFO] DPSdk::PESClientMdl::StartReconTimer(): [PSDK] PESClientMdl::StartReconTimer(), m_timerReconnect->SetTimer, id=1401, ms=60000
+[0825 22:10:31.449][PESClientMdl.cpp:414] TID 8984 [INFO] DPSdk::PESClientMdl::StartHBTimer(): [PSDK] PESClientMdl::StartHBTimer(), m_timerHeartBeat->SetTimer, id = 1402, ms=40000
+[0825 22:10:31.649][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[564] m_sequence[306]
+[0825 22:10:31.649][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[564] m_sequence[307]
+[0825 22:10:31.649][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[564] m_sequence[308]
+[0825 22:10:31.649][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[564] m_sequence[309]
+[0825 22:10:32.645][PDLLMessageQueue.cpp:5528] TID 8836 [INFO] CPDLLMessageQueue::OnGetFtpPath(): UpdateFtpInfo() begin
+[0825 22:10:32.958][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[459] m_sequence[310]
+[0825 22:10:32.958][PDLLDpsdk_fun.cpp:597] TID 8776 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[480] m_sequence[311]
+[0825 22:10:32.958][PDLLMessageQueue.cpp:901] TID 8836 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBackAlarm(): [DPSDK_CORE]OnDpsdkCallBackAlarm()alarmtype = 584, strDeviceID = 1001483, nChannel = 0, cameraId = 1001483$1$0$0 alarmID = [{637647C1-A26F-8D44-9315-5F1AE45CDB82}] eventType = [1] time = [1598364633]
+[0825 22:10:32.996][PDLLMessageQueue.cpp:5537] TID 8836 [DEBUG] CPDLLMessageQueue::OnNewAlarmReprot(): [DPSDK_CORE]OnNewAlarmReprot():deviceID[1001483], channelNo[0]
+[0825 22:10:35.415][PDLLDpsdkExt.cpp:233] TID 8308 [INFO] CPDLLDpsdkExt::~CPDLLDpsdkExt(): ~CPDLLDpsdkExt(void) begin
+[0825 22:10:35.415][PDLLDpsdkExt.cpp:238] TID 8308 [INFO] CPDLLDpsdkExt::~CPDLLDpsdkExt(): Clear m_mapSeqToPlayer begin
+[0825 22:10:35.415][PDLLDpsdkExt.cpp:282] TID 8308 [INFO] CPDLLDpsdkExt::~CPDLLDpsdkExt(): Clear m_mapSeqToPlayer end
+[0825 22:10:35.415][PDLLDpsdkExt.cpp:312] TID 8308 [INFO] CPDLLDpsdkExt::~CPDLLDpsdkExt(): Clear m_mapPBCBInfo end
+[0825 22:10:35.415][PDLLDpsdkExt.cpp:326] TID 8308 [INFO] CPDLLDpsdkExt::~CPDLLDpsdkExt(): Clear m_mapPlaybackInfo end
+[0825 22:10:35.415][PDLLDpsdkExt.cpp:341] TID 8308 [INFO] CPDLLDpsdkExt::~CPDLLDpsdkExt(): Clear Encoder_Interface_exit end
+[0825 22:10:35.415][PDLLDpsdkExt.cpp:352] TID 8308 [INFO] CPDLLDpsdkExt::~CPDLLDpsdkExt(): Clear m_mapPlatformRecordInfo end
+[0825 22:10:35.415][PDLLDpsdkExt.cpp:395] TID 8308 [INFO] CPDLLDpsdkExt::~CPDLLDpsdkExt(): ~CPDLLDpsdkExt(void) end

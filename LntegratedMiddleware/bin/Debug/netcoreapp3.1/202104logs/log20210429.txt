@@ -1,0 +1,54 @@
+2021-04-29 18:45:55.581 +08:00 [DBG] Starting TCP and terminal communication
+2021-04-29 18:45:55.756 +08:00 [DBG] TCP start OK!
+2021-04-29 18:45:55.757 +08:00 [DBG] Testing connectivity to database...
+2021-04-29 18:45:55.757 +08:00 [DBG] Starting hik Haikang service
+2021-04-29 18:45:55.907 +08:00 [DBG] ISC / SPCC key initialized successfully.
+2021-04-29 18:45:55.908 +08:00 [DBG] Starting GM service
+2021-04-29 18:45:55.998 +08:00 [DBG] Starting Haikang SPCC MQTT service
+2021-04-29 18:45:56.074 +08:00 [DBG] 缓冲：E82F6B9228642E439358422FB6F8D357  131588
+2021-04-29 18:45:56.074 +08:00 [DBG] 缓冲：C1F7A2BD34C8A84704D80C4DF6E72D93  786434
+2021-04-29 18:45:56.075 +08:00 [DBG] 缓冲：C1F7A2BD34C8A84704D80C4DF6E72D93  786436
+2021-04-29 18:45:56.403 +08:00 [DBG] (PORT=5432;DATABASE=Map5.5;HOST=localhost;PASSWORD=tyaimap;USER ID=postgres)MQTT数据库存储信息报错.3D000: ���ݿ� "Map5.5" ������
+2021-04-29 18:45:56.404 +08:00 [DBG] SPCC初始化提示：数据库报错无法链接，或无表无字段
+2021-04-29 18:45:57.492 +08:00 [INF] 开始
+2021-04-29 18:45:57.493 +08:00 [DBG] 初始化WebSocketServer连接
+2021-04-29 18:45:57.599 +08:00 [DBG] MQTT提示：MQTT链接成功，准备转发中
+2021-04-29 18:45:57.608 +08:00 [DBG] MQTT提示：已订阅[artemis/event_rule/131588/+]主题
+2021-04-29 18:45:57.609 +08:00 [DBG] MQTT提示：已订阅[artemis/event_grid/786434/+]主题
+2021-04-29 18:45:57.609 +08:00 [DBG] MQTT提示：已订阅[artemis/event_grid/786436/+]主题
+2021-04-29 19:16:45.554 +08:00 [DBG] Starting TCP and terminal communication
+2021-04-29 19:16:45.605 +08:00 [DBG] TCP start OK!
+2021-04-29 19:16:45.606 +08:00 [DBG] Testing connectivity to database...
+2021-04-29 19:16:45.606 +08:00 [DBG] Starting hik Haikang service
+2021-04-29 19:16:45.626 +08:00 [DBG] ISC / SPCC key initialized successfully.
+2021-04-29 19:16:45.626 +08:00 [DBG] Starting GM service
+2021-04-29 19:16:45.630 +08:00 [DBG] Starting Haikang SPCC MQTT service
+2021-04-29 19:16:45.642 +08:00 [DBG] 缓冲：E82F6B9228642E439358422FB6F8D357  131588
+2021-04-29 19:16:45.643 +08:00 [DBG] 缓冲：C1F7A2BD34C8A84704D80C4DF6E72D93  786434
+2021-04-29 19:16:45.643 +08:00 [DBG] 缓冲：C1F7A2BD34C8A84704D80C4DF6E72D93  786436
+2021-04-29 19:16:45.739 +08:00 [DBG] (PORT=5432;DATABASE=Map5.5;HOST=localhost;PASSWORD=tyaimap;USER ID=postgres)MQTT数据库存储信息报错.3D000: ���ݿ� "Map5.5" ������
+2021-04-29 19:16:45.740 +08:00 [DBG] SPCC初始化提示：数据库报错无法链接，或无表无字段
+2021-04-29 19:16:45.985 +08:00 [INF] 开始
+2021-04-29 19:16:45.985 +08:00 [DBG] 初始化WebSocketServer连接
+2021-04-29 19:16:46.121 +08:00 [DBG] MQTT提示：MQTT链接成功，准备转发中
+2021-04-29 19:16:46.126 +08:00 [DBG] MQTT提示：已订阅[artemis/event_rule/131588/+]主题
+2021-04-29 19:16:46.126 +08:00 [DBG] MQTT提示：已订阅[artemis/event_grid/786434/+]主题
+2021-04-29 19:16:46.127 +08:00 [DBG] MQTT提示：已订阅[artemis/event_grid/786436/+]主题
+2021-04-29 19:22:10.379 +08:00 [DBG] Starting TCP and terminal communication
+2021-04-29 19:22:10.431 +08:00 [DBG] TCP start OK!
+2021-04-29 19:22:10.433 +08:00 [DBG] Testing connectivity to database...
+2021-04-29 19:22:10.433 +08:00 [DBG] Starting hik Haikang service
+2021-04-29 19:22:10.453 +08:00 [DBG] ISC / SPCC key initialized successfully.
+2021-04-29 19:22:10.454 +08:00 [DBG] Starting GM service
+2021-04-29 19:22:10.458 +08:00 [DBG] Starting Haikang SPCC MQTT service
+2021-04-29 19:22:10.470 +08:00 [DBG] 缓冲：E82F6B9228642E439358422FB6F8D357  131588
+2021-04-29 19:22:10.470 +08:00 [DBG] 缓冲：C1F7A2BD34C8A84704D80C4DF6E72D93  786434
+2021-04-29 19:22:10.470 +08:00 [DBG] 缓冲：C1F7A2BD34C8A84704D80C4DF6E72D93  786436
+2021-04-29 19:22:10.564 +08:00 [DBG] (PORT=5432;DATABASE=Map5.5;HOST=localhost;PASSWORD=tyaimap;USER ID=postgres)MQTT数据库存储信息报错.3D000: ���ݿ� "Map5.5" ������
+2021-04-29 19:22:10.565 +08:00 [DBG] SPCC初始化提示：数据库报错无法链接，或无表无字段
+2021-04-29 19:22:10.799 +08:00 [INF] 开始
+2021-04-29 19:22:10.799 +08:00 [DBG] 初始化WebSocketServer连接
+2021-04-29 19:22:10.940 +08:00 [DBG] MQTT提示：MQTT链接成功，准备转发中
+2021-04-29 19:22:10.946 +08:00 [DBG] MQTT提示：已订阅[artemis/event_rule/131588/+]主题
+2021-04-29 19:22:10.946 +08:00 [DBG] MQTT提示：已订阅[artemis/event_grid/786434/+]主题
+2021-04-29 19:22:10.946 +08:00 [DBG] MQTT提示：已订阅[artemis/event_grid/786436/+]主题

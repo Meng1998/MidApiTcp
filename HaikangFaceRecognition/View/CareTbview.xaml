@@ -1,0 +1,82 @@
+﻿<Window x:Class="DeploymentTools.View.CareTbview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeploymentTools.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"  
+        mc:Ignorable="d"
+        Title="CareTbview" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="343*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="399*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="135*"/>
+            <RowDefinition Height="15*"/>
+        </Grid.RowDefinitions>
+
+        <ProgressBar Name="Probar"
+  Value="25"
+  Height="Auto" IsIndeterminate="True" Margin="0,134,0,187" Grid.ColumnSpan="3" Visibility="Hidden" Background="#FFBDBBC3" Foreground="#FF57565B" BorderBrush="#FFE1DDE8" />
+        <TextBox x:Name="base_Txt" HorizontalAlignment="Left" Height="25" Margin="133,0,0,300" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="205"/>
+        <Label x:Name="label" Content="数据库名：" HorizontalAlignment="Left" Margin="43,0,0,295" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="PC_Txt" HorizontalAlignment="Left" Height="25" Margin="133,0,0,254" TextWrapping="Wrap" Text="localhost" VerticalAlignment="Bottom" Width="205"/>
+        <Label x:Name="label_Copy" Content="主机：" HorizontalAlignment="Left" Margin="43,0,0,249" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="Post_Txt" HorizontalAlignment="Left" Height="25" Margin="133,0,0,192" TextWrapping="Wrap" Text="5432" VerticalAlignment="Bottom" Width="205"/>
+        <Label x:Name="label_Copy1" Content="端口：" HorizontalAlignment="Left" Margin="43,0,0,187" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="User_Txt" HorizontalAlignment="Left" Height="25" Margin="133,0,0,131" TextWrapping="Wrap" Text="postgres" VerticalAlignment="Bottom" Width="205"/>
+        <Label x:Name="label_Copy2" Content="用户名：" HorizontalAlignment="Left" Margin="43,0,0,126" VerticalAlignment="Bottom" RenderTransformOrigin="-4.444,-7.606"/>
+        <TextBox x:Name="Pwd_Txt" HorizontalAlignment="Left" Height="25" Margin="133,0,0,64" TextWrapping="Wrap" Text="" VerticalAlignment="Bottom" Width="205"/>
+        <Label x:Name="label_Copy3" Content="密码：" HorizontalAlignment="Left" Margin="43,0,0,59" VerticalAlignment="Bottom" RenderTransformOrigin="-4.444,-7.606"/>
+
+        <Button x:Name="SubscriptionSelection_Copy"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            materialDesign:ButtonProgressAssist.Value="-1" 
+            materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+            materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+            Content="请稍后。。"
+            Margin="10,0,211.254,10" VerticalAlignment="Bottom" Click="SubscriptionSelection_Click" IsEnabled="True" RenderTransformOrigin="0.087,2.483" Grid.Row="1" />
+        <Button x:Name="SubscriptionSelectionSql"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            materialDesign:ButtonProgressAssist.Value="-1"
+            materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+            materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+            Content="测试连接"
+            Margin="316,0,294,11" VerticalAlignment="Bottom" Click="SubscriptionSelectionSql_Click" IsEnabled="True" RenderTransformOrigin="0.087,2.483" Grid.ColumnSpan="3" Grid.RowSpan="2" />
+        <Button x:Name="SubscriptionSelectionFild"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            materialDesign:ButtonProgressAssist.Value="-1"
+            
+            Content="选择文件夹"
+            Margin="277,0,10,340" VerticalAlignment="Bottom" Click="SubscriptionSelectionFild_Click" IsEnabled="True" RenderTransformOrigin="0.087,2.483" Grid.Column="2" Height="27" />
+        <Border Grid.ColumnSpan="2"/>
+        <TreeView x:Name="treeView" Margin="1,30,-1,32" Grid.Column="2" >
+
+
+        </TreeView>
+
+
+
+        <Button x:Name="SubscriptionSelectionSqlCome"
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            materialDesign:ButtonProgressAssist.Value="-1" 
+            Content="数据入库"
+            Margin="261,0,13,11" VerticalAlignment="Bottom"   IsEnabled="True" RenderTransformOrigin="0.087,2.483" Grid.Column="2" Click="SubscriptionSelectionSqlCome_Click" Grid.RowSpan="2" />
+
+
+
+
+        <Button x:Name="SubscriptionSelection" 
+            Style="{StaticResource MaterialDesignRaisedButton}"
+            materialDesign:ButtonProgressAssist.Value="-1" 
+            Content="创建"
+            Margin="10,0,211.254,10" VerticalAlignment="Bottom" Click="SubscriptionSelection_Click" IsEnabled="True" RenderTransformOrigin="0.087,2.483" Grid.Row="1" />
+        <!--<ComboBox Name="com_box" Grid.Column="1" HorizontalAlignment="Left" IsEditable="True" Margin="269,5,0,0" Grid.Row="1" VerticalAlignment="Top" Width="120"/>-->
+        <Button Content="替换" HorizontalAlignment="Left" Margin="121,0,0,11" VerticalAlignment="Bottom" Width="126" Click="Button_Click_1" Grid.Column="2" Grid.RowSpan="2"/>
+
+    </Grid>
+</Window>

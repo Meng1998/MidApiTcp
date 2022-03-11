@@ -1,0 +1,9 @@
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\D\bin\Release\netstandard2.0\D.deps.json
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\D\bin\Release\netstandard2.0\D.dll
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\D\bin\Release\netstandard2.0\D.pdb
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\D\obj\Release\netstandard2.0\D.csprojAssemblyReference.cache
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\D\obj\Release\netstandard2.0\D.AssemblyInfoInputs.cache
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\D\obj\Release\netstandard2.0\D.AssemblyInfo.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\D\obj\Release\netstandard2.0\D.csproj.CoreCompileInputs.cache
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\D\obj\Release\netstandard2.0\D.dll
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\D\obj\Release\netstandard2.0\D.pdb

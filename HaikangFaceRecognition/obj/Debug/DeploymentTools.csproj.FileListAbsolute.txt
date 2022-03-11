@@ -1,0 +1,728 @@
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe.config
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.pdb
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\EPPlus.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Fluent.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\linq2db.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Newtonsoft.Json.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Npgsql.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\RestSharp.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Buffers.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.dll.config
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Memory.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.ValueTuple.xml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csprojAssemblyReference.cache
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.ResolveComReference.cache
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeForm.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_Content.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.cache
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.lref
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.g.resources
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.Properties.Resources.resources
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.GenerateResource.cache
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CoreCompileInputs.cache
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.Fody.CopyLocal.cache
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CopyComplete
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.pdb
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe.config
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe.config
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.pdb
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\EPPlus.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Fluent.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\linq2db.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Npgsql.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\RestSharp.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.ValueTuple.xml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csprojAssemblyReference.cache
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe.config
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.ResolveComReference.cache
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeForm.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_Content.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.cache
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.lref
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.baml
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.g.resources
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.Properties.Resources.resources
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CopyComplete
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe
+C:\Users\Administrator\Downloads\新建文件夹\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.pdb
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe.config
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.pdb
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\EPPlus.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Fluent.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\linq2db.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Npgsql.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\RestSharp.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Buffers.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Memory.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.ValueTuple.xml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csprojAssemblyReference.cache
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe.config
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.ResolveComReference.cache
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeForm.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_Content.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.cache
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.lref
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.baml
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.g.resources
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.Properties.Resources.resources
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.GenerateResource.cache
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.Fody.CopyLocal.cache
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CopyComplete
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe
+C:\Users\Administrator\Downloads\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.pdb
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe.config
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.pdb
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\EPPlus.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Fluent.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\linq2db.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Npgsql.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\RestSharp.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Buffers.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Memory.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.ValueTuple.xml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csprojAssemblyReference.cache
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe.config
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.ResolveComReference.cache
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeForm.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_Content.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.cache
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.lref
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.baml
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.g.resources
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.Properties.Resources.resources
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.GenerateResource.cache
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CoreCompileInputs.cache
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.Fody.CopyLocal.cache
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CopyComplete
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.pdb
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousEmergencyAlarm.g.cs
+C:\Users\PC2020\Desktop\LntegratedMiddlewares - 复件(1)\LntegratedMiddlewares\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousEmergencyAlarm.baml
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousEmergencyAlarm.g.cs
+D:\gongju\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousEmergencyAlarm.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe.config
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.pdb
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\EPPlus.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Fluent.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\linq2db.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Newtonsoft.Json.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Npgsql.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\RestSharp.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Buffers.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.dll.config
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Memory.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.ValueTuple.xml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csprojAssemblyReference.cache
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe.config
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.ResolveComReference.cache
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeForm.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_Content.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.cache
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.lref
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.g.resources
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.Properties.Resources.resources
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.GenerateResource.cache
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CoreCompileInputs.cache
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.Fody.CopyLocal.cache
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CopyComplete
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.pdb
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.baml
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SPD.g.cs
+D:\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SPD.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csprojAssemblyReference.cache
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe.config
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\Interop.IWshRuntimeLibrary.dll
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.ResolveComReference.cache
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeForm.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_Content.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.cache
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.lref
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.pdb
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe.config
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.pdb
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\EPPlus.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Fluent.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\linq2db.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Newtonsoft.Json.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Npgsql.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\RestSharp.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Buffers.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.dll.config
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Memory.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.ValueTuple.xml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.baml
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.g.resources
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.Properties.Resources.resources
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.GenerateResource.cache
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CoreCompileInputs.cache
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.Fody.CopyLocal.cache
+E:\GitBlit\CSHARP\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CopyComplete
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe.config
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.pdb
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\EPPlus.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Fluent.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\linq2db.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Npgsql.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\RestSharp.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Buffers.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Memory.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.ValueTuple.xml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csprojAssemblyReference.cache
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe.config
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.ResolveComReference.cache
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeForm.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_Content.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.cache
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.lref
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.baml
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.g.resources
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.Properties.Resources.resources
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.GenerateResource.cache
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CoreCompileInputs.cache
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.Fody.CopyLocal.cache
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CopyComplete
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe
+C:\Users\PC2020\Desktop\汉中\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.pdb
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe.config
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.pdb
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\EPPlus.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Fluent.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\linq2db.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Newtonsoft.Json.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Npgsql.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\RestSharp.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Buffers.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Memory.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.ValueTuple.xml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.ResolveComReference.cache
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeForm.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_Content.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.cache
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.lref
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.baml
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.g.resources
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.Properties.Resources.resources
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.GenerateResource.cache
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CoreCompileInputs.cache
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.Fody.CopyLocal.cache
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CopyComplete
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.pdb
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.AssemblyReference.cache
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe.config
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe.config
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.exe
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\DeploymentTools.pdb
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\EPPlus.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Fluent.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\linq2db.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Newtonsoft.Json.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\Npgsql.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\RestSharp.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Buffers.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Data.SQLite.dll.config
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Memory.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\bin\Debug\System.ValueTuple.xml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csprojAssemblyReference.cache
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe.config
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\Interop.IWshRuntimeLibrary.dll
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.ResolveComReference.cache
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeForm.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_Content.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.cache
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools_MarkupCompile.lref
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\App.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\MainWindow.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\DaHua.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\fangqu.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\parkList.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ZoneSynchronization.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\AccessControlUpload.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\BottomColumn.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\CareTbview.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EquipmentConfig.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\EventSubscriptions.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\FaceDataFrom.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\InformationTips.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\KeyAuthorization.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\LnstallWEBAPI.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\ServiceRunningStatus.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Sidebar.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Synchronization.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousSensor.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\SynchronousTalkback.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TopBar.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\TreeConfig.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\UpdateDeviceName.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\View\Vehicle.baml
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.g.resources
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.Properties.Resources.resources
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.GenerateResource.cache
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CoreCompileInputs.cache
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.Fody.CopyLocal.cache
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.csproj.CopyComplete
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.exe
+D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\HaikangFaceRecognition\obj\Debug\DeploymentTools.pdb

@@ -1,0 +1,112 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeploymentTools.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="DeploymentTools.View.ServiceRunningStatus"
+        mc:Ignorable="d"
+        Title="ServiceRunningStatus" Height="507" Width="800">
+    <Grid>
+        <materialDesign:Card
+  Background="#FFE4E4E4" Margin="60,40,47,54">
+            <StackPanel x:Name="Stack" Background="#FFE4E4E4">
+                <Expander
+                    HorizontalAlignment="Stretch"
+                    Header="3D地图WEB服务器" Background="#FFE4E4E4" Margin="0,0,0.4,0">
+                    <StackPanel
+                        Orientation="Vertical"
+                        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                        Margin="24,8,24,16">
+                        <TextBlock
+                            Text="设置当前服务状态" />
+                        <Grid
+                            Width="124">
+                            <Button x:Name="NGINXBUT"
+                                Style="{StaticResource MaterialDesignRaisedButton}"
+                                materialDesign:ButtonProgressAssist.Value="-1"
+                                materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                                materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+                                Content="当前运行状态(正常)"
+                                Margin="-255,4,-251,-4" Background="#CC00FF8B" BorderBrush="{x:Null}" Foreground="#DDFFFFFF" Click="NGINXBUT_Click" />
+                        </Grid>
+                    </StackPanel>
+                </Expander>
+                <Expander
+      HorizontalAlignment="Stretch"
+      Header="3D地图对外接口" Background="#FFE4E4E4" Margin="0,0,0.4,0">
+                    <StackPanel
+        Orientation="Vertical"
+        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+        Margin="24,8,24,16">
+                        <TextBlock
+          Text="设置当前服务状态" />
+                        <Grid
+  Width="124">
+                            <Button x:Name="WEBAPIBUT"
+    Style="{StaticResource MaterialDesignRaisedButton}"
+    materialDesign:ButtonProgressAssist.Value="-1"
+    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+    materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+    Content="当前运行状态(正常)"
+    Margin="-255,4,-251,-4" Background="#FFFF3333" BorderBrush="{x:Null}" Foreground="#DDFFFFFF" Click="WEBAPIBUT_Click" />
+                        </Grid>
+                    </StackPanel>
+                </Expander>
+                <Expander
+      HorizontalAlignment="Stretch"
+      Header="地图中间件集成" Background="#FFE4E4E4">
+                    <StackPanel
+        Orientation="Vertical"
+        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+        Margin="24,8,24,16">
+                        <TextBlock
+          Text="设置当前服务状态" />
+                        <Grid
+  Width="124">
+                            <Button x:Name="LntegratedMiddlewareBUT"
+    Style="{StaticResource MaterialDesignRaisedButton}"
+    materialDesign:ButtonProgressAssist.Value="-1"
+    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+    materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+    Content="当前运行状态(正常)"
+    Margin="-255,4,-251,-4" Background="#CC00FF8B" BorderBrush="{x:Null}" Foreground="#DDFFFFFF" Click="LntegratedMiddlewareBUT_Click" />
+                        </Grid>
+                    </StackPanel>
+                </Expander>
+                <Border
+      Background="#FFE4E4E4"
+      Height="1"
+      HorizontalAlignment="Stretch"
+      SnapsToDevicePixels="True" />
+
+                <Border
+      Background="#FFE4E4E4"
+      Height="1"
+      HorizontalAlignment="Stretch"
+      SnapsToDevicePixels="True" />
+                <Expander
+                    HorizontalAlignment="Stretch"
+                    Header="数据操作API" Background="#FFE4E4E4">
+                    <StackPanel
+                        Orientation="Vertical"
+                        TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+                        Margin="24,8,24,16">
+                        <TextBlock
+                            Text="设置当前服务状态" />
+                        <Grid
+                            Width="124">
+                            <Button x:Name="DatabaseAPI"
+                                Style="{StaticResource MaterialDesignRaisedButton}"
+                                materialDesign:ButtonProgressAssist.Value="-1"
+                                materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                                materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+                                Content="当前运行状态(正常)"
+                                Margin="-255,4,-251,-4" Background="#FFFF3333" BorderBrush="{x:Null}" Foreground="#DDFFFFFF" Click="DatabaseAPI_Click"  />
+                        </Grid>
+                    </StackPanel>
+                </Expander>
+            </StackPanel>
+        </materialDesign:Card>
+    </Grid>
+</Window>

@@ -1,0 +1,428 @@
+{
+  "data": [
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450008",
+      "remark": "看守所2楼汇聚点北1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450009",
+      "remark": "1监区二楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450010",
+      "remark": "1监区二楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450011",
+      "remark": "1监区二楼巡视道4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450012",
+      "remark": "1监区二楼巡视道5手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450013",
+      "remark": "1监区二楼巡视道6手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450014",
+      "remark": "1监区二楼巡视道8手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450015",
+      "remark": "二楼主过道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450016",
+      "remark": "二楼女子巡控室手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450017",
+      "remark": "6监区二楼巡视道6手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450018",
+      "remark": "1监区二楼巡视道7手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450019",
+      "remark": "6监区二楼巡视道5手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450020",
+      "remark": "6监区二楼巡视道4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450021",
+      "remark": "6监区二楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450022",
+      "remark": "6监区二楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450023",
+      "remark": "6监区二楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450024",
+      "remark": "一楼主过道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450025",
+      "remark": "一楼谈话室2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450026",
+      "remark": "1监区一楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450027",
+      "remark": "未知1"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450028",
+      "remark": "1监区一楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450029",
+      "remark": "一楼谈话室1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450030",
+      "remark": "6监区一楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450031",
+      "remark": "6监区一楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450032",
+      "remark": "6监区一楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450033",
+      "remark": "6监区二楼放风场2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450034",
+      "remark": "1监区二楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450035",
+      "remark": "1监区二楼放风场1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450036",
+      "remark": "1监区二楼放风场2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450037",
+      "remark": "1监区二楼放风场3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450038",
+      "remark": "6监区二楼放风场1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450039",
+      "remark": "6监区二楼放风场3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450040",
+      "remark": "3监区二楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450041",
+      "remark": "3监区二楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450042",
+      "remark": "3监区二楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450043",
+      "remark": "3监区二楼巡视道4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450044",
+      "remark": "3监区二楼巡视道5手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450045",
+      "remark": "3监区二楼巡视道6手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450046",
+      "remark": "3监区二楼巡视道7手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450047",
+      "remark": "3监区二楼巡视道8手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450048",
+      "remark": "二楼主过道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450049",
+      "remark": "2监区二楼巡视道6手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450050",
+      "remark": "2监区二楼巡视道5手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450051",
+      "remark": "2监区二楼巡视道4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450052",
+      "remark": "2监区二楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450053",
+      "remark": "2监区二楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450054",
+      "remark": "2监区二楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450055",
+      "remark": "一楼谈话室3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450056",
+      "remark": "未知2"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450057",
+      "remark": "一楼心理咨询室手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450058",
+      "remark": "3监区一楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450059",
+      "remark": "3监区一楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450060",
+      "remark": "3监区一楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450061",
+      "remark": "3监区一楼巡视道4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450062",
+      "remark": "2监区一楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450063",
+      "remark": "2监区一楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450064",
+      "remark": "2监区一楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450065",
+      "remark": "未知3"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450066",
+      "remark": "未知4"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450067",
+      "remark": "一楼备勤室3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450068",
+      "remark": "一楼主过道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450069",
+      "remark": "3监区二楼放风场2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450070",
+      "remark": "3监区二楼放风场4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450071",
+      "remark": "3监区二楼放风场3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450072",
+      "remark": "3监区二楼放风场1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450073",
+      "remark": "2监区二楼放风场1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450074",
+      "remark": "2监区二楼放风场2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450075",
+      "remark": "2监区二楼放风场3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450076",
+      "remark": "未知5"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450077",
+      "remark": "5监区二楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450078",
+      "remark": "5监区二楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450079",
+      "remark": "5监区二楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450080",
+      "remark": "5监区二楼巡视道4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450081",
+      "remark": "5监区二楼巡视道5手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450082",
+      "remark": "5监区二楼巡视道6手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450083",
+      "remark": "5监区二楼巡视道7手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450084",
+      "remark": "5监区二楼巡视道8手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450085",
+      "remark": "二楼主过道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450086",
+      "remark": "4监区二楼巡视道6手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450087",
+      "remark": "4监区二楼巡视道5手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450088",
+      "remark": "4监区二楼巡视道4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450089",
+      "remark": "4监区二楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450090",
+      "remark": "4监区二楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450091",
+      "remark": "4监区二楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450092",
+      "remark": "4监区一楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450093",
+      "remark": "4监区一楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450094",
+      "remark": "4监区一楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450095",
+      "remark": "5监区一楼巡视道1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450096",
+      "remark": "5监区一楼巡视道2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450097",
+      "remark": "5监区一楼巡视道3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450098",
+      "remark": "5监区一楼巡视道4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450099",
+      "remark": "一楼医护备勤室1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450100",
+      "remark": "未知6"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450101",
+      "remark": "一楼谈话室6手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450102",
+      "remark": "一楼谈话室5手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450103",
+      "remark": "一楼谈话室7手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450104",
+      "remark": "未知7"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450105",
+      "remark": "5监区二楼放风场3手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450106",
+      "remark": "5监区二楼放风场4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450107",
+      "remark": "一楼医务室1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450108",
+      "remark": "5监区二楼放风场1手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450109",
+      "remark": "5监区二楼放风场2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450110",
+      "remark": "4监区二楼放风场4手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450111",
+      "remark": "4监区二楼放风场2手报"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450112",
+      "remark": "未知8"
+    },
+    {
+      "pointinfoid": "b5702b8a7d998a5c017d9dfb34450113",
+      "remark": "一楼主过道3手报"
+    }
+  ]
+}

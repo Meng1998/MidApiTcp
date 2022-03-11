@@ -1,0 +1,15 @@
+2022-01-25 00:31:50.487 +08:00 [DBG] 软件重启D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\LntegratedMiddleware\bin\x86\Debug\netcoreapp3.1\LntegratedMiddleware.exe
+2022-01-25 00:31:50.636 +08:00 [DBG] Starting TCP and terminal communication
+2022-01-25 00:31:50.692 +08:00 [DBG] TCP start OK!
+2022-01-25 02:31:50.644 +08:00 [DBG] 软件重启D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\LntegratedMiddleware\bin\x86\Debug\netcoreapp3.1\LntegratedMiddleware.exe
+2022-01-25 02:31:50.791 +08:00 [DBG] Starting TCP and terminal communication
+2022-01-25 02:31:50.846 +08:00 [DBG] TCP start OK!
+2022-01-25 04:31:50.800 +08:00 [DBG] 软件重启D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\LntegratedMiddleware\bin\x86\Debug\netcoreapp3.1\LntegratedMiddleware.exe
+2022-01-25 04:31:50.955 +08:00 [DBG] Starting TCP and terminal communication
+2022-01-25 04:31:51.010 +08:00 [DBG] TCP start OK!
+2022-01-25 06:31:50.968 +08:00 [DBG] 软件重启D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\LntegratedMiddleware\bin\x86\Debug\netcoreapp3.1\LntegratedMiddleware.exe
+2022-01-25 06:31:51.118 +08:00 [DBG] Starting TCP and terminal communication
+2022-01-25 06:31:51.174 +08:00 [DBG] TCP start OK!
+2022-01-25 08:31:51.127 +08:00 [DBG] 软件重启D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\LntegratedMiddleware\bin\x86\Debug\netcoreapp3.1\LntegratedMiddleware.exe
+2022-01-25 08:31:51.276 +08:00 [DBG] Starting TCP and terminal communication
+2022-01-25 08:31:51.332 +08:00 [DBG] TCP start OK!

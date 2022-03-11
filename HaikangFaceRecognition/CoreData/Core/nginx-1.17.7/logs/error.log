@@ -1,0 +1,76 @@
+2020/01/09 16:57:20 [emerg] 13148#12180: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/01/09 16:58:08 [emerg] 2548#12596: bind() to 0.0.0.0:80 failed (10013: An attempt was made to access a socket in a way forbidden by its access permissions)
+2020/01/09 17:07:06 [emerg] 10308#1620: CreateFile() "D:\AI_Map\nginx-1.17.7/dotnet" failed (2: The system cannot find the file specified)
+2020/01/09 17:07:21 [emerg] 10492#13256: CreateFile() "D:\AI_Map\nginx-1.17.7/dotnet" failed (2: The system cannot find the file specified)
+2020/01/09 17:07:37 [emerg] 2076#13256: CreateFile() "D:\AI_Map\nginx-1.17.7/mime.types" failed (2: The system cannot find the file specified) in D:\AI_Map\nginx-1.17.7/dotnet.conf:18
+2020/01/09 17:08:47 [emerg] 14188#14192: "server" directive is not allowed here in D:\AI_Map\nginx-1.17.7/conf/nginx.conf:1
+2020/01/09 17:09:35 [notice] 13608#13756: signal process started
+2020/01/09 17:09:35 [error] 13608#13756: invalid PID number "" in "D:\AI_Map\nginx-1.17.7/logs/nginx.pid"
+2020/01/09 17:10:22 [emerg] 13972#14112: CreateFile() "D:/usr/local/nginx/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2020/01/09 17:10:45 [emerg] 13736#13684: CreateFile() "D:/conf/nginx.conf" failed (3: The system cannot find the path specified)
+2020/01/09 17:11:50 [error] 13748#13764: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://[::1]:5000/", host: "127.0.0.1:8089"
+2020/01/09 17:11:51 [error] 13748#13764: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5000/", host: "127.0.0.1:8089"
+2020/01/09 17:11:51 [error] 13748#13764: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://localhost/favicon.ico", host: "127.0.0.1:8089", referrer: "http://127.0.0.1:8089/"
+2020/01/09 17:18:21 [notice] 15048#3784: signal process started
+2020/01/09 17:19:08 [notice] 3232#13160: signal process started
+2020/01/09 17:20:24 [notice] 14752#12216: signal process started
+2020/01/09 17:22:17 [notice] 15100#15096: signal process started
+2020/01/09 17:22:35 [error] 13376#13984: *1 CreateFile() "D:\AI_Map\nginx-1.17.7/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1:8089/"
+2020/01/09 17:23:45 [error] 13376#13984: *1 CreateFile() "D:\AI_Map\nginx-1.17.7/html/swagger/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /swagger/index.html HTTP/1.1", host: "127.0.0.1:8089"
+2020/01/09 17:30:04 [error] 13376#13984: *29 CreateFile() "D:\AI_Map\nginx-1.17.7/html/swagger/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /swagger/index.html HTTP/1.1", host: "127.0.0.1:8089"
+2020/01/09 17:30:54 [error] 13376#13984: *42 CreateFile() "D:\AI_Map\nginx-1.17.7/html/favicon.ico" failed (2: The system cannot find the file specified), client: 34.128.56.129, server: , request: "GET /favicon.ico HTTP/1.1", host: "34.203.79.102:8089"
+2020/01/09 17:31:59 [notice] 14928#13640: signal process started
+2020/01/09 17:38:37 [emerg] 13808#4184: "location" directive is not allowed here in D:\AI_Map\nginx-1.17.7/conf/nginx.conf:47
+2020/01/09 17:38:50 [notice] 15196#14292: signal process started
+2020/01/09 17:40:06 [notice] 13640#14928: signal process started
+2020/01/09 17:40:27 [notice] 3280#14780: signal process started
+2020/01/09 17:40:27 [error] 3280#14780: CreateFile() "D:\AI_Map\nginx-1.17.7/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/01/09 17:41:58 [error] 14728#13280: *1 CreateFile() "D:\AI_Map\nginx-1.17.7/html/swagger/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /swagger/index.html HTTP/1.1", host: "127.0.0.1:8089"
+2020/01/09 17:43:35 [notice] 3236#12724: signal process started
+2020/01/09 17:43:46 [error] 14504#15312: *1 CreateFile() "D:\AI_Map\nginx-1.17.7/html/swagger/index.html" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /swagger/index.html HTTP/1.1", host: "127.0.0.1:8089"
+2020/01/09 17:45:19 [notice] 11924#14612: signal process started
+2020/01/09 17:53:54 [error] 12100#12828: *13 CreateFile() "D:\AI_Map\nginx-1.17.7/html/YS/GetAreaList" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /YS/GetAreaList HTTP/1.1", host: "127.0.0.1:8089"
+2020/01/09 18:07:06 [error] 14016#10584: *1 CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8089", referrer: "http://127.0.0.1:8089/"
+2020/01/09 18:08:00 [error] 14016#10584: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /Core HTTP/1.1", upstream: "http://127.0.0.1:5010/Core", host: "127.0.0.1:8089"
+2020/01/09 18:08:01 [error] 14016#10584: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /Core HTTP/1.1", upstream: "http://[::1]:5010/Core", host: "127.0.0.1:8089"
+2020/01/09 18:08:22 [error] 14016#10584: *1 CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/html/swagger" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /swagger HTTP/1.1", host: "127.0.0.1:8089"
+2020/01/09 18:08:59 [error] 14016#10584: *1 CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/html/swagger/v2/swagger.json" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /swagger/v2/swagger.json HTTP/1.1", host: "127.0.0.1:8089"
+2020/01/09 18:14:55 [notice] 264#5812: signal process started
+2020/01/09 18:19:14 [notice] 16992#15608: signal process started
+2020/01/09 18:19:47 [error] 15356#14676: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /API HTTP/1.1", upstream: "http://[::1]:5000/API", host: "127.0.0.1:8089"
+2020/01/09 18:19:48 [error] 15356#14676: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /API HTTP/1.1", upstream: "http://127.0.0.1:5000/API", host: "127.0.0.1:8089"
+2020/01/09 18:20:24 [notice] 16960#12916: signal process started
+2020/01/09 18:24:23 [notice] 10816#11388: signal process started
+2020/01/09 18:24:38 [error] 20076#17228: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /API HTTP/1.1", upstream: "http://[::1]:5000/API", host: "127.0.0.1:8089"
+2020/01/09 18:24:39 [error] 20076#17228: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /API HTTP/1.1", upstream: "http://127.0.0.1:5000/API", host: "127.0.0.1:8089"
+2020/01/09 18:24:55 [notice] 18704#18708: signal process started
+2020/01/09 18:25:22 [error] 19804#19532: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /API HTTP/1.1", upstream: "http://[::1]:5000/API", host: "127.0.0.1:8089"
+2020/01/09 18:25:23 [error] 19804#19532: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: , request: "GET /API HTTP/1.1", upstream: "http://127.0.0.1:5000/API", host: "127.0.0.1:8089"
+2020/01/09 18:25:51 [notice] 17928#11460: signal process started
+2020/01/09 18:26:56 [notice] 14216#14368: signal process started
+2020/01/09 18:27:45 [emerg] 18688#19856: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/conf/nginx.conf:38
+2020/01/09 18:27:59 [notice] 16188#18276: signal process started
+2020/01/09 18:27:59 [error] 16188#18276: CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/01/09 18:28:11 [notice] 15572#19732: signal process started
+2020/01/09 18:28:11 [error] 15572#19732: CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/01/09 18:28:24 [notice] 16856#12084: signal process started
+2020/01/09 18:28:24 [error] 16856#12084: CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/01/09 18:28:53 [emerg] 20432#15824: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/conf/nginx.conf:38
+2020/01/09 18:29:12 [emerg] 13148#16288: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/conf/nginx.conf:38
+2020/01/09 18:30:13 [notice] 18800#16256: signal process started
+2020/01/09 18:30:13 [error] 18800#16256: CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2020/01/09 18:30:26 [notice] 20040#18644: signal process started
+2020/01/09 18:30:37 [emerg] 15424#19432: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/conf/nginx.conf:38
+2020/01/09 18:31:58 [emerg] 21088#21092: "proxy_pass" cannot have URI part in location given by regular expression, or inside named location, or inside "if" statement, or inside "limit_except" block in C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/conf/nginx.conf:38
+2020/01/09 18:38:17 [error] 20772#17636: *19 CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/html/swagger/swagger-ui.css" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /swagger/swagger-ui.css HTTP/1.1", host: "127.0.0.1:8089"
+2020/01/09 18:38:58 [notice] 21304#20544: signal process started
+2020/01/09 18:41:12 [notice] 20936#1600: signal process started
+2020/01/09 18:42:52 [notice] 13936#11416: signal process started
+2020/01/09 18:43:15 [error] 11364#20320: *2 CreateFile() "C:/html/Map" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: , request: "GET /Map HTTP/1.1", host: "127.0.0.1:8080"
+2020/01/09 18:43:49 [notice] 14544#17676: signal process started
+2020/01/13 16:03:14 [emerg] 33584#22040: CreateFile() "C:/nginx.conf" failed (2: The system cannot find the file specified)
+2020/01/13 16:03:24 [emerg] 32652#21252: CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/nginx.conf" failed (2: The system cannot find the file specified)
+2020/01/13 16:03:43 [emerg] 33692#16636: CreateFile() "C:\Users\Administrator\source\repos\MapVision5.0\NodeAPI\WEBAPI\bins\Debug\netcoreapp3.0\nginx-1.17.7/confg/nginx.conf" failed (3: The system cannot find the path specified)
+2020/01/13 16:10:13 [notice] 32620#34276: signal process started
+2020/04/10 15:56:08 [emerg] 16932#19620: CreateFile() "C:\Users\Administrator\Desktop\test\部署核心\Core\nginx-1.17.7/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)
+2020/04/10 15:56:17 [emerg] 17756#18908: CreateFile() "C:\Users\Administrator\Desktop\test\部署核心\Core\nginx-1.17.7/conf/nginx.conf" failed (1113: No mapping for the Unicode character exists in the target multi-byte code page)

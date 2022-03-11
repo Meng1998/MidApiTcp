@@ -1,0 +1,70 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeploymentTools.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="DeploymentTools.View.DaHua_Login"
+        mc:Ignorable="d"
+        Title="DaHua_Login" Height="450" Width="800">
+    <Grid>
+
+        <materialDesign:Card
+            materialDesign:ShadowAssist.ShadowDepth="Depth2"
+            Padding="32" Margin="6,10,8,137" VerticalAlignment="Stretch"  />
+        <Grid Margin="420,0,225,-2">
+            <Button x:Name="bt"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                materialDesign:ButtonProgressAssist.Value="-1"
+                materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+                Content="测试选中网关"
+                Margin="-308,0,312,53" VerticalAlignment="Bottom" Click="bt_Click"  />
+            <Button x:Name="bt_Copy"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                materialDesign:ButtonProgressAssist.Value="-1"
+                materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                materialDesign:ButtonProgressAssist.IsIndeterminate="True"
+                Content="获取摄像头信息"
+                Margin="33,0,-29,53" VerticalAlignment="Bottom" Click="bt_Copy_Click"  />
+        </Grid>
+        <DataGrid x:Name="EventListData"
+        Margin="10,15,8,142"
+        CanUserSortColumns="True"
+        CanUserAddRows="False"
+        AutoGenerateColumns="False"
+        materialDesign:DataGridAssist.CellPadding="13 8 8 8"
+        materialDesign:DataGridAssist.ColumnHeaderPadding="8" HorizontalGridLinesBrush="{x:Null}" Background="White"  >
+            <DataGrid.Columns>
+                <materialDesign:DataGridTextColumn Width="*"
+                Binding="{Binding NmaeStr}"
+                Header="名称"
+                EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+                <materialDesign:DataGridTextColumn Width="*"
+                Binding="{Binding KeyIP}"
+                Header="IP"
+                EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+                <materialDesign:DataGridTextColumn Width="100"
+                Binding="{Binding KeyPort}"
+                Header="Port"
+                EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+                <materialDesign:DataGridTextColumn Width="*"
+                Binding="{Binding KeyUserName}"
+                Header="UserName"
+                EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+                <materialDesign:DataGridTextColumn Width="*"
+                Binding="{Binding KeyappPassWord}"
+                Header="PassWord"
+                EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Margin="245,-1,400,-1"/>
+        <Grid Margin="593,0,52,-2"/>
+
+    </Grid>
+</Window>

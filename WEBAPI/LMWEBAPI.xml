@@ -1,0 +1,1586 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LMWEBAPI</name>
+    </assembly>
+    <members>
+        <member name="T:LMWEBAPI.Controllers.bengbu">
+            <summary>
+            蚌埠
+            </summary>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.bengbu.login(LMWEBAPI.Controllers.User)">
+            <summary>
+            登录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.bengbu.getRegionStat(LMWEBAPI.Controllers.getRegionStat)">
+            <summary>
+            getRegionStat
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.bengbu.getToken(LMWEBAPI.Controllers.getToken)">
+            <summary>
+            getToken
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.bengbu.getToken(LMWEBAPI.Controllers.getPoliceCountByDistrict)">
+            <summary>
+            getPoliceCountByDistrict
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.bengbu.getPoliceById(LMWEBAPI.Controllers.getPoliceById)">
+            <summary>
+            getPoliceCountByDistrict
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQAlarmData(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            报警接收
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQAlarmDataCS(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            报警接收测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQOpendoor(WEBAPI.M.FrontEndReception.DHdoor)">
+            <summary>
+            门禁控制-开
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQClosedoor(WEBAPI.M.FrontEndReception.DHdoor)">
+            <summary>
+            门禁控制-关
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQStatedoor(WEBAPI.M.FrontEndReception.DHdoorstate)">
+            <summary>
+            门禁状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQRecorddoor(WEBAPI.M.FrontEndReception.DHdoorrecord)">
+            <summary>
+            门禁记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQPassing(WEBAPI.M.FrontEndReception.DHPassing)">
+            <summary>
+            卡点过车记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQFacerecording(WEBAPI.M.FrontEndReception.DHFace)">
+            <summary>
+            人脸轨迹查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQspeedAlarm(WEBAPI.M.FrontEndReception.speeding)">
+            <summary>
+            超速报警
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.CQLJ.CQdeviceList">
+            <summary>
+            卡口设备查询
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:LMWEBAPI.Controllers.DH">
+            <summary>
+            大华
+            </summary>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.DH.EGTTotal(WEBAPI.M.FrontEndReception.DHTotal)">
+            <summary>
+            大华获取相机客流量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.GuangTuo.RequestMe(System.Object)">
+            <summary>
+            对外请求接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.GuangTuo.WithDrawDefense(WEBAPI.M.FrontEndReception.Ctrl)">
+             <summary>
+            撤布防
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.GuangTuo.GuangTuoState(System.Object)">
+             <summary>
+            广拓设备状态
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.TongWei.TWVehicle(WEBAPI.M.FrontEndReception.Faceattributes)">
+            <summary>
+            车辆轨迹
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.TongWei.Snapshot(WEBAPI.M.FrontEndReception.Snapshot)">
+            <summary>
+            抓拍库以图搜图
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.TongWei.TWFaceattributes(WEBAPI.M.FrontEndReception.Vehiclerecords)">
+            <summary>
+            抓拍库人脸属性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.TongWei.TWAlarmList(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            报警接受事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Controllers.TongWei.TWSnapList(Newtonsoft.Json.Linq.JObject)">
+            <summary>
+            实时抓拍接受事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.C.Hik.operationKey.GetKeyHttpPostRaw(System.String,LMWEBAPI.M.SecretKey,Newtonsoft.Json.Linq.JToken,System.Boolean@,System.Int32)">
+            <summary>
+            对key操作
+            </summary>
+            <param name="Url"></param>
+            <param name="key"></param>
+            <param name="Parameter"></param>
+            <param name="error"></param>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.C.Hik.operationKey.ToGMTString(System.DateTime)">
+            <summary>  
+            本地时间转成GMT时间  
+            </summary>  
+        </member>
+        <member name="M:LMWEBAPI.Encryption.Encryption.CreateToken(System.String,System.String)">
+            <summary>
+            HMACSHA256 =》 Base64
+            </summary>
+            <param name="message">内容</param>
+            <param name="secret">秘钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Encryption.Encryption.InitRestart">
+            <summary>
+            设置程序重启
+            </summary>
+        </member>
+        <member name="M:LMWEBAPI.Encryption.Encryption.Restart(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            重启自己
+            </summary>
+        </member>
+        <member name="M:LMWEBAPI.Encryption.Encryption.CreateBase64(System.String)">
+            <summary>
+            Base64
+            </summary>
+            <param name="message">内容</param>
+            <returns></returns>
+        </member>
+        <member name="M:LMWEBAPI.Encryption.Encryption.MD5Encrypt(System.String)">
+            <summary>
+            用MD5加密字符串
+            </summary>
+            <param name="password">待加密的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="T:WEBAPI.Controllers.ISC">
+            <summary>
+            ISC平台操作类
+            </summary>
+            [Produces("application/json")]
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.DoorEvent(WEBAPI.M.FrontEndReception.DoorEvent)">
+            <summary>
+            门禁记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.Vehiclerecords(WEBAPI.M.FrontEndReception.Vehiclerecords)">
+            <summary>
+            过车记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.deviceControl(WEBAPI.M.FrontEndReception.deviceControl)">
+            <summary>
+            开关闸机
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.ByPassDefenceArea(WEBAPI.M.FrontEndReception.defence)">
+            <summary>
+            防区旁路控制
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.CardInfo(WEBAPI.M.FrontEndReception.CardInfo)">
+            <summary>
+            门禁刷卡人员信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.DefenceAreaState(WEBAPI.M.FrontEndReception.DefenceAreaState)">
+            <summary>
+            防区状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GetEquipmentList(WEBAPI.M.FrontEndReception.Tree)">
+            <summary>
+            编码设备列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GetEquipmentLisst(WEBAPI.M.FrontEndReception.Tree)">
+            <summary>
+            编码设备列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GetPagingAreaData(WEBAPI.M.FrontEndReception.Tree)">
+            <summary>
+            获取区域数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GetConditionRootregionData(WEBAPI.M.FrontEndReception.GetConditionRootregionData)">
+            <summary>
+            按条件查询识别资源
+            </summary>
+            <param name="Parameter">数据接收必要参数，具体参数名称请查看文档</param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.Contrast_1VN(WEBAPI.M.FrontEndReception.Contrast_1VN)">
+            <summary>
+            一对多人脸搜索
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.FaceDatabase(WEBAPI.M.FrontEndReception.FaceDatabase)">
+            <summary>
+            根据条件查询人脸库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GoogleSearchImageV2(WEBAPI.M.FrontEndReception.SearchObject)">
+            <summary>
+            以图搜图V2
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GoogleSearchImage(WEBAPI.M.FrontEndReception.SearchObject)">
+            <summary>
+            以图搜图
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GetPicturUrl(WEBAPI.M.FrontEndReception.GetPicturUrl)">
+            <summary>
+            从服务器下载图片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.CodingEquipmentStatus(WEBAPI.M.FrontEndReception.DeviceStatus)">
+            <summary>
+            获取编码设备状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.QueryCameraStatus(WEBAPI.M.FrontEndReception.DeviceStatus)">
+            <summary>
+            获取监控点状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GetAccessEquipmentStatus(WEBAPI.M.FrontEndReception.DeviceStatus)">
+            <summary>
+            获取门禁设备状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GetAccessPointsStatus(WEBAPI.M.FrontEndReception.DeviceStatus)">
+            <summary>
+            获取门禁点状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.DoorStatus(WEBAPI.M.FrontEndReception.QueryAccessPointsStatus)">
+            <summary>
+            获取门禁状态（是否开关门）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.AccessPointCountercontrol(WEBAPI.M.FrontEndReception.AccessControl)">
+            <summary>
+            门禁点反控（开关门操作）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.VehicleInformation">
+            <summary>
+            全部车辆列表信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.VehicleBlacklist">
+            <summary>
+            全部布控车辆信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GetAccessPoints">
+            <summary>
+            门禁点列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.GetAccessControlEquipment">
+            <summary>
+            获取门禁设备
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.ISC.IndividualSoldierEquipmentList">
+            <summary>
+            单兵设备列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WEBAPI.Controllers.SPCC">
+            <summary>
+            SPCC平台操作类
+            </summary>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.queryDoorChannel(WEBAPI.M.FrontEndReception.DoorChannel)">
+            <summary>
+            获取门禁列表
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.VehicleCheck(WEBAPI.M.FrontEndReception.SPCC_VehicleCheck)">
+            <summary>
+            车辆检测接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.GetSubscriptionInformation(WEBAPI.M.FrontEndReception.GetSubscriptionInformation)">
+            <summary>
+            订阅事件(按事件类型获取事件订阅信息)
+            </summary>
+            <param name="Parameter">数据接收必要参数，具体参数名称请查看文档</param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.GetVideoStream(WEBAPI.M.FrontEndReception.GetVideoStreamSet)">
+            <summary>
+            获取监控点视频流
+            </summary>
+            <param name="Parameter">数据接收必要参数，具体参数名称请查看文档</param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.GetMonitoringResources(WEBAPI.M.FrontEndReception.Tree)">
+            <summary>
+            获取监视点资源(相机)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.GetPagingAreaData(WEBAPI.M.FrontEndReception.Tree)">
+            <summary>
+            获取区域数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.doControl(WEBAPI.M.FrontEndReception.AccessControl)">
+            <summary>
+            门禁反控
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.FaceGrouping">
+            <summary>
+            查询人脸组
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.DoorState(WEBAPI.M.FrontEndReception.Statecode)">
+            <summary>
+            查询门禁状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.SPCC.DoorList(WEBAPI.M.FrontEndReception.Statecode)">
+            <summary>
+            查询门禁进出记录
+            </summary>
+            <param name="Parameter"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WEBAPI.Controllers.HIK">
+            <summary>
+            当前类数据操作方法
+            </summary>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.GetmsgSuccessfulState(System.String)">
+            <summary>
+            海康接口返回状态是否正确
+            </summary>
+            <param name="state"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.SynchronousISC(WEBAPI.M.FrontEndReception.SynchronousISC_SPCC)">
+            <summary>
+            同步ISC摄像机设备列表到数据库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.SynchronousSPCC(WEBAPI.M.FrontEndReception.SynchronousISC_SPCC)">
+            <summary>
+            同步SPCC摄像机设备列表到数据库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.SynchronousSPCC_Region(WEBAPI.M.FrontEndReception.SynchronousISC_SPCC)">
+            <summary>
+            同步SPCC区域列表到数据库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.SynchronousISC_Region(WEBAPI.M.FrontEndReception.SynchronousISC_SPCC)">
+            <summary>
+            同步ISC区域列表到数据库
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.RequestMeV2(System.Object)">
+            <summary>
+            对外请求接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.RequestMe(System.Object)">
+            <summary>
+            对外请求接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.DispatchInfoOne">
+            <summary>
+            获取动画一记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.DispatchInfoText">
+            <summary>
+            获取表格记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.DispatchInfoOneExist">
+            <summary>
+            获取动画记录计总
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.DispatchInfoTow">
+            <summary>
+            获取动画二记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.DispatchInfoThree">
+            <summary>
+            获取动画三记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.DispatchCrmerl(System.String)">
+            <summary>
+            获取人脸记录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.HIK.TestPostBut">
+            <summary>
+            测试接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WEBAPI.Controllers.NBE">
+            <summary>
+            纽贝尔
+            </summary>
+        </member>
+        <member name="M:WEBAPI.Controllers.NBE.OpenDoors(WEBAPI.M.FrontEndReception.OpenDoors)">
+            <summary>
+            纽贝尔远程常开关门
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.NBE.OpenDoorsV2(WEBAPI.M.FrontEndReception.OpenDoorsV2)">
+            <summary>
+            纽贝尔远程开门
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.NBE.GateState(WEBAPI.M.FrontEndReception.GateState)">
+            <summary>
+            纽贝尔门状态
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WEBAPI.Controllers.YS">
+            <summary>
+            宇视平台
+            </summary>
+        </member>
+        <member name="M:WEBAPI.Controllers.YS.RequestMe(System.Object)">
+            <summary>
+            对外请求接口
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.YS.RequestMeV2(System.Object)">
+            <summary>
+            对外请求接口测试
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.YS.ControlCloudPlatform(WEBAPI.M.FrontEndReception.PanTiltControl)">
+            <summary>
+            宇视云台控制
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.YS.AlarmSubscription(WEBAPI.M.FrontEndReception.AlarmSubscription)">
+            <summary>
+            注册回调事件
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.YS.GetAreaList">
+            <summary>
+            查询宇视区域列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.Controllers.YS.GETEquipmentList">
+            <summary>
+            查询设备列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.C.SerilogClass.Slog">
+            <summary>
+            Serilog的初始化
+            </summary>
+        </member>
+        <member name="M:WEBAPI.C.TCPoperation.SendMsg(System.Object)">
+            <summary>
+            发送消息 并且等待返回
+            </summary>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBAPI.C.TCPoperation.SendAlarmMsg(System.Object)">
+            <summary>
+            发送消息 并且等待返回
+            </summary>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WEBAPI.M.PGAddEegionDataMod">
+            <summary>
+            Pg数据库 区域存储
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.PGAddequipmentDataMod">
+            <summary>
+            Pg数据库 设备存储
+            </summary>
+        </member>
+        <member name="M:WEBAPI.M.GetJson.JOSNPOST_GoogleSearchImage(System.Int32,System.Int32,System.Int32,System.Object[])">
+            <summary>
+            以图搜图Json
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.GetJson.SearchSubObject">
+            <summary>
+            以图搜图子对象
+            </summary>
+        </member>
+        <member name="M:WEBAPI.M.GetJson.JOSNPOST_SearchImageSubLevel(WEBAPI.M.GetJson.SearchSubObject)">
+            <summary>
+            以图搜图子对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.DoorChannel">
+            <summary>
+            门禁列表
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.DoorChannel.regionIndexCode">
+            <summary>
+            区域组织编号
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.Doorrecord">
+            <summary>
+            门禁记录
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.Doorrecord.startTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.Doorrecord.endTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.Doorrecord.doorIndexCodes">
+            <summary>
+            唯一标识 最多支持10个
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.AccessControl">
+            <summary>
+            门禁点反控
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.AccessControl.doorIndexCodes">
+            <summary>
+            设备编码
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.AccessControl.controlType">
+            <summary>
+            0: 常开  1: 门闭  2: 门开  3: 常闭
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.QueryAccessPointsStatus">
+            <summary>
+            门禁状态
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.QueryAccessPointsStatus.doorIndexCodes">
+            <summary>
+            门禁编号
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.DeviceStatus">
+            <summary>
+            获取编码设备/监控点/门禁设备/门禁点状态
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.DeviceStatus.indexCodes">
+            <summary>
+            设备编码
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.DeviceStatus.status">
+            <summary>
+            设备状态
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.GetPicturUrl">
+            <summary>
+            从服务器下载图片
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.GetPicturUrl.url">
+            <summary>
+            图片链接
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.SearchObject">
+            <summary>
+            以图搜图参数
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SearchObject.minSimilarity">
+            <summary>
+            相似度
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SearchObject.facePicBinaryData">
+            <summary>
+            图片Base
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SearchObject.startTime">
+            <summary>
+            开始时间
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SearchObject.endTime">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SearchObject.facePicUrl">
+            <summary>
+            图片Url
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.FaceDatabase">
+            <summary>
+            查询人脸库
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.FaceDatabase.name">
+            <summary>
+            姓名 条件可为空
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.FaceDatabase.certificateNum">
+            <summary>
+            身份证件或其他 条件可为空
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.FaceDatabase.pageNo">
+            <summary>
+            取第几页
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.FaceDatabase.pageSize">
+            <summary>
+            单页有多少条数
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.Contrast_1VN">
+            <summary>
+            一对多人脸搜索
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.Contrast_1VN.minSimilarity">
+            <summary>
+            相似度
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.Contrast_1VN.facePicBinaryData">
+            <summary>
+            人脸图
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.Contrast_1VN.faceGroupIndexCodes">
+            <summary>
+            人脸分组
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.Tree">
+            <summary>
+            对页数有要求的通用模型
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.deviceControl">
+            <summary>
+            取视频
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.GetVideoStreamSet.cameraIndexCode">
+            <summary>
+            监控点编码
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.GetVideoStreamSet.streamType">
+            <summary>
+            视频通道 0为主码流 1为辅码流 :默认为0
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.GetVideoStreamSet.protocol">
+            <summary>
+            视频流协议类型 类型有rtsp，rtmp，hls :默认rtsp 
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.GetSubscriptionInformation">
+            <summary>
+            ISC获取订阅信息
+            </summary>
+        </member>
+        <member name="F:WEBAPI.M.FrontEndReception.GetSubscriptionInformation.eventTypes">
+            <summary>
+            事件类型
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.SynchronousISC_SPCC">
+            <summary>
+            同步到数据库所需字段
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SynchronousISC_SPCC.ManufacturerType">
+            <summary>
+            厂商类型
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SynchronousISC_SPCC.EquipmentType">
+            <summary>
+            设备类型
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SPCC_VehicleCheck.PlateNo">
+            <summary>
+            车牌号
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SPCC_VehicleCheck.direction">
+            <summary>
+            离开状态2全部，0进入，1离开
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SPCC_VehicleCheck.beginInTime">
+             <summary>
+            进入查询开始时间
+             </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SPCC_VehicleCheck.endInTime">
+             <summary>
+            进入查询结束时间
+             </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SPCC_VehicleCheck.beginOutTime">
+             <summary>
+            离开查询开始时间
+             </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.SPCC_VehicleCheck.endOutTime">
+             <summary>
+            厉害查询结束时间
+             </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.GetConditionRootregionData">
+            <summary>
+            获取根区域信息
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.GetConditionRootregionData.indexCodes">
+            <summary>
+            通过indexCode集合查询指定的识别资源集合 False
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.GetConditionRootregionData.name">
+            <summary>
+            识别资源名称模糊查询 False
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.GetConditionRootregionData.recognitionResourceType">
+            <summary>
+            根据识别资源的类型搜索，SUPER_BRAIN 超脑，FACE_RECOGNITION_SERVER 脸谱，COMPARISON 深眸 False
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.PanTiltControl">
+            <summary>
+            云台控制
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.PanTiltControl.EquipmentCode">
+            <summary>
+            设备编码
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.PanTiltControl.PTZCmdID">
+             <summary>
+            命令参数/类型 ：<font color="#FF0000">云台控制传参 请用八进制!</font> <br />
+            0x0101： 光圈关停止    <br />
+            0x0102： 光圈关        <br />
+            0x0103： 光圈开停止    <br />
+            0x0104： 光圈开        <br />
+            0x0201： 近聚集停止    <br />
+            0x0202： 近聚集        <br />
+            0x0203： 远聚集 停止   <br />
+            0x0204： 远聚集        <br />
+            0x0301： 放大停止      <br />
+            0x0302： 放大         <br />
+            0x0303： 缩小停止      <br />
+            0x0304： 缩小         <br />
+            0x0401： 向上停止      <br />
+            0x0402： 向上         <br />
+            0x0403： 向下停止      <br />
+            0x0404： 向下         <br />
+            0x0501： 向右停止      <br />
+            0x0502： 向右         <br />
+            0x0503： 向左停止      <br />
+            0x0504： 向左         <br />
+            0x0601： 预置位保存    <br />
+            0x0602： 预置位调用    <br />
+            0x0603： 预置位删除    <br />
+            0x0701： 左上停止      <br />
+            0x0702： 左上         <br />
+            0x0703： 左下停止      <br />
+            0x0704： 左下         <br />
+            0x0801： 右上停止      <br />
+            0x0802： 右上         <br />
+            0x0803： 右下停止      <br />
+            0x0804： 右下         <br />
+            0x0901： PTZ 全停命令字<br />
+            0x0907： FI 全停命令字 <br />
+            0x0902： 绝对移动      <br />
+            0x0A01： 雨刷开IMOS Restful 基础业务
+             </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.PanTiltControl.PTZCmdPara1">
+            <summary>
+            云台控速
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.DHTotal">
+            <summary>
+            大华获取客流量模型
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.DHTotal.CameraId">
+            <summary>
+            相机ID
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.DHTotal.nBeginStr">
+            <summary>
+            开始时间 
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.DHTotal.nEndStr">
+            <summary>
+            结束时间
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.OpenDoors">
+            <summary>
+            纽贝尔门禁控制
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.OpenDoors.ComType">
+            <summary>
+            常开或常关
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.OpenDoors.DoorNo">
+            <summary>
+            门禁编码
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.OpenDoors.CmdParam">
+            <summary>
+            常开关时间 按分钟 
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.OpenDoorsV2">
+            <summary>
+            纽贝尔门禁控制V2
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.OpenDoorsV2.DoorNo">
+            <summary>
+            门禁编码
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.GateState">
+            <summary>
+            门状态
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.GateState.DoorNo">
+            <summary>
+            门禁编码
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.FrontEndReception.AlarmSubscription">
+             <summary>
+             订阅事件信息
+            ("http://xxx:8081/YS/RequestMe", 0/1/2)
+             </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.AlarmSubscription.Url">
+            <summary>
+            注册地址
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.FrontEndReception.AlarmSubscription.Type">
+            <summary>
+            注册类型
+            </summary>
+        </member>
+        <member name="P:WEBAPI.M.TcpSocketState.GetStateSocket">
+            <summary>
+            TCP服务是否开启
+            </summary>
+        </member>
+        <member name="T:WEBAPI.M.GetTcpMOD">
+            <summary>
+            返回的消息
+            </summary>
+        </member>
+        <member name="T:WEBSERVICE.C.AsyncTcpClient">
+            <summary>
+            异步TCP客户端
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.#ctor(System.Net.IPEndPoint)">
+            <summary>
+            异步TCP客户端
+            </summary>
+            <param name="remoteEP">远端服务器终结点</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.#ctor(System.Net.IPEndPoint,System.Net.IPEndPoint)">
+            <summary>
+            异步TCP客户端
+            </summary>
+            <param name="remoteEP">远端服务器终结点</param>
+            <param name="localEP">本地客户端终结点</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.#ctor(System.Net.IPAddress,System.Int32)">
+            <summary>
+            异步TCP客户端
+            </summary>
+            <param name="remoteIPAddress">远端服务器IP地址</param>
+            <param name="remotePort">远端服务器端口</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.#ctor(System.Net.IPAddress,System.Int32,System.Net.IPEndPoint)">
+            <summary>
+            异步TCP客户端
+            </summary>
+            <param name="remoteIPAddress">远端服务器IP地址</param>
+            <param name="remotePort">远端服务器端口</param>
+            <param name="localEP">本地客户端终结点</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.#ctor(System.String,System.Int32)">
+            <summary>
+            异步TCP客户端
+            </summary>
+            <param name="remoteHostName">远端服务器主机名</param>
+            <param name="remotePort">远端服务器端口</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.#ctor(System.String,System.Int32,System.Net.IPEndPoint)">
+            <summary>
+            异步TCP客户端
+            </summary>
+            <param name="remoteHostName">远端服务器主机名</param>
+            <param name="remotePort">远端服务器端口</param>
+            <param name="localEP">本地客户端终结点</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.#ctor(System.Net.IPAddress[],System.Int32)">
+            <summary>
+            异步TCP客户端
+            </summary>
+            <param name="remoteIPAddresses">远端服务器IP地址列表</param>
+            <param name="remotePort">远端服务器端口</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.#ctor(System.Net.IPAddress[],System.Int32,System.Net.IPEndPoint)">
+            <summary>
+            异步TCP客户端
+            </summary>
+            <param name="remoteIPAddresses">远端服务器IP地址列表</param>
+            <param name="remotePort">远端服务器端口</param>
+            <param name="localEP">本地客户端终结点</param>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpClient.Connected">
+            <summary>
+            是否已与服务器建立连接
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpClient.Addresses">
+            <summary>
+            远端服务器的IP地址列表
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpClient.Port">
+            <summary>
+            远端服务器的端口
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpClient.RetryInterval">
+            <summary>
+            连接重试间隔
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpClient.RemoteIPEndPoint">
+            <summary>
+            远端服务器终结点
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpClient.LocalIPEndPoint">
+            <summary>
+            本地客户端终结点
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpClient.Encoding">
+            <summary>
+            通信所使用的编码
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.Connect">
+            <summary>
+            连接到服务器
+            </summary>
+            <returns>异步TCP客户端</returns>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.Close">
+            <summary>
+            关闭与服务器的连接
+            </summary>
+            <returns>异步TCP客户端</returns>
+        </member>
+        <member name="E:WEBSERVICE.C.AsyncTcpClient.DatagramReceived">
+            <summary>
+            接收到数据报文事件
+            </summary>
+        </member>
+        <member name="E:WEBSERVICE.C.AsyncTcpClient.PlaintextReceived">
+            <summary>
+            接收到数据报文明文事件
+            </summary>
+        </member>
+        <member name="E:WEBSERVICE.C.AsyncTcpClient.ServerConnected">
+            <summary>
+            与服务器的连接已建立事件
+            </summary>
+        </member>
+        <member name="E:WEBSERVICE.C.AsyncTcpClient.ServerDisconnected">
+            <summary>
+            与服务器的连接已断开事件
+            </summary>
+        </member>
+        <member name="E:WEBSERVICE.C.AsyncTcpClient.ServerExceptionOccurred">
+            <summary>
+            与服务器的连接发生异常事件
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.Send(System.Byte[])">
+            <summary>
+            发送报文
+            </summary>
+            <param name="datagram">报文</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.SendMsg(System.String)">
+            <summary>
+            发送报文
+            </summary>
+            <param name="datagram">报文</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, 
+            releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpClient.Dispose(System.Boolean)">
+            <summary>
+            Releases unmanaged and - optionally - managed resources
+            </summary>
+            <param name="disposing"><c>true</c> to release both managed 
+            and unmanaged resources; <c>false</c> 
+            to release only unmanaged resources.
+            </param>
+        </member>
+        <member name="T:WEBSERVICE.C.TcpServerConnectedEventArgs">
+            <summary>
+            与服务器的连接已建立事件参数
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpServerConnectedEventArgs.#ctor(System.Net.IPAddress[],System.Int32)">
+            <summary>
+            与服务器的连接已建立事件参数
+            </summary>
+            <param name="ipAddresses">服务器IP地址列表</param>
+            <param name="port">服务器端口</param>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpServerConnectedEventArgs.Addresses">
+            <summary>
+            服务器IP地址列表
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpServerConnectedEventArgs.Port">
+            <summary>
+            服务器端口
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpServerConnectedEventArgs.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:WEBSERVICE.C.TcpServerDisconnectedEventArgs">
+            <summary>
+            与服务器的连接已断开事件参数
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpServerDisconnectedEventArgs.#ctor(System.Net.IPAddress[],System.Int32)">
+            <summary>
+            与服务器的连接已断开事件参数
+            </summary>
+            <param name="ipAddresses">服务器IP地址列表</param>
+            <param name="port">服务器端口</param>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpServerDisconnectedEventArgs.Addresses">
+            <summary>
+            服务器IP地址列表
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpServerDisconnectedEventArgs.Port">
+            <summary>
+            服务器端口
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpServerDisconnectedEventArgs.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:WEBSERVICE.C.TcpServerExceptionOccurredEventArgs">
+            <summary>
+            与服务器的连接发生异常事件参数
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpServerExceptionOccurredEventArgs.#ctor(System.Net.IPAddress[],System.Int32,System.Exception)">
+            <summary>
+            与服务器的连接发生异常事件参数
+            </summary>
+            <param name="ipAddresses">服务器IP地址列表</param>
+            <param name="port">服务器端口</param>
+            <param name="innerException">内部异常</param>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpServerExceptionOccurredEventArgs.Addresses">
+            <summary>
+            服务器IP地址列表
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpServerExceptionOccurredEventArgs.Port">
+            <summary>
+            服务器端口
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpServerExceptionOccurredEventArgs.Exception">
+            <summary>
+            内部异常
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpServerExceptionOccurredEventArgs.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> that represents this instance.
+            </summary>
+            <returns>
+            A <see cref="T:System.String"/> that represents this instance.
+            </returns>
+        </member>
+        <member name="T:WEBSERVICE.C.AsyncTcpServer">
+            <summary>
+            异步TCP服务器
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.#ctor(System.Int32)">
+            <summary>
+            异步TCP服务器
+            </summary>
+            <param name="listenPort">监听的端口</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.#ctor(System.Net.IPEndPoint)">
+            <summary>
+            异步TCP服务器
+            </summary>
+            <param name="localEP">监听的终结点</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.#ctor(System.Net.IPAddress,System.Int32)">
+            <summary>
+            异步TCP服务器
+            </summary>
+            <param name="localIPAddress">监听的IP地址</param>
+            <param name="listenPort">监听的端口</param>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpServer.IsRunning">
+            <summary>
+            服务器是否正在运行
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpServer.Address">
+            <summary>
+            监听的IP地址
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpServer.Port">
+            <summary>
+            监听的端口
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.AsyncTcpServer.Encoding">
+            <summary>
+            通信使用的编码
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.Start">
+            <summary>
+            启动服务器
+            </summary>
+            <returns>异步TCP服务器</returns>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.Start(System.Int32)">
+            <summary>
+            启动服务器
+            </summary>
+            <param name="backlog">
+            服务器所允许的挂起连接序列的最大长度
+            </param>
+            <returns>异步TCP服务器</returns>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.Stop">
+            <summary>
+            停止服务器
+            </summary>
+            <returns>异步TCP服务器</returns>
+        </member>
+        <member name="E:WEBSERVICE.C.AsyncTcpServer.DatagramReceived">
+            <summary>
+            接收到数据报文事件
+            </summary>
+        </member>
+        <member name="E:WEBSERVICE.C.AsyncTcpServer.PlaintextReceived">
+            <summary>
+            接收到数据报文明文事件
+            </summary>
+        </member>
+        <member name="E:WEBSERVICE.C.AsyncTcpServer.ClientConnected">
+            <summary>
+            与客户端的连接已建立事件
+            </summary>
+        </member>
+        <member name="E:WEBSERVICE.C.AsyncTcpServer.ClientDisconnected">
+            <summary>
+            与客户端的连接已断开事件
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.Send(System.Net.Sockets.TcpClient,System.Byte[])">
+            <summary>
+            发送报文至指定的客户端
+            </summary>
+            <param name="tcpClient">客户端</param>
+            <param name="datagram">报文</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.Send(System.Net.Sockets.TcpClient,System.String)">
+            <summary>
+            发送报文至指定的客户端
+            </summary>
+            <param name="tcpClient">客户端</param>
+            <param name="datagram">报文</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.SendAll(System.Byte[])">
+            <summary>
+            发送报文至所有客户端
+            </summary>
+            <param name="datagram">报文</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.SendAll(System.String)">
+            <summary>
+            发送报文至所有客户端
+            </summary>
+            <param name="datagram">报文</param>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.Dispose">
+            <summary>
+            Performs application-defined tasks associated with freeing, 
+            releasing, or resetting unmanaged resources.
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.AsyncTcpServer.Dispose(System.Boolean)">
+            <summary>
+            Releases unmanaged and - optionally - managed resources
+            </summary>
+            <param name="disposing"><c>true</c> to release 
+            both managed and unmanaged resources; <c>false</c> 
+            to release only unmanaged resources.</param>
+        </member>
+        <member name="T:WEBSERVICE.C.TcpClientState">
+            <summary>
+            Internal class to join the TCP client and buffer together
+            for easy management in the server
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpClientState.#ctor(System.Net.Sockets.TcpClient,System.Byte[])">
+            <summary>
+            Constructor for a new Client
+            </summary>
+            <param name="tcpClient">The TCP client</param>
+            <param name="buffer">The byte array buffer</param>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpClientState.TcpClient">
+            <summary>
+            Gets the TCP Client
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpClientState.Buffer">
+            <summary>
+            Gets the Buffer.
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpClientState.NetworkStream">
+            <summary>
+            Gets the network stream
+            </summary>
+        </member>
+        <member name="T:WEBSERVICE.C.TcpDatagramReceivedEventArgs`1">
+            <summary>
+            接收到数据报文事件参数
+            </summary>
+            <typeparam name="T">报文类型</typeparam>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpDatagramReceivedEventArgs`1.#ctor(System.Net.Sockets.TcpClient,`0)">
+            <summary>
+            接收到数据报文事件参数
+            </summary>
+            <param name="tcpClient">客户端</param>
+            <param name="datagram">报文</param>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpDatagramReceivedEventArgs`1.TcpClient">
+            <summary>
+            客户端
+            </summary>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpDatagramReceivedEventArgs`1.Datagram">
+            <summary>
+            报文
+            </summary>
+        </member>
+        <member name="T:WEBSERVICE.C.TcpClientConnectedEventArgs">
+            <summary>
+            与客户端的连接已建立事件参数
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpClientConnectedEventArgs.#ctor(System.Net.Sockets.TcpClient)">
+            <summary>
+            与客户端的连接已建立事件参数
+            </summary>
+            <param name="tcpClient">客户端</param>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpClientConnectedEventArgs.TcpClient">
+            <summary>
+            客户端
+            </summary>
+        </member>
+        <member name="T:WEBSERVICE.C.TcpClientDisconnectedEventArgs">
+            <summary>
+            与客户端的连接已断开事件参数
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.TcpClientDisconnectedEventArgs.#ctor(System.Net.Sockets.TcpClient)">
+            <summary>
+            与客户端的连接已断开事件参数
+            </summary>
+            <param name="tcpClient">客户端</param>
+        </member>
+        <member name="P:WEBSERVICE.C.TcpClientDisconnectedEventArgs.TcpClient">
+            <summary>
+            客户端
+            </summary>
+        </member>
+        <member name="T:WEBSERVICE.C.Hik.GetDataSet">
+            <summary>
+            集合工具类 对ISC接口操作
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.GetDataSet.InitParameters">
+            <summary>
+            初始化参数
+            </summary>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.GetDataSet.KEY(System.Int32)">
+            <summary>
+            获取ISC密钥
+            </summary>
+            <param name="type">获取类型 0是ISC，1是SPCC</param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.GetDataSet.StitchingParameters(LMWEBAPI.M.SecretKey)">
+            <summary>
+            返回链接字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.GetDataSet.GetISCkey(System.Int32,System.Int32)">
+            <summary>
+            获取ISC密钥
+            </summary>
+            <param name="index">获取什么接口的</param>
+            <param name="type">获取的数据类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.GetDataSet.GetencryptionKey(LMWEBAPI.M.SecretKey)">
+            <summary>
+            获取加密密钥
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.GetDataSet.GetmsgSuccessfulState(System.String)">
+            <summary>
+            海康接口返回状态是否正确
+            </summary>
+            <param name="state"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.GetDataSet.EncryptionPostData(System.String,System.String,System.String,System.String)">
+            <summary>
+            取到加密秘钥字段
+            </summary>
+            <param name="Key">AppKey</param>
+            <param name="ApiUrl">Api的连接</param>
+            <param name="appSecret">appSecret</param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.GetDataSet.CreateToken(System.String,System.String)">
+            <summary>
+            HMACSHA256 =》 Base64
+            </summary>
+            <param name="message">内容</param>
+            <param name="secret">秘钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.Post.HIKHttpPostRaw(System.String,System.String,System.String,System.String,System.String,System.Boolean@)">
+            <summary>
+            POST整个字符串到URL地址中
+            </summary>
+            <param name="Url">Post链接地址</param>
+            <param name="jsonParas">json数据</param>
+            <param name="TimeStr">当前系统时间(GMT格式)</param>
+            <param name="EncryptionKey">签名</param>
+            <param name="AK">APPkey(AK秘钥)</param>
+            <param name="isSuccess">方法是否正确拿到数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:WEBSERVICE.C.Hik.Post.StreamToBytes(System.IO.Stream)">
+            <summary> 
+            将 Stream 转成 byte[] 
+            </summary> 
+        </member>
+    </members>
+</doc>

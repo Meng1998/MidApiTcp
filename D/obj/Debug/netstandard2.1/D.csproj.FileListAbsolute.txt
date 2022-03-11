@@ -1,0 +1,8 @@
+D:\gongju\LntegratedMiddlewares\D\bin\Debug\netstandard2.1\D.deps.json
+D:\gongju\LntegratedMiddlewares\D\bin\Debug\netstandard2.1\D.dll
+D:\gongju\LntegratedMiddlewares\D\bin\Debug\netstandard2.1\D.pdb
+D:\gongju\LntegratedMiddlewares\D\obj\Debug\netstandard2.1\D.AssemblyInfoInputs.cache
+D:\gongju\LntegratedMiddlewares\D\obj\Debug\netstandard2.1\D.AssemblyInfo.cs
+D:\gongju\LntegratedMiddlewares\D\obj\Debug\netstandard2.1\D.csproj.CoreCompileInputs.cache
+D:\gongju\LntegratedMiddlewares\D\obj\Debug\netstandard2.1\D.dll
+D:\gongju\LntegratedMiddlewares\D\obj\Debug\netstandard2.1\D.pdb

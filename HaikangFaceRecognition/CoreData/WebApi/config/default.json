@@ -1,0 +1,23 @@
+{
+    "restify": {
+        "name": "MapVision_V5 WebAPI",
+        "port": 8090
+    },
+    "websocket": {
+        "name": "MapVision_V5 WebSocket",
+        "port": 8091
+    },
+    "database": {
+        "dialect": "postgres",
+        "username": "postgres",
+        "password": "[&password&]",
+        "host": "[&host&]",
+        "port": 5432
+    },
+    "webapi": {
+        "writelog": true
+    },
+    "user": {
+        "default": "041135CECEB145E59D3973807FB20827"
+    }
+}

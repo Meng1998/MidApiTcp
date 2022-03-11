@@ -1,0 +1,13 @@
+﻿<Window x:Class="DeploymentTools.View.parkList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeploymentTools.View"
+        mc:Ignorable="d"
+        Title="车辆信息导出" Height="450" Width="800">
+    <Grid>
+        <Button Content="导出表格" HorizontalAlignment="Left" VerticalAlignment="Top" Width="128" Margin="286,160,0,0" Click="Button_Click"/>
+
+    </Grid>
+</Window>

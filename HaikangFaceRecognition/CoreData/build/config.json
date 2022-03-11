@@ -1,0 +1,9 @@
+{
+  "Url": "http://[&IP&]/api/[&sqlname&]/",
+  "IframeUrl": "http://[&IP&]/MapV5/",
+  "Database": "dxcyy",
+  "AlarmNumber": 0,
+  "WebList": [],
+  "AlarmShow": false,
+  "WebSocketUrl": "ws://[&IP&]:8091"
+}

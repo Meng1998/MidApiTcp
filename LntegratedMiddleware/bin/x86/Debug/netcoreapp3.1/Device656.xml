@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Organization>
+	
+		
+		<Device id="1000065" type="501" name="强军路礼堂旁-枪-w" manufacturer="1" model="4" ip="172.16.5.115" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJC9ED4" deviceSN="6L071AEPAJC9ED4" deviceIp="172.16.5.115" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000065$1$0$0" name="强军路礼堂旁-枪-w" desc="" status="0" channelType="2" channelSN="850005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="850005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+		
+		<Device id="1000067" type="501" name="学员生活服务区北-枪-W" manufacturer="1" model="4" ip="172.16.5.125" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJ6530B" deviceSN="6L071AEPAJ6530B" deviceIp="172.16.5.125" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000067$1$0$0" name="学员生活服务区北-枪-W" desc="" status="0" channelType="2" channelSN="880005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="880005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+		
+		<Device id="1000069" type="501" name="强军路研发楼北-枪-w" manufacturer="1" model="4" ip="172.16.5.116" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJEB13F" deviceSN="6L071AEPAJEB13F" deviceIp="172.16.5.116" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000069$1$0$0" name="强军路研发楼北-枪-w" desc="" status="0" channelType="2" channelSN="900005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="900005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+	
+		<Device id="1000071" type="501" name="北桥东-枪-W" manufacturer="1" model="4" ip="172.16.5.124" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJ8C8B2" deviceSN="6L071AEPAJ8C8B2" deviceIp="172.16.5.124" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000071$1$0$0" name="北桥东-枪-W" desc="" status="0" channelType="2" channelSN="920005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="920005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+		
+		<Device id="1000073" type="501" name="西区实验中心东-枪-N" manufacturer="1" model="4" ip="172.16.5.130" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJEE58F" deviceSN="6L071AEPAJEE58F" deviceIp="172.16.5.130" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000073$1$0$0" name="体训棚东-枪-N" desc="" status="0" channelType="2" channelSN="940005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="940005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+		
+		<Device id="1000075" type="501" name="西区实验中心东-枪-S" manufacturer="1" model="4" ip="172.16.5.129" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJ3DA26" deviceSN="6L071AEPAJ3DA26" deviceIp="172.16.5.129" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000075$1$0$0" name="西区实验中心东-枪-S" desc="" status="0" channelType="2" channelSN="960005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="960005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+	
+		<Device id="1000077" type="501" name="体训棚东-枪-S" manufacturer="1" model="4" ip="172.16.5.128" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJ5BB32" deviceSN="6L071AEPAJ5BB32" deviceIp="172.16.5.128" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000077$1$0$0" name="体训棚东-枪-S" desc="" status="0" channelType="2" channelSN="980005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="980005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+	
+		<Device id="1000079" type="501" name="体训棚东-枪-N" manufacturer="1" model="4" ip="172.16.5.127" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJC5EB8" deviceSN="6L071AEPAJC5EB8" deviceIp="172.16.5.127" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000079$1$0$0" name="体训棚东-枪-N" desc="" status="0" channelType="2" channelSN="1000005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="1000005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+	
+		<Device id="1000081" type="501" name="学员生活服务区北-枪-E" manufacturer="1" model="4" ip="172.16.5.126" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJ1D84D" deviceSN="6L071AEPAJ1D84D" deviceIp="172.16.5.126" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000081$1$0$0" name="学员生活服务区北-枪-E" desc="" status="0" channelType="2" channelSN="1020005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="1020005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+
+		<Device id="1000083" type="501" name="红色文化广场西-枪-N" manufacturer="1" model="4" ip="172.16.5.123" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJ1D2E0" deviceSN="6L071AEPAJ1D2E0" deviceIp="172.16.5.123" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000083$1$0$0" name="红色文化广场西-枪-N" desc="" status="0" channelType="2" channelSN="1040005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="1040005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+	
+		<Device id="1000085" type="501" name="红色文化广场东-枪-S" manufacturer="1" model="4" ip="172.16.5.122" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJBD766" deviceSN="6L071AEPAJBD766" deviceIp="172.16.5.122" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000085$1$0$0" name="红色文化广场东-枪-S" desc="" status="0" channelType="2" channelSN="1060005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="1060005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+
+		<Device id="1000087" type="501" name="游泳池东-枪-N" manufacturer="1" model="4" ip="172.16.5.121" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJF4DB7" deviceSN="6L071AEPAJF4DB7" deviceIp="172.16.5.121" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000087$1$0$0" name="游泳池东-枪-N" desc="" status="0" channelType="2" channelSN="1080005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="1080005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+
+		<Device id="1000089" type="501" name="游泳池东-枪-S" manufacturer="1" model="4" ip="172.16.5.120" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJE09D6" deviceSN="6L071AEPAJE09D6" deviceIp="172.16.5.120" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000089$1$0$0" name="游泳池东-枪-S" desc="" status="0" channelType="2" channelSN="1110005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="1110005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+
+		<Device id="1000091" type="501" name="勤务六路-枪-N" manufacturer="1" model="4" ip="172.16.5.119" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJ1A9D4" deviceSN="6L071AEPAJ1A9D4" deviceIp="172.16.5.119" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000091$1$0$0" name="勤务六路-枪-N" desc="" status="0" channelType="2" channelSN="1140005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="1140005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+
+		<Device id="1000093" type="501" name="勤务六路-枪-S" manufacturer="1" model="4" ip="172.16.5.118" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJDD683" deviceSN="6L071AEPAJDD683" deviceIp="172.16.5.118" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000093$1$0$0" name="勤务六路-枪-S" desc="" status="0" channelType="2" channelSN="1160005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="1160005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+	
+		<Device id="1000095" type="501" name="南桥东-枪-W" manufacturer="1" model="4" ip="172.16.5.117" port="37777" user="admin" password="31C22770AEA33BCD244CE06BEBA5694A" desc="" status="2" logintype="" registDeviceCode="" proxyport="0" unitnum="0" deviceCN="6L071AEPAJ9B74D" deviceSN="6L071AEPAJ9B74D" deviceIp="172.16.5.117" devicePort="37777" devMaintainer="" devMaintainerPh="" deviceLocation="" deviceLocPliceStation="" baudRate="" comCode="" VideoType="" shopName="" address="" firstOwner="" firstPosition="" firstPhone="" firstTel="" serviceType="0" ownerGroup="" belong="" role="0" callNumber="" rights="11000000000000000000000011101000000101100011111111111111111">
+			<UnitNodes index="0" channelnum="1" streamType="801" subType="0" type="1" zeroChnEncode="0">
+				<Channel id="1000095$1$0$0" name="南桥东-枪-W" desc="" status="0" channelType="2" channelSN="1180005" rights="11000000000000000000000011101000000101100011111111111111111" cameraType="1" CtrlId="1180005" latitude="" longitude="" viewDomain="" cameraFunctions="0" multicastIp="" multicastPort="0" NvrChnlIp="" channelRemoteType="" subMulticastIp="" subMulticastPort="0" direct="" record_location="0" linkChl1="" linkChl2="" linkChl3="" linkChl4="" />
+			</UnitNodes>
+		</Device>
+	
+	
+</Organization>

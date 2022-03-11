@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Organization>
+	
+	 
+</Organization>
+
+<?xml version="1.0" encoding="gb2312"?>
+<MESSAGE NAME="DOOREVENT" TYPE="RSP" SEQNO="19072">
+	<RecordID>8749968</RecordID>
+	<DoorID>441</DoorID>
+	<DoorNo>0441</DoorNo>
+	<IoState>2</IoState>
+	<EventID>20</EventID>
+	<EventLevel>0</EventLevel>
+	<EventTime>2021-09-23 17:44:39</EventTime>
+	<EventName>门已关闭</EventName>
+	<EventSource>0000000000</EventSource>
+</MESSAGE>
+IsInterlock><AlwayOpen>false</AlwayOpen><AlwayClose>false</AlwayClose><WorkMode>-1</WorkMode><RelayState>0</RelayState></MESSAGE>tifNo><DeptID>24</DeptID><DeptNo>0024</DeptNo><DeptName>六监区</DeptName><MobilePhone></MobilePhone><HealthCode>1</HealthCode><COVID19TestState>1</COVID19TestState><COVID19TestTime>2021-09-18 00:00:00</COVID19TestTime></MESSAGE>GE>9-18 00:00:00</COVID19TestTime></MESSAGE>
+
+
+<?xml version="1.0" encoding="gb2312"?>
+<MESSAGE NAME="ACTIVE" TYPE="REQ" SEQNO="19126">NULL</MESSAGE></DoorID><DoorNo>0148</DoorNo><LinkState>1</LinkState><AlarmState>0</AlarmState><Menace>0</Menace><Emergency>0</Emergency><Dismantle>0</Dismantle><DoorState>0</DoorState><InfrState>0</InfrState><IsDieLocked>false</IsDieLocked><IsInterlock>true</IsInterlock><AlwayOpen>false</AlwayOpen><AlwayClose>false</AlwayClose><WorkMode>-1</WorkMode><RelayState>0</RelayState></MESSAGE>ertifNo><DeptID>27</DeptID><DeptNo>0027</DeptNo><DeptName>九监区</DeptName><MobilePhone></MobilePhone><HealthCode>1</HealthCode><COVID19TestState>1</COVID19TestState><COVID19TestTime>2021-09-18 00:00:00</COVID19TestTime></MESSAGE>>9-18 00:00:00</COVID19TestTime></MESSAGE>
+
+<?xml version="1.0" encoding="gb2312"?>
+<MESSAGE NAME="DOORSTATE" TYPE="RSP" SEQNO="19839">
+	<DoorID>200</DoorID>
+	<DoorNo>0200</DoorNo>
+	<LinkState>1</LinkState>
+	<AlarmState>0</AlarmState>
+	<Menace>0</Menace>
+	<Emergency>0</Emergency>
+	<Dismantle>0</Dismantle>
+	<DoorState>0</DoorState>
+	<InfrState>0</InfrState>
+	<IsDieLocked>false</IsDieLocked>
+	<IsInterlock>true</IsInterlock>
+	<AlwayOpen>false</AlwayOpen>
+	<AlwayClose>false</AlwayClose>
+	<WorkMode>-1</WorkMode>
+	<RelayState>0</RelayState>
+</MESSAGE>
+
+<?xml version="1.0" encoding="gb2312"?>
+<MESSAGE NAME="DOOREVENT" TYPE="RSP" SEQNO="19850">
+	<RecordID>8750348</RecordID>
+	<DoorID>52</DoorID>
+	<DoorNo>0052</DoorNo>
+	<IoState>1</IoState>
+	<EventID>3</EventID>
+	<EventLevel>0</EventLevel>
+	<EventTime>2021-09-23 17:56:23</EventTime>
+	<EventName>锟较凤拷锟矫伙拷</EventName>
+	<EventSource>0079CD6C41</EventSource>
+	<EmpID>208</EmpID>
+	<EmpNo>3326043</EmpNo>
+	<EmpName>锟秸匡拷锟斤拷</EmpName>
+	<EmpType>1</EmpType>
+	<Sex>0</Sex>
+	<Duty></Duty>
+	<CertifNo>220182198508083132</CertifNo>
+	<DeptID>22</DeptID>
+	<DeptNo>0022</DeptNo>
+	<DeptName>锟侥硷拷锟斤拷</DeptName>
+	<MobilePhone></MobilePhone>
+	<HealthCode>1</HealthCode>
+	<COVID19TestState>1</COVID19TestState>
+	<COVID19TestTime>2021-09-18 00:00:00</COVID19TestTime>
+</MESSAGE>
+
+<?xml version="1.0" encoding="gb2312"?>
+<MESSAGE NAME="DOOREVENT" TYPE="RSP" SEQNO="21312">
+	<RecordID>8751057</RecordID>
+	<DoorID>540</DoorID>
+	<DoorNo>0540</DoorNo>
+	<IoState>1</IoState>
+	<EventID>3</EventID>
+	<EventLevel>0</EventLevel>
+	<EventTime>2021-09-23 18:32:47</EventTime>
+	<EventName> 合法用户</EventName>
+	<EventSource>00BF80E2E0</EventSource>
+	<EmpID>187</EmpID>
+	<EmpNo>3326129</EmpNo>
+	<EmpName>金博</EmpName>
+	<EmpType>1</EmpType>
+	<Sex>0</Sex>
+	<Duty></Duty>
+	<CertifNo>330125197605284319</CertifNo>
+	<DeptID>25</DeptID>
+	<DeptNo>0025</DeptNo>
+	<DeptName>七监区</DeptName>
+	<MobilePhone></MobilePhone>
+	<HealthCode>1</HealthCode>
+	<COVID19TestState>1</COVID19TestState>
+	<COVID19TestTime>2021-09-18 00:00:00</COVID19TestTime>
+</MESSAGE> 
+ <?xml version="1.0" encoding="gb2312"?>
+<MESSAGE NAME="DOOREVENT" TYPE="RSP" SEQNO="21313">
+	<RecordID>8751058</RecordID>
+	<DoorID>540</DoorID>
+	<DoorNo>0540</DoorNo>
+	<IoState>1</IoState>
+	<EventID>13</EventID>
+	<EventLevel>0</EventLevel>
+	<EventTime>2021-09-23 18:32:47</EventTime>
+	<EventName>合法开门</EventName>
+	<EventSource>0000000000</EventSource>
+</MESSAGE> 
+ <?xml version="1.0" encoding="gb2312"?>
+<MESSAGE NAME="DOORSTATE" TYPE="RSP" SEQNO="21314">
+	<DoorID>540</DoorID>
+	<DoorNo>0540</DoorNo>
+	<LinkState>1</LinkState>
+	<AlarmState>0</AlarmState>
+	<Menace>0</Menace>
+	<Emergency>0</Emergency>
+	<Dismantle>0</Dismantle>
+	<DoorState>0</DoorState>
+	<InfrState>0</InfrState>
+	<IsDieLocked>false</IsDieLocked>
+	<IsInterlock>true</IsInterlock>
+	<AlwayOpen>false</AlwayOpen>
+	<AlwayClose>false</AlwayClose>
+	<WorkMode>-1</WorkMode>
+	<RelayState>0</RelayState>
+</MESSAGE>

@@ -1,0 +1,4 @@
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\WEBAPI\obj\Debug\netcoreapp3.1\win-x86\PubTmp\Out\appsettings.Development.json
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\WEBAPI\obj\Debug\netcoreapp3.1\win-x86\PubTmp\Out\appsettings.json
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\WEBAPI\obj\Debug\netcoreapp3.1\win-x86\PubTmp\Out\LMWEBAPI.pdb
+C:\Users\PC2020\Desktop\临沂\LntegratedMiddlewares\WEBAPI\obj\Debug\netcoreapp3.1\win-x86\PubTmp\Out\LMWEBAPI.exe

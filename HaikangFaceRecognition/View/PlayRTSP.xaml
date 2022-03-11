@@ -1,0 +1,18 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HaikangFaceRecognition.View"
+             xmlns:WPFVlc="clr-namespace:Vlc.DotNet.Wpf;assembly=Vlc.DotNet.Wpf"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="HaikangFaceRecognition.View.PlayRTSP"
+             mc:Ignorable="d" d:DesignWidth="560" d:DesignHeight="285" >
+    <Grid>
+        
+        <materialDesign:Card
+            materialDesign:ShadowAssist.ShadowDepth="Depth2"
+            Padding="32" Margin="5" VerticalAlignment="Stretch" Background="#FF0A0A0A"  />
+        <WPFVlc:VlcControl Grid.Row="0" x:Name="vlcPlayer" Background="{x:Null}" Foreground="White" Margin="0,7,0,8" Opacity="0.8" />
+    </Grid>
+
+</UserControl>

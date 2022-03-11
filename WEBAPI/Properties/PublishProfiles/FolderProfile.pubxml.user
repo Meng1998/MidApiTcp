@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\deskpar\其他文档\重庆工程学院\LntegratedMiddlewares\WEBAPI\bin\Debug\netcoreapp3.1\publish\</_PublishTargetUrl>
+    <History>True|2021-09-17T03:12:58.2770464Z;True|2021-09-15T14:38:18.7304024+08:00;True|2021-09-15T14:25:44.8528474+08:00;True|2021-07-30T11:43:36.8652828+08:00;False|2021-07-30T11:41:49.6027147+08:00;True|2021-07-30T11:37:44.1267677+08:00;True|2021-07-30T11:37:29.3919086+08:00;True|2021-07-19T12:09:51.0855805+08:00;True|2021-07-19T11:06:53.2639129+08:00;False|2021-03-12T15:32:31.1574902+08:00;</History>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,270 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:TreeVlaue="clr-namespace:DeploymentTools.Mod"
+             xmlns:DeploymentTools="clr-namespace:DeploymentTools" x:Name="SideEdge" x:Class="DeploymentTools.View.Sidebar"
+             xmlns:materialDesign ="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" Width="315">
+
+    <UserControl.Resources>
+        <HierarchicalDataTemplate DataType="{x:Type TreeVlaue:Folder}" ItemsSource="{Binding SubFolders}">
+            <TextBlock Text="{Binding Name}"/>
+        </HierarchicalDataTemplate>
+        <Style TargetType="{x:Type TreeViewItem}">
+            <Setter Property="Padding" Value="0,3,0,0"/>
+            <Setter Property="FontFamily" Value="宋体" />
+        </Style>
+    </UserControl.Resources>
+    <Grid x:Name="GridTop1" Background="#FF2D2D30" Margin="0,0,285,0">
+        <Border x:Name="BorderT1" Margin="0,38,0,0" RenderTransformOrigin="0.5,0.5" Height="75" VerticalAlignment="Top" HorizontalAlignment="Left" Width="30" DragEnter="Border_DragEnter" MouseEnter="BorderT1_MouseEnter" MouseLeave="BorderT1_MouseLeave" Background="#FF2D2D30">
+            <Border.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Border.RenderTransform>
+            <Border.Effect>
+                <!--阴影部分-->
+                <DropShadowEffect BlurRadius="9" ShadowDepth="0" Opacity="0" />
+            </Border.Effect>
+            <Button x:Name="FaceButton" Grid.Row="3" Grid.Column="2" Content="" Margin="0,15,24,15" RenderTransformOrigin="0.5,0.5" BorderBrush="#FF3F3F46" Background="#FF464545" Foreground="White" Click="FaceButton_Click" Height="Auto" >
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+                <Button.Template >
+                    <ControlTemplate TargetType="{x:Type Button}" >
+
+                        <Border x:Name="ButtonBorders" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="2" CornerRadius="0,0,0,0" Background="{TemplateBinding BorderBrush}">
+                            <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Border>
+        <DeploymentTools:LabelEx x:Name="Monitor" HorizontalAlignment="Left" Height="65" Margin="10,41,0,0" VerticalAlignment="Top" Width="20" TextOrientation="ClockwiseVertical" Text="视频监控" HorizontalContentAlignment="Left" VerticalContentAlignment="Center" BorderThickness="3" FontSpace="2" Foreground="#FFBBBBBB" FontFamily="Haettenschweiler" MouseEnter="BorderT1_MouseEnter" MouseLeave="BorderT1_MouseLeave" MouseDown="Monitor_MouseDown" MouseUp="Monitor_MouseUp"/>
+        <Grid x:Name="SideUnfoldingGrid" Margin="30,25,-285,1">
+            <Border BorderBrush="#FF464646" BorderThickness="1" Margin="0,0,0,-1" Background="#FF2D2D30" HorizontalAlignment="Left" Width="285">
+                <Border BorderBrush="#FF007ACC" BorderThickness="0" Background="#FF007ACC" Height="20" VerticalAlignment="Top" Margin="-1,-1,-1,0">
+                    <Label x:Name="label" Content="视频监控点" Margin="0,-3,212,-2" Foreground="#FFF1F1F1" Height="25" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="72"/>
+                </Border>
+            </Border>
+            <Grid x:Name="ENDBox" Margin="0,0,1,0" Background="#FF007ACC" MouseEnter="Grid_MouseEnter" MouseLeave="Grid_MouseLeave" Height="20" VerticalAlignment="Top" HorizontalAlignment="Right" Width="20" MouseDown="ENDBox_MouseDown">
+                <Polygon Points="0,0 0,0 0,0 0,4" 
+                    StrokeThickness="1" Stroke="White" Margin="0,1,12,0" RenderTransformOrigin="0.5,0.5" Height="16" VerticalAlignment="Top" HorizontalAlignment="Right" Width="3" MouseDown="ENDBox_MouseDown" >
+                    <Polygon.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="136.878"/>
+                            <TranslateTransform Y="-0.023" X="-0.052"/>
+                        </TransformGroup>
+                    </Polygon.RenderTransform>
+                </Polygon>
+                <Polygon Points="0,0 0,0 0,0 0,4" 
+                    StrokeThickness="1" Stroke="White" Margin="0,1,7,0" Height="16" VerticalAlignment="Top" RenderTransformOrigin="-0.017,0.5" HorizontalAlignment="Right" Width="3" MouseDown="ENDBox_MouseDown" >
+                    <Polygon.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="221.677"/>
+                            <TranslateTransform Y="-1.083" X="2.634"/>
+                        </TransformGroup>
+                    </Polygon.RenderTransform>
+                </Polygon>
+            </Grid>
+            <Grid>
+                <Grid Margin="4,3,151,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="12,3,143,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="20,3,135,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="28,3,127,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="36,3,119,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="44,3,111,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="52,3,103,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="60,3,95,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="68,3,87,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="76,3,79,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="84,3,71,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="92,3,63,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="100,3,55,402" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+                <Grid Margin="108,3,47,394" >
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="76,8,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="78,6,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                    <Polygon Points="0,0 0,0 0,0 0,0" 
+                    StrokeThickness="1" Stroke="White" Margin="74,10,0,0" Height="2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="2" />
+                </Grid>
+
+            </Grid>
+            <Grid>
+                <ProgressBar x:Name="UpdateStatus" IsIndeterminate="True" Height="5" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="White" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="285" Margin="0,0,0,-1" />
+            </Grid>
+            <TreeView x:Name="FileTree" Margin="2,45,1,0" Foreground="#FFF1F1F1"  SelectedItemChanged="FileTree_SelectedItemChanged">
+                <TreeView.Resources>
+                    <Style TargetType="{x:Type TreeView}" BasedOn="{StaticResource MaterialDesignTreeView}"></Style>
+                </TreeView.Resources>
+                <TreeView.ItemContainerStyle>
+                    <Style TargetType="{x:Type TreeViewItem}" BasedOn="{StaticResource MaterialDesignTreeViewItem}"></Style>
+                </TreeView.ItemContainerStyle>
+            </TreeView>
+            <TextBox  x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="1,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="284" Background="#FF3F3F46" BorderBrush="#FF007ACC" Foreground="#FF878787" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Text="搜索监控点"/>
+        </Grid>
+    </Grid>
+</UserControl>

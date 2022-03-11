@@ -1,0 +1,48 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeploymentTools.View"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="DeploymentTools.View.FaceDataFrom"
+        mc:Ignorable="d"
+        Title="FaceDataFrom" Height="502" Width="934">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="140*"/>
+            <ColumnDefinition Width="137*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="button" Content="此功能暂不开放" Margin="345,0,346,24" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Click="Button_Click"/>
+        <materialDesign:Card x:Name="CardMess_Copy1"
+            materialDesign:ShadowAssist.ShadowDepth="Depth2"
+            Padding="32" Margin="15,30,11,79" VerticalAlignment="Stretch" Content="" Foreground="#FF252526" Grid.ColumnSpan="2"/>
+        <Label x:Name="label1" Content="人员列表" Margin="423,0,0,0" VerticalAlignment="Top" Foreground="#FF191919" Height="25" HorizontalAlignment="Left" Width="82" Grid.ColumnSpan="2"/>
+        <DataGrid x:Name="EventListData"
+            Margin="20,33,16,86"
+            CanUserSortColumns="True"
+            CanUserAddRows="False"
+            AutoGenerateColumns="False"
+            materialDesign:DataGridAssist.CellPadding="13 8 8 8"
+            materialDesign:DataGridAssist.ColumnHeaderPadding="8" Grid.ColumnSpan="2" HorizontalGridLinesBrush="{x:Null}" Background="White">
+            <DataGrid.Columns>
+                <materialDesign:DataGridTextColumn Width="*"
+                    Binding="{Binding NameN}"
+                    Header="姓名"
+                    EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+                <materialDesign:DataGridTextColumn Width="*"
+                    Binding="{Binding IndexCode}"
+                    Header="唯一代码"
+                    EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+                <materialDesign:DataGridTextColumn Width="*"
+                    Binding="{Binding ImageUrl}"
+                    Header="照片"
+                    EditingElementStyle="{StaticResource MaterialDesignDataGridTextColumnPopupEditingStyle}" />
+
+               
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

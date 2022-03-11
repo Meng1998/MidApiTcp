@@ -1,0 +1,9 @@
+[0916 11:47:11.570][DPSDK_Core.cpp:389] TID 23996 [INFO] DPSDK_Login(): [DPSDK]IP=192.16.12.1 port=9000 name=system1 password=admin123456 iType=1
+[0916 11:47:11.571][DPSDK_Core.cpp:401] TID 23996 [INFO] DPSDK_Login(): nPDLLHandle = 1, IP = 192.16.12.1, Port = 9000, name = system1, password = admin123456,nProtocol = 2, iType = 1, szCheckBit = tÒßÌéß8òß(#
+[0916 11:47:11.571][CMSClientMdl_for_general.cpp:199] TID 15388 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin()
+[0916 11:47:11.571][ServerSession.cpp:87] TID 15388 [INFO] DPSdk::ServerSession::ConnectServer(): [PSDK] ServerSession::ConnectServer() sid = 0, ip = 192.16.12.1, port = 9000
+[0916 11:47:11.571][CMSClientMdl_for_general.cpp:257] TID 15388 [INFO] DPSdk::CMSClientMdl::HandlePreLogin(): CMSClientMdl::HandlePreLogin() SEND_AND_STORE_MSG
+[0916 11:47:16.572][ServerSession.cpp:370] TID 31232 [INFO] DPSdk::DSDKSocketHandler::OnClose(): DSDKSocketHandler::OnClose() sid = 0, error = 0
+[0916 11:47:16.572][CMSClientMdl.cpp:186] TID 31232 [INFO] DPSdk::CMSClientMdl::DealWithNetClose(): [PSDK] CMSClientMdl::DealWithNetClose() sid = 0, error = 0, m_sid = 0, blogin = false
+[0916 11:47:16.572][PDLLDpsdk_fun.cpp:597] TID 24500 [DEBUG] CPDLLDpsdk::DPSDKCallback(): CPDLLDpsdk::DPSDKCallback(...) m_cmd[4] m_sequence[1]
+[0916 11:47:16.572][PDLLMessageQueue.cpp:524] TID 9320 [DEBUG] CPDLLMessageQueue::OnDpsdkCallBack(): CPDLLMessageQueue::OnDpsdkCallBack(...) pInfo->m_nCmd[4] pInfo->m_nSeq[1]
